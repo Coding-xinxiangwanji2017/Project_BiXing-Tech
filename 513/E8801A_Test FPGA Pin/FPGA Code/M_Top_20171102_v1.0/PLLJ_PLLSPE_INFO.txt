@@ -1,0 +1,5 @@
+PLL_Name	M_ClkPll:U_M_ClkPll_0|altpll:altpll_component|M_ClkPll_altpll:auto_generated|pll1
+PLLJITTER	31
+PLLSPEmax	84
+PLLSPEmin	-53
+

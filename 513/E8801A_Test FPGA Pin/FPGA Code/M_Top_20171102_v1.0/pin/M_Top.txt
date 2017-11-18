@@ -1,0 +1,35 @@
+## FPGA Clock
+set_location_assignment -to CpSl_Clk_i
+
+## FPGA GPIO
+set_location_assignment PIN_  -to CpSl_Gpio_i[2]
+set_location_assignment PIN_  -to CpSl_Gpio_i[1]
+set_location_assignment PIN_  -to CpSl_Gpio_i[0]
+                              
+set_location_assignment PIN_  -to 
+set_location_assignment PIN_  -to 
+set_location_assignment PIN_  -to 
+set_location_assignment PIN_  -to 
+set_location_assignment PIN_  -to 
+set_location_assignment PIN_  -to 
+set_location_assignment PIN_  -to 
+set_location_assignment PIN_  -to 
+set_location_assignment PIN_  -to 
+set_location_assignment PIN_  -to 
+set_location_assignment PIN_  -to 
+set_location_assignment PIN_  -to 
+set_location_assignment PIN_  -to 
+set_location_assignment PIN_  -to 
+set_location_assignment PIN_  -to 
+set_location_assignment PIN_  -to 
+set_location_assignment PIN_  -to 
+set_location_assignment PIN_  -to 
+set_location_assignment PIN_  -to 
+set_location_assignment PIN_  -to 
+set_location_assignment PIN_  -to 
+set_location_assignment PIN_  -to 
+set_location_assignment PIN_  -to 
+set_location_assignment PIN_  -to 
+set_location_assignment PIN_  -to 
+set_location_assignment PIN_  -to 
+set_location_assignment PIN_  -to 

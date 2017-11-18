@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Nov 17 17:15:41 2017
+Quartus II 64-Bit Version : 15.0.0 Build 145 04/22/2015 SJ Full Version
+Revision Name : M_Top
+Top-level Entity Name : M_Top
+Family : Cyclone IV E
+Device : EP4CE6E22C8
+Timing Models : Final
+Total logic elements : 3,988 / 6,272 ( 64 % )
+    Total combinational functions : 2,472 / 6,272 ( 39 % )
+    Dedicated logic registers : 3,088 / 6,272 ( 49 % )
+Total registers : 3088
+Total pins : 44 / 92 ( 48 % )
+Total virtual pins : 0
+Total memory bits : 59,105 / 276,480 ( 21 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 1 / 2 ( 50 % )
