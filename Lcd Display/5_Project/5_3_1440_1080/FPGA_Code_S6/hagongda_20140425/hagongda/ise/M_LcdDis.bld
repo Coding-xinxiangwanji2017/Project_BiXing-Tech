@@ -1,0 +1,93 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd ../ip -nt timestamp -uc D:/Project/Zhang wenjun/Ha
+Gong
+Da/FPGA_Code/1440_1080/FPGA_Code_S6/hagongda_20140425/hagongda/ucf/M_LcdDis.ucf
+-p xc6slx100-fgg484-2 M_LcdDis.ngc M_LcdDis.ngd
+
+Reading NGO file "D:/Project/Zhang wenjun/Ha Gong
+Da/FPGA_Code/1440_1080/FPGA_Code_S6/hagongda_20140425/hagongda/ise/M_LcdDis.ngc"
+...
+Loading design module "../ip/M_DviRxFifo.ngc"...
+Loading design module "../ip/M_LcdTxFifo.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "D:/Project/Zhang wenjun/Ha Gong
+Da/FPGA_Code/1440_1080/FPGA_Code_S6/hagongda_20140425/hagongda/ucf/M_LcdDis.ucf"
+...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:178 - TNM 'TNM_CpSl_Clk_i', used in period specification
+   'TS_CpSl_Clk_i', was traced into PLL_ADV instance
+   U_M_DdrCtrl_0/memc3_infrastructure_inst/u_pll_adv. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT3: <TIMESPEC
+   TS_U_M_DdrCtrl_0_memc3_infrastructure_inst_mcb_drp_clk_bufg_in = PERIOD
+   "U_M_DdrCtrl_0_memc3_infrastructure_inst_mcb_drp_clk_bufg_in" TS_CpSl_Clk_i *
+   1.2 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'TNM_CpSl_Clk_i', used in period specification
+   'TS_CpSl_Clk_i', was traced into PLL_ADV instance
+   U_M_DdrCtrl_0/memc3_infrastructure_inst/u_pll_adv. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT1: <TIMESPEC TS_U_M_DdrCtrl_0_memc3_infrastructure_inst_clk_2x_180 =
+   PERIOD "U_M_DdrCtrl_0_memc3_infrastructure_inst_clk_2x_180" TS_CpSl_Clk_i * 6
+   PHASE 0.833333333 ns HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'TNM_CpSl_Clk_i', used in period specification
+   'TS_CpSl_Clk_i', was traced into PLL_ADV instance
+   U_M_DdrCtrl_0/memc3_infrastructure_inst/u_pll_adv. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_U_M_DdrCtrl_0_memc3_infrastructure_inst_clk_2x_0 =
+   PERIOD "U_M_DdrCtrl_0_memc3_infrastructure_inst_clk_2x_0" TS_CpSl_Clk_i * 6
+   HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'TNM_CpSl_Clk_i', used in period specification
+   'TS_CpSl_Clk_i', was traced into PLL_ADV instance
+   U_M_DdrCtrl_0/memc3_infrastructure_inst/u_pll_adv. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT2: <TIMESPEC TS_U_M_DdrCtrl_0_memc3_infrastructure_inst_clk0_bufg_in =
+   PERIOD "U_M_DdrCtrl_0_memc3_infrastructure_inst_clk0_bufg_in" TS_CpSl_Clk_i *
+   0.6 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'TNM_CpSl_Clk_i', used in period specification
+   'TS_CpSl_Clk_i', was traced into PLL_ADV instance PLL_ADV. The following new
+   TNM groups and period specifications were generated at the PLL_ADV output(s):
+    
+   CLKOUT1: <TIMESPEC TS_U_M_ClkPll_0_clkout1 = PERIOD "U_M_ClkPll_0_clkout1"
+   TS_CpSl_Clk_i * 0.7 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'TNM_CpSl_Clk_i', used in period specification
+   'TS_CpSl_Clk_i', was traced into PLL_ADV instance PLL_ADV. The following new
+   TNM groups and period specifications were generated at the PLL_ADV output(s):
+    
+   CLKOUT0: <TIMESPEC TS_PrSl_ClkFmc_s = PERIOD "PrSl_ClkFmc_s" TS_CpSl_Clk_i *
+   4.9 HIGH 50%>
+
+Done...
+
+Checking expanded design ...
+WARNING:NgdBuild:452 - logical net 'N337' has no driver
+WARNING:NgdBuild:452 - logical net 'N339' has no driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   2
+
+Total memory usage is 176292 kilobytes
+
+Writing NGD file "M_LcdDis.ngd" ...
+Total REAL time to NGDBUILD completion:  4 sec
+Total CPU time to NGDBUILD completion:   4 sec
+
+Writing NGDBUILD log file "M_LcdDis.bld"...

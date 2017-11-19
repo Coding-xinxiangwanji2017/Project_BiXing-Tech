@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="M_Lcd4Top" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|FPGA_Code|1440_1080|FPGA_Code_K7|M_Lcd4Top_FPGA-2_20170723|src|M_Lcd4Top.vhd/U_M_ClkCtrl_0 - M_ClkCtrl - arch_M_ClkCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|FPGA_Code|1440_1080|FPGA_Code_K7|M_Lcd4Top_FPGA-2_20170723|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|FPGA_Code|1440_1080|FPGA_Code_K7|M_Lcd4Top_FPGA-2_20170723|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|FPGA_Code|1440_1080|FPGA_Code_K7|M_Lcd4Top_FPGA-2_20170723|src|M_Lcd4Top.vhd/U_M_FreCtrl_0 - M_FreCtrl - arch_M_FreCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|FPGA_Code|1440_1080|FPGA_Code_K7|M_Lcd4Top_FPGA-2_20170725|src|M_Lcd4Top.vhd/U_M_ClkCtrl_0 - M_ClkCtrl - arch_M_ClkCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|FPGA_Code|1440_1080|FPGA_Code_K7|M_Lcd4Top_FPGA-2_20170725|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|FPGA_Code|1440_1080|FPGA_Code_K7|M_Lcd4Top_FPGA-2_20170725|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|FPGA_Code|1440_1080|FPGA_Code_K7|M_Lcd4Top_FPGA-2_20170725|src|M_Lcd4Top.vhd/U_M_FreCtrl_0 - M_FreCtrl - arch_M_FreCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|FPGA_Code|1440_1080|FPGA_Code_K7|M_Lcd4Top_FPGA-2_20170726|src|M_Lcd4Top.vhd</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|FPGA_Code|1440_1080|FPGA_Code_K7|M_Lcd4Top_FPGA-2_20170726|src|M_Lcd4Top.vhd/U_M_ClkCtrl_0 - M_ClkCtrl - arch_M_ClkCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|FPGA_Code|1440_1080|FPGA_Code_K7|M_Lcd4Top_FPGA-2_20170726|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|FPGA_Code|1440_1080|FPGA_Code_K7|M_Lcd4Top_FPGA-2_20170726|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|FPGA_Code|1440_1080|FPGA_Code_K7|M_Lcd4Top_FPGA-2_20170726|src|M_Lcd4Top.vhd/U_M_FreCtrl_0 - M_FreCtrl - arch_M_FreCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Zhang wenjun|Ha Gong Da|FPGA_Code|1440_1080|FPGA_Code|M_Lcd4Top|src|M_Lcd4Top.vhd/U_M_ClkCtrl_0 - M_ClkCtrl - arch_M_ClkCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Zhang wenjun|Ha Gong Da|FPGA_Code|1440_1080|FPGA_Code|M_Lcd4Top|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Zhang wenjun|Ha Gong Da|FPGA_Code|1440_1080|FPGA_Code|M_Lcd4Top|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Zhang wenjun|Ha Gong Da|FPGA_Code|1440_1080|FPGA_Code|M_Lcd4Top|src|M_Lcd4Top.vhd/U_M_FreCtrl_0 - M_FreCtrl - arch_M_FreCtrl</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>M_Lcd4Top - arch_M_Lcd4Top (D:/Project_BiXing-Tech/Ha Gong Da/FPGA_Code/1440_1080/FPGA_Code_K7/M_Lcd4Top_FPGA-2_20170726/src/M_Lcd4Top.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000166000000020000000000000000000000000200000064ffffffff000000810000000300000002000001660000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>M_Lcd4Top - arch_M_Lcd4Top (D:/Project_BiXing-Tech/Ha Gong Da/FPGA_Code/1440_1080/FPGA_Code_K7/M_Lcd4Top_FPGA-2_20170726/src/M_Lcd4Top.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Design Utilities</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000012b000000010000000100000000000000000000000064ffffffff0000008100000000000000010000012b0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Design Utilities</CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >35</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002d2000000040101000100000000000000000000000064ffffffff0000008100000000000000040000003d0000000100000000000000240000000100000000000000780000000100000000000001f90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>M_ClkCtrl.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000110000000010001000100000000000000000000000064ffffffff000000810000000000000001000001100000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff000000000000000200000141000000e101000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Generate Target PROM/ACE File</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000014f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000014f0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Generate Target PROM/ACE File</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>User Constraints</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000014f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000014f0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>User Constraints</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>CORE Generator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000014f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000014f0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

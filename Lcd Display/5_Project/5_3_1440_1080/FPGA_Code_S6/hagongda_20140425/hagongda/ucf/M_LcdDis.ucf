@@ -1,0 +1,322 @@
+#--------------------------------------------------------------------------------
+# Reset and Clock
+#--------------------------------------------------------------------------------
+NET "CpSl_Rst_iN"                       LOC = AB13                               ;
+NET "CpSl_Clk_i"                        LOC = Y13                                ;
+
+NET "CpSl_Clk_i" TNM_NET = "TNM_CpSl_Clk_i";
+TIMESPEC "TS_CpSl_Clk_i" = PERIOD "TNM_CpSl_Clk_i" 100MHz HIGH 50%;
+
+#--------------------------------------------------------------------------------
+# FMC LPC
+#--------------------------------------------------------------------------------
+#----------------------------------------
+# Port0
+#----------------------------------------
+# NET "FMC0_M2C_i"                        LOC = A12                               ;
+# NET "FMC0_C2M_o"                        LOC = B12                               ;
+# NET "FMC0_Sclk_o"                       LOC = B6                                ;
+# NET "FMC0_Sdata_o"                      LOC = C6                                ;
+
+NET "FMC0_LA02_P"                       LOC = C7                                ;
+NET "FMC0_LA03_P"                       LOC = B8                                ;
+NET "FMC0_LA04_P"                       LOC = G8                                ;
+NET "FMC0_LA05_P"                       LOC = C9                                ;
+NET "FMC0_LA06_P"                       LOC = D7                                ;
+NET "FMC0_LA07_P"                       LOC = G9                                ;
+NET "FMC0_LA08_P"                       LOC = D9                                ;
+NET "FMC0_LA09_P"                       LOC = D10                               ;
+NET "FMC0_LA10_P"                       LOC = E8                                ;
+NET "FMC0_LA11_P"                       LOC = G11                               ;
+NET "FMC0_LA12_P"                       LOC = E10                               ;
+NET "FMC0_LA13_P"                       LOC = B10                               ;
+NET "FMC0_LA14_P"                       LOC = C11                               ;
+NET "FMC0_LA15_P"                       LOC = C13                               ;
+NET "FMC0_LA16_P"                       LOC = E12                               ;
+NET "FMC0_LA19_P"                       LOC = F13                               ;
+NET "FMC0_LA20_P"                       LOC = H12                               ;
+NET "FMC0_LA21_P"                       LOC = H13                               ;
+NET "FMC0_LA22_P"                       LOC = D14                               ;
+NET "FMC0_LA23_P"                       LOC = F14                               ;
+NET "FMC0_LA24_P"                       LOC = D15                               ;
+NET "FMC0_LA25_P"                       LOC = B14                               ;
+NET "FMC0_LA26_P"                       LOC = C15                               ;
+NET "FMC0_LA27_P"                       LOC = E14                               ;
+NET "FMC0_LA28_P"                       LOC = B16                               ;
+NET "FMC0_LA29_P"                       LOC = C17                               ;
+NET "FMC0_LA30_P"                       LOC = B18                               ;
+NET "FMC0_LA31_P"                       LOC = E16                               ;
+
+NET "FMC0_LA32_N"                       LOC = A6                                ;
+
+NET "FMC0_LA_N<0>"                      LOC = A7                                ;
+NET "FMC0_LA_N<1>"                      LOC = A8                                ;
+NET "FMC0_LA_N<2>"                      LOC = F9                                ;
+NET "FMC0_LA_N<3>"                      LOC = A9                                ;
+NET "FMC0_LA_N<4>"                      LOC = D8                                ;
+NET "FMC0_LA_N<5>"                      LOC = H10                               ;
+NET "FMC0_LA_N<6>"                      LOC = C8                                ;
+NET "FMC0_LA_N<7>"                      LOC = C10                               ;
+NET "FMC0_LA_N<8>"                      LOC = F8                                ;
+NET "FMC0_LA_N<9>"                      LOC = H11                               ;
+NET "FMC0_LA_N<10>"                     LOC = F10                               ;
+NET "FMC0_LA_N<11>"                     LOC = A10                               ;
+NET "FMC0_LA_N<12>"                     LOC = A11                               ;
+NET "FMC0_LA_N<13>"                     LOC = A13                               ;
+NET "FMC0_LA_N<14>"                     LOC = D12                               ;
+NET "FMC0_LA_N<15>"                     LOC = D13                               ;
+NET "FMC0_LA_N<16>"                     LOC = F12                               ;
+NET "FMC0_LA_N<17>"                     LOC = G13                               ;
+NET "FMC0_LA_N<18>"                     LOC = C14                               ;
+NET "FMC0_LA_N<19>"                     LOC = H14                               ;
+NET "FMC0_LA_N<20>"                     LOC = C16                               ;
+NET "FMC0_LA_N<21>"                     LOC = A14                               ;
+NET "FMC0_LA_N<22>"                     LOC = A15                               ;
+NET "FMC0_LA_N<23>"                     LOC = F15                               ;
+NET "FMC0_LA_N<24>"                     LOC = A16                               ;
+NET "FMC0_LA_N<25>"                     LOC = A17                               ;
+NET "FMC0_LA_N<26>"                     LOC = A18                               ;
+NET "FMC0_LA_N<27>"                     LOC = D17                               ;
+
+#----------------------------------------
+# Port1
+#----------------------------------------
+# NET "FMC1_M2C_i"                        LOC = V17                               ;
+# NET "FMC1_C2M_o"                        LOC = V15                               ;
+# NET "FMC1_Sclk_o"                       LOC = U13                               ;
+# NET "FMC1_Sdata_o"                      LOC = U14                               ;
+
+NET "FMC1_LA02_P"                       LOC = AA2                               ;
+NET "FMC1_LA03_P"                       LOC = AA4                               ;
+NET "FMC1_LA04_P"                       LOC = W4                                ;
+NET "FMC1_LA05_P"                       LOC = R9                                ;
+NET "FMC1_LA06_P"                       LOC = Y7                                ;
+NET "FMC1_LA07_P"                       LOC = Y3                                ;
+NET "FMC1_LA08_P"                       LOC = U6                                ;
+NET "FMC1_LA09_P"                       LOC = AA6                               ;
+NET "FMC1_LA10_P"                       LOC = W8                                ;
+NET "FMC1_LA11_P"                       LOC = W9                                ;
+NET "FMC1_LA12_P"                       LOC = T7                                ;
+NET "FMC1_LA13_P"                       LOC = Y9                                ;
+NET "FMC1_LA14_P"                       LOC = AA10                              ;
+NET "FMC1_LA15_P"                       LOC = W10                               ;
+NET "FMC1_LA16_P"                       LOC = AA8                               ;
+NET "FMC1_LA19_P"                       LOC = Y11                               ;
+NET "FMC1_LA20_P"                       LOC = U9                                ;
+NET "FMC1_LA21_P"                       LOC = V13                               ;
+NET "FMC1_LA22_P"                       LOC = W12                               ;
+NET "FMC1_LA23_P"                       LOC = V11                               ;
+NET "FMC1_LA24_P"                       LOC = R11                               ;
+NET "FMC1_LA25_P"                       LOC = Y15                               ;
+NET "FMC1_LA26_P"                       LOC = W14                               ;
+NET "FMC1_LA27_P"                       LOC = AA14                              ;
+NET "FMC1_LA28_P"                       LOC = Y17                               ;
+NET "FMC1_LA29_P"                       LOC = AA16                              ;
+NET "FMC1_LA30_P"                       LOC = T14                               ;
+NET "FMC1_LA31_P"                       LOC = AA18                              ;
+
+NET "FMC1_LA32_N"                       LOC = W17                               ;
+
+NET "FMC1_LA_N<0>"                      LOC = AB2                               ;
+NET "FMC1_LA_N<1>"                      LOC = AB4                               ;
+NET "FMC1_LA_N<2>"                      LOC = Y4                                ;
+NET "FMC1_LA_N<3>"                      LOC = R8                                ;
+NET "FMC1_LA_N<4>"                      LOC = AB7                               ;
+NET "FMC1_LA_N<5>"                      LOC = AB3                               ;
+NET "FMC1_LA_N<6>"                      LOC = V5                                ;
+NET "FMC1_LA_N<7>"                      LOC = AB6                               ;
+NET "FMC1_LA_N<8>"                      LOC = V7                                ;
+NET "FMC1_LA_N<9>"                      LOC = Y8                                ;
+NET "FMC1_LA_N<10>"                     LOC = R7                                ;
+NET "FMC1_LA_N<11>"                     LOC = AB9                               ;
+NET "FMC1_LA_N<12>"                     LOC = AB10                              ;
+NET "FMC1_LA_N<13>"                     LOC = Y10                               ;
+NET "FMC1_LA_N<14>"                     LOC = AB8                               ;
+NET "FMC1_LA_N<15>"                     LOC = AB11                              ;
+NET "FMC1_LA_N<16>"                     LOC = V9                                ;
+NET "FMC1_LA_N<17>"                     LOC = W13                               ;
+NET "FMC1_LA_N<18>"                     LOC = Y12                               ;
+NET "FMC1_LA_N<19>"                     LOC = W11                               ;
+NET "FMC1_LA_N<20>"                     LOC = T11                               ;
+NET "FMC1_LA_N<21>"                     LOC = AB15                              ;
+NET "FMC1_LA_N<22>"                     LOC = Y14                               ;
+NET "FMC1_LA_N<23>"                     LOC = AB14                              ;
+NET "FMC1_LA_N<24>"                     LOC = AB17                              ;
+NET "FMC1_LA_N<25>"                     LOC = AB16                              ;
+NET "FMC1_LA_N<26>"                     LOC = R13                               ;
+NET "FMC1_LA_N<27>"                     LOC = AB18                              ;
+
+#--------------------------------------------------------------------------------
+# GPIO & LED IF
+#--------------------------------------------------------------------------------
+NET "CpSv_Gpio_i<0>"                    LOC = N7 | IOSTANDARD = LVCMOS15        ;
+NET "CpSv_Gpio_i<1>"                    LOC = P6 | IOSTANDARD = LVCMOS15        ;
+NET "CpSv_Gpio_i<2>"                    LOC = P5 | IOSTANDARD = LVCMOS15        ;
+NET "CpSv_Gpio_i<3>"                    LOC = P4 | IOSTANDARD = LVCMOS15        ;
+NET "CpSv_Gpio_i<4>"                    LOC = N6 | IOSTANDARD = LVCMOS15        ;
+NET "CpSv_Gpio_i<5>"                    LOC = M7 | IOSTANDARD = LVCMOS15        ;
+NET "CpSv_Gpio_i<6>"                    LOC = M8 | IOSTANDARD = LVCMOS15        ;
+NET "CpSv_Gpio_i<7>"                    LOC = U4 | IOSTANDARD = LVCMOS15        ;
+
+NET "CpSv_Gpio_o<0>"                    LOC = V3 | IOSTANDARD = LVCMOS15        ;
+NET "CpSv_Gpio_o<1>"                    LOC = T4 | IOSTANDARD = LVCMOS15        ;
+NET "CpSv_Gpio_o<2>"                    LOC = T3 | IOSTANDARD = LVCMOS15        ;
+NET "CpSv_Gpio_o<3>"                    LOC = R4 | IOSTANDARD = LVCMOS15        ;
+NET "CpSv_Gpio_o<4>"                    LOC = P3 | IOSTANDARD = LVCMOS15        ;
+NET "CpSv_Gpio_o<5>"                    LOC = N4 | IOSTANDARD = LVCMOS15        ;
+NET "CpSv_Gpio_o<6>"                    LOC = M6 | IOSTANDARD = LVCMOS15        ;
+NET "CpSv_Gpio_o<7>"                    LOC = L6 | IOSTANDARD = LVCMOS15        ;
+
+NET "CpSv_Led_o<0>"                     LOC = B1 | IOSTANDARD = LVCMOS15        ;
+NET "CpSv_Led_o<1>"                     LOC = G7 | IOSTANDARD = LVCMOS15        ;
+NET "CpSv_Led_o<2>"                     LOC = F7 | IOSTANDARD = LVCMOS15        ;
+NET "CpSv_Led_o<3>"                     LOC = D3 | IOSTANDARD = LVCMOS15        ;
+
+# NET "CpSv_Test_o<0>"                    LOC = D5 | IOSTANDARD = LVCMOS15        ;
+# NET "CpSv_Test_o<1>"                    LOC = B2 | IOSTANDARD = LVCMOS15        ;
+# NET "CpSv_Test_o<2>"                    LOC = H8 | IOSTANDARD = LVCMOS15        ;
+# NET "CpSv_Test_o<3>"                    LOC = J7 | IOSTANDARD = LVCMOS15        ;
+# NET "CpSv_Test_o<4>"                    LOC = E4 | IOSTANDARD = LVCMOS15        ;
+# NET "CpSv_Test_o<5>"                    LOC = P7 | IOSTANDARD = LVCMOS15        ;
+# NET "CpSv_Test_o<6>"                    LOC = P8 | IOSTANDARD = LVCMOS15        ;
+# NET "CpSv_Test_o<7>"                    LOC = W1 | IOSTANDARD = LVCMOS15        ;
+# NET "CpSv_Test_o<8>"                    LOC = W3 | IOSTANDARD = LVCMOS15        ;
+# NET "CpSv_Test_o<9>"                    LOC = Y2 | IOSTANDARD = LVCMOS15        ;
+
+#--------------------------------------------------------------------------------
+# DVI & VGA IF
+#--------------------------------------------------------------------------------
+# NET "CpSl_Dvi5VIn_i"                    LOC = C4 | IOSTANDARD = LVCMOS15        ;
+# NET "CpSl_DviHotPlug_o"                 LOC = A2 | IOSTANDARD = LVCMOS15        ;
+
+#----------------------------------------
+# DVI Port0
+#----------------------------------------
+NET "CpSv_Dvi0R_i<0>"                   LOC = F16                               ;
+NET "CpSv_Dvi0R_i<1>"                   LOC = D20                               ;
+NET "CpSv_Dvi0R_i<2>"                   LOC = K16                               ;
+NET "CpSv_Dvi0R_i<3>"                   LOC = J16                               ;
+NET "CpSv_Dvi0R_i<4>"                   LOC = H19                               ;
+NET "CpSv_Dvi0R_i<5>"                   LOC = D19                               ;
+NET "CpSv_Dvi0R_i<6>"                   LOC = F17                               ;
+NET "CpSv_Dvi0R_i<7>"                   LOC = H18                               ;
+
+# NET "CpSv_Dvi0G_i<0>"                   LOC = C20                               ;
+# NET "CpSv_Dvi0G_i<1>"                   LOC = C22                               ;
+# NET "CpSv_Dvi0G_i<2>"                   LOC = D21                               ;
+# NET "CpSv_Dvi0G_i<3>"                   LOC = D22                               ;
+# NET "CpSv_Dvi0G_i<4>"                   LOC = E20                               ;
+# NET "CpSv_Dvi0G_i<5>"                   LOC = F20                               ;
+# NET "CpSv_Dvi0G_i<6>"                   LOC = G19                               ;
+# NET "CpSv_Dvi0G_i<7>"                   LOC = F19                               ;
+
+# NET "CpSv_Dvi0B_i<0>"                   LOC = G16                               ;
+# NET "CpSv_Dvi0B_i<1>"                   LOC = F18                               ;
+# NET "CpSv_Dvi0B_i<2>"                   LOC = C19                               ;
+# NET "CpSv_Dvi0B_i<3>"                   LOC = A20                               ;
+# NET "CpSv_Dvi0B_i<4>"                   LOC = B20                               ;
+# NET "CpSv_Dvi0B_i<5>"                   LOC = A21                               ;
+# NET "CpSv_Dvi0B_i<6>"                   LOC = B21                               ;
+# NET "CpSv_Dvi0B_i<7>"                   LOC = B22                               ;
+
+NET "CpSl_Dvi0Clk_i"                    LOC = H21                               ;
+NET "CpSl_Dvi0Vsync_i"                  LOC = G17                               ;
+NET "CpSl_Dvi0Hsync_i"                  LOC = H16                               ;
+NET "CpSl_Dvi0Scdt_i"                   LOC = U17                               ;
+NET "CpSl_Dvi0De_i"                     LOC = H17                               ;
+# NET "CpSv_Dvi0Ctrl_i<0>"                LOC = Y19                               ;
+# NET "CpSv_Dvi0Ctrl_i<1>"                LOC = T17                               ;
+# NET "CpSv_Dvi0Ctrl_i<2>"                LOC = T18                               ;
+# NET "CpSl_Dvi0Mode_o"                   LOC = E6 | IOSTANDARD = LVCMOS15        ;
+# NET "CpSl_Dvi0Sclk_o"                   LOC = U16                               ;
+# NET "CpSl_Dvi0Sdata_o"                  LOC = V18                               ;
+# NET "CpSl_Dvi0HsDjtr_o"                 LOC = W18                               ;
+# NET "CpSl_Dvi0Pd_o"                     LOC = Y18                               ;
+
+NET "CpSl_Dvi0Clk_i" TNM_NET = "TNM_CpSl_Dvi0Clk_i";
+TIMESPEC "TS_CpSl_Dvi0Clk_i" = PERIOD "TNM_CpSl_Dvi0Clk_i" 165MHz HIGH 50%;
+
+#----------------------------------------
+# DVI Port1
+#----------------------------------------
+# NET "CpSv_Dvi1R_i<0>"                   LOC = J19                               ;
+# NET "CpSv_Dvi1R_i<1>"                   LOC = K19                               ;
+# NET "CpSv_Dvi1R_i<2>"                   LOC = H20                               ;
+# NET "CpSv_Dvi1R_i<3>"                   LOC = J20                               ;
+# NET "CpSv_Dvi1R_i<4>"                   LOC = L19                               ;
+# NET "CpSv_Dvi1R_i<5>"                   LOC = N20                               ;
+# NET "CpSv_Dvi1R_i<6>"                   LOC = N22                               ;
+# NET "CpSv_Dvi1R_i<7>"                   LOC = P21                               ;
+
+# NET "CpSv_Dvi1G_i<0>"                   LOC = K21                               ;
+# NET "CpSv_Dvi1G_i<1>"                   LOC = K22                               ;
+# NET "CpSv_Dvi1G_i<2>"                   LOC = L20                               ;
+# NET "CpSv_Dvi1G_i<3>"                   LOC = L22                               ;
+# NET "CpSv_Dvi1G_i<4>"                   LOC = M22                               ;
+# NET "CpSv_Dvi1G_i<5>"                   LOC = M21                               ;
+# NET "CpSv_Dvi1G_i<6>"                   LOC = J17                               ;
+# NET "CpSv_Dvi1G_i<7>"                   LOC = E22                               ;
+
+# NET "CpSv_Dvi1B_i<0>"                   LOC = F22                               ;
+# NET "CpSv_Dvi1B_i<1>"                   LOC = F21                               ;
+# NET "CpSv_Dvi1B_i<2>"                   LOC = G22                               ;
+# NET "CpSv_Dvi1B_i<3>"                   LOC = G20                               ;
+# NET "CpSv_Dvi1B_i<4>"                   LOC = K17                               ;
+# NET "CpSv_Dvi1B_i<5>"                   LOC = H22                               ;
+# NET "CpSv_Dvi1B_i<6>"                   LOC = K20                               ;
+# NET "CpSv_Dvi1B_i<7>"                   LOC = J22                               ;
+
+# NET "CpSl_Dvi1Clk_i"                    LOC = M20                               ;
+# NET "CpSl_Dvi1Vsync_i"                  LOC = R20                               ;
+# NET "CpSl_Dvi1Hsync_i"                  LOC = R22                               ;
+# NET "CpSl_Dvi1Scdt_i"                   LOC = AA21                              ;
+# NET "CpSl_Dvi1De_i"                     LOC = P22                               ;
+# NET "CpSv_Dvi1Ctrl_i<0>"                LOC = V19                               ;
+# NET "CpSv_Dvi1Ctrl_i<1>"                LOC = AB21                              ;
+# NET "CpSv_Dvi1Ctrl_i<2>"                LOC = AB19                              ;
+# NET "CpSl_Dvi1Mode_o"                   LOC = E5 | IOSTANDARD = LVCMOS15        ;
+# NET "CpSl_Dvi1Sclk_o"                   LOC = T15                               ;
+# NET "CpSl_Dvi1Sdata_o"                  LOC = T16                               ;
+# NET "CpSl_Dvi1HsDjtr_o"                 LOC = R16                               ;
+# NET "CpSl_Dvi1Pd_o"                     LOC = R15                               ;
+
+#----------------------------------------
+# VGA
+#----------------------------------------
+# NET "CpSv_VgaR_i<0>"                   LOC = U22                               ;
+# NET "CpSv_VgaR_i<1>"                   LOC = U20                               ;
+# NET "CpSv_VgaR_i<2>"                   LOC = V22                               ;
+# NET "CpSv_VgaR_i<3>"                   LOC = V21                               ;
+# NET "CpSv_VgaR_i<4>"                   LOC = W22                               ;
+# NET "CpSv_VgaR_i<5>"                   LOC = T22                               ;
+# NET "CpSv_VgaR_i<6>"                   LOC = K18                               ;
+# NET "CpSv_VgaR_i<7>"                   LOC = L17                               ;
+
+# NET "CpSv_VgaG_i<0>"                   LOC = L15                               ;
+# NET "CpSv_VgaG_i<1>"                   LOC = P18                               ;
+# NET "CpSv_VgaG_i<2>"                   LOC = P20                               ;
+# NET "CpSv_VgaG_i<3>"                   LOC = W20                               ;
+# NET "CpSv_VgaG_i<4>"                   LOC = V20                               ;
+# NET "CpSv_VgaG_i<5>"                   LOC = M16                               ;
+# NET "CpSv_VgaG_i<6>"                   LOC = M17                               ;
+# NET "CpSv_VgaG_i<7>"                   LOC = M18                               ;
+
+# NET "CpSv_VgaB_i<0>"                   LOC = M19                               ;
+# NET "CpSv_VgaB_i<1>"                   LOC = N19                               ;
+# NET "CpSv_VgaB_i<2>"                   LOC = P19                               ;
+# NET "CpSv_VgaB_i<3>"                   LOC = P17                               ;
+# NET "CpSv_VgaB_i<4>"                   LOC = N16                               ;
+# NET "CpSv_VgaB_i<5>"                   LOC = R19                               ;
+# NET "CpSv_VgaB_i<6>"                   LOC = T19                               ;
+# NET "CpSv_VgaB_i<7>"                   LOC = U19                               ;
+
+# NET "CpSl_VgaClk_iP"                   LOC = D11                               ;
+# NET "CpSl_VgaClk_iN"                   LOC = C12                               ;
+# NET "CpSl_VgaVsync_i"                  LOC = T20                               ;
+# NET "CpSl_VgaHsync_i"                  LOC = T21                               ;
+# NET "CpSl_VgaGsync_i"                  LOC = AA12                              ;
+# NET "CpSl_VgaCoast_o"                  LOC = AB12                              ;
+# NET "CpSl_VgaSclk_o"                   LOC = A5                                ;
+# NET "CpSl_VgaSdata_o"                  LOC = D6                                ;
+# NET "CpSl_VgaClamp_o"                  LOC = C5                                ;
+# NET "CpSl_VgaClkInv_o"                 LOC = A4                                ;

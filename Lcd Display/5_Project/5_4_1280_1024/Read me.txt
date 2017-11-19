@@ -1,0 +1,8 @@
+M_Lcd4Top_Successful_Code文件夹
+1）放的是最后固话在板卡上的程序
+
+M_Lcd4Top-2FFG900
+1）放的是FPGA-2的程序
+
+M_Lcd4Top-3FFG900
+1）放的是FPGA-3的程序

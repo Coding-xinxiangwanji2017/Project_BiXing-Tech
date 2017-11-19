@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">TNM_CpSl_Clk_i</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CpSl_Clk_i</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCME2_ADV</arg> instance <arg fmt="%s" index="5">U_M_ClkCtrl_0/U_M_ClkPll_0/mmcm_adv_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCME2_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT1</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_U_M_ClkCtrl_0_U_M_ClkPll_0_clkout1 = PERIOD &quot;U_M_ClkCtrl_0_U_M_ClkPll_0_clkout1&quot; TS_CpSl_Clk_i * 0.8 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">TNM_CpSl_Clk_i</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CpSl_Clk_i</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCME2_ADV</arg> instance <arg fmt="%s" index="5">U_M_ClkCtrl_0/U_M_ClkPll_0/mmcm_adv_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCME2_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_U_M_ClkCtrl_0_U_M_ClkPll_0_clkout0 = PERIOD &quot;U_M_ClkCtrl_0_U_M_ClkPll_0_clkout0&quot; TS_CpSl_Clk_i * 5.6 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">TNM_CpSl_Clk_i</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CpSl_Clk_i</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCME2_ADV</arg> instance <arg fmt="%s" index="5">U_M_ClkCtrl_0/U_M_ClkPll_0/mmcm_adv_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCME2_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT2</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_U_M_ClkCtrl_0_U_M_ClkPll_0_clkout2 = PERIOD &quot;U_M_ClkCtrl_0_U_M_ClkPll_0_clkout2&quot; TS_CpSl_Clk_i * 0.8 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">TNM_CpSl_Clk_i</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CpSl_Clk_i</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCME2_ADV</arg> instance <arg fmt="%s" index="5">U_M_ClkCtrl_0/U_M_CtrlClkPll_0/mmcm_adv_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCME2_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT1</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_U_M_ClkCtrl_0_U_M_CtrlClkPll_0_clkout1 = PERIOD &quot;U_M_ClkCtrl_0_U_M_CtrlClkPll_0_clkout1&quot; TS_CpSl_Clk_i * 8.4 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">TNM_CpSl_Clk_i</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CpSl_Clk_i</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCME2_ADV</arg> instance <arg fmt="%s" index="5">U_M_ClkCtrl_0/U_M_CtrlClkPll_0/mmcm_adv_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCME2_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_U_M_ClkCtrl_0_U_M_CtrlClkPll_0_clkout0 = PERIOD &quot;U_M_ClkCtrl_0_U_M_CtrlClkPll_0_clkout0&quot; TS_CpSl_Clk_i * 1.2 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">TNM_CpSl_Clk_iP</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CpSl_Clk_iP</arg>&apos;, was traced into <arg fmt="%s" index="4">PLLE2_ADV</arg> instance <arg fmt="%s" index="5">U_M_DdrCtrl_0/u_ddr3_infrastructure/plle2_i</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLLE2_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT3</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_U_M_DdrCtrl_0_u_ddr3_infrastructure_pll_clk3 = PERIOD &quot;U_M_DdrCtrl_0_u_ddr3_infrastructure_pll_clk3&quot; TS_CpSl_Clk_iP / 0.5 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">TNM_CpSl_Clk_iP</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CpSl_Clk_iP</arg>&apos;, was traced into <arg fmt="%s" index="4">PLLE2_ADV</arg> instance <arg fmt="%s" index="5">U_M_DdrCtrl_0/u_ddr3_infrastructure/plle2_i</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLLE2_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_U_M_DdrCtrl_0_freq_refclk = PERIOD &quot;U_M_DdrCtrl_0_freq_refclk&quot; TS_CpSl_Clk_iP / 2 PHASE 2.34375 ns HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">TNM_CpSl_Clk_iP</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CpSl_Clk_iP</arg>&apos;, was traced into <arg fmt="%s" index="4">PLLE2_ADV</arg> instance <arg fmt="%s" index="5">U_M_DdrCtrl_0/u_ddr3_infrastructure/plle2_i</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLLE2_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT1</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_U_M_DdrCtrl_0_mem_refclk = PERIOD &quot;U_M_DdrCtrl_0_mem_refclk&quot; TS_CpSl_Clk_iP / 2 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">TNM_CpSl_Clk_iP</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CpSl_Clk_iP</arg>&apos;, was traced into <arg fmt="%s" index="4">PLLE2_ADV</arg> instance <arg fmt="%s" index="5">U_M_DdrCtrl_0/u_ddr3_infrastructure/plle2_i</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLLE2_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT2</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_U_M_DdrCtrl_0_sync_pulse = PERIOD &quot;U_M_DdrCtrl_0_sync_pulse&quot; TS_CpSl_Clk_iP / 0.125 PHASE 1.09375 ns HIGH 6.25%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">U_M_DdrCtrl_0_freq_refclk</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_U_M_DdrCtrl_0_freq_refclk</arg>&apos;, was traced into <arg fmt="%s" index="4">PHASER_IN_PHY</arg> instance <arg fmt="%s" index="5">U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/phaser_in_gen.phaser_in</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PHASER_IN_PHY</arg> output(s): 
+<arg fmt="%s" index="7">ICLK</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_intfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4lanes_ddr_byte_lane_C_ddr_byte_lane_C_iserdes_clk = PERIOD &quot;U_M_Ddr...&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">U_M_DdrCtrl_0_freq_refclk</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_U_M_DdrCtrl_0_freq_refclk</arg>&apos;, was traced into <arg fmt="%s" index="4">PHASER_IN_PHY</arg> instance <arg fmt="%s" index="5">U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/phaser_in_gen.phaser_in</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PHASER_IN_PHY</arg> output(s): 
+<arg fmt="%s" index="7">ICLKDIV</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_intfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4lanes_ddr_byte_lane_C_ddr_byte_lane_C_iserdes_clkdiv = PERIOD &quot;U_M_...&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">U_M_DdrCtrl_0_freq_refclk</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_U_M_DdrCtrl_0_freq_refclk</arg>&apos;, was traced into <arg fmt="%s" index="4">PHASER_IN_PHY</arg> instance <arg fmt="%s" index="5">U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/phaser_in_gen.phaser_in</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PHASER_IN_PHY</arg> output(s): 
+<arg fmt="%s" index="7">ICLK</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_intfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4lanes_ddr_byte_lane_D_ddr_byte_lane_D_iserdes_clk = PERIOD &quot;U_M_Ddr...&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">U_M_DdrCtrl_0_freq_refclk</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_U_M_DdrCtrl_0_freq_refclk</arg>&apos;, was traced into <arg fmt="%s" index="4">PHASER_IN_PHY</arg> instance <arg fmt="%s" index="5">U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/phaser_in_gen.phaser_in</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PHASER_IN_PHY</arg> output(s): 
+<arg fmt="%s" index="7">ICLKDIV</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_intfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4lanes_ddr_byte_lane_D_ddr_byte_lane_D_iserdes_clkdiv = PERIOD &quot;U_M_...&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">U_M_DdrCtrl_0_u_ddr3_infrastructure_pll_clk3</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_U_M_DdrCtrl_0_u_ddr3_infrastructure_pll_clk3</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCME2_ADV</arg> instance <arg fmt="%s" index="5">U_M_DdrCtrl_0/u_ddr3_infrastructure/gen_mmcm.mmcm_i</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCME2_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKFBOUT</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_U_M_DdrCtrl_0_u_ddr3_infrastructure_clk_pll_i = PERIOD &quot;U_M_DdrCtrl_0_u_ddr3_infrastructure_clk_pll_i&quot; TS_U_M_DdrCtrl_0_u_ddr3_infrastructure_pll_clk3 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">U_M_DdrCtrl_0_mem_refclk</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_U_M_DdrCtrl_0_mem_refclk</arg>&apos;, was traced into <arg fmt="%s" index="4">PHASER_OUT_PHY</arg> instance <arg fmt="%s" index="5">U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/phaser_out</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PHASER_OUT_PHY</arg> output(s): 
+<arg fmt="%s" index="7">OCLK</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_intfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4lanes_ddr_byte_lane_C_ddr_byte_lane_C_oserdes_clk = PERIOD &quot;U_M_Ddr...&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">U_M_DdrCtrl_0_mem_refclk</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_U_M_DdrCtrl_0_mem_refclk</arg>&apos;, was traced into <arg fmt="%s" index="4">PHASER_OUT_PHY</arg> instance <arg fmt="%s" index="5">U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/phaser_out</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PHASER_OUT_PHY</arg> output(s): 
+<arg fmt="%s" index="7">OCLKDIV</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_intfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4lanes_ddr_byte_lane_C_ddr_byte_lane_C_oserdes_clkdiv = PERIOD &quot;U_M_...&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">U_M_DdrCtrl_0_mem_refclk</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_U_M_DdrCtrl_0_mem_refclk</arg>&apos;, was traced into <arg fmt="%s" index="4">PHASER_OUT_PHY</arg> instance <arg fmt="%s" index="5">U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/phaser_out</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PHASER_OUT_PHY</arg> output(s): 
+<arg fmt="%s" index="7">OCLK</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_intfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4lanes_ddr_byte_lane_D_ddr_byte_lane_D_oserdes_clk = PERIOD &quot;U_M_Ddr...&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">U_M_DdrCtrl_0_mem_refclk</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_U_M_DdrCtrl_0_mem_refclk</arg>&apos;, was traced into <arg fmt="%s" index="4">PHASER_OUT_PHY</arg> instance <arg fmt="%s" index="5">U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/phaser_out</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PHASER_OUT_PHY</arg> output(s): 
+<arg fmt="%s" index="7">OCLKDIV</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_intfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4lanes_ddr_byte_lane_D_ddr_byte_lane_D_oserdes_clkdiv = PERIOD &quot;U_M_...&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">U_M_DdrCtrl_0_mem_refclk</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_U_M_DdrCtrl_0_mem_refclk</arg>&apos;, was traced into <arg fmt="%s" index="4">PHASER_OUT_PHY</arg> instance <arg fmt="%s" index="5">U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/phaser_out</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PHASER_OUT_PHY</arg> output(s): 
+<arg fmt="%s" index="7">OCLK</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_intfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ddr_mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4lanes_ddr_byte_lane_D_ddr_byte_lane_D_oserdes_clk = PERIOD &quot;U_M_Ddr...&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">U_M_DdrCtrl_0_mem_refclk</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_U_M_DdrCtrl_0_mem_refclk</arg>&apos;, was traced into <arg fmt="%s" index="4">PHASER_OUT_PHY</arg> instance <arg fmt="%s" index="5">U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/phaser_out</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PHASER_OUT_PHY</arg> output(s): 
+<arg fmt="%s" index="7">OCLKDIV</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_intfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ddr_mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4lanes_ddr_byte_lane_D_ddr_byte_lane_D_oserdes_clkdiv = PERIOD &quot;U_M_...&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">U_M_DdrCtrl_0_mem_refclk</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_U_M_DdrCtrl_0_mem_refclk</arg>&apos;, was traced into <arg fmt="%s" index="4">PHASER_OUT_PHY</arg> instance <arg fmt="%s" index="5">U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/phaser_out</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PHASER_OUT_PHY</arg> output(s): 
+<arg fmt="%s" index="7">OCLK</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_intfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ddr_mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4lanes_ddr_byte_lane_C_ddr_byte_lane_C_oserdes_clk = PERIOD &quot;U_M_Ddr...&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">U_M_DdrCtrl_0_mem_refclk</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_U_M_DdrCtrl_0_mem_refclk</arg>&apos;, was traced into <arg fmt="%s" index="4">PHASER_OUT_PHY</arg> instance <arg fmt="%s" index="5">U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/phaser_out</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PHASER_OUT_PHY</arg> output(s): 
+<arg fmt="%s" index="7">OCLKDIV</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_intfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ddr_mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4lanes_ddr_byte_lane_C_ddr_byte_lane_C_oserdes_clkdiv = PERIOD &quot;U_M_...&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">U_M_DdrCtrl_0_mem_refclk</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_U_M_DdrCtrl_0_mem_refclk</arg>&apos;, was traced into <arg fmt="%s" index="4">PHASER_OUT_PHY</arg> instance <arg fmt="%s" index="5">U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/phaser_out</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PHASER_OUT_PHY</arg> output(s): 
+<arg fmt="%s" index="7">OCLK</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_intfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ddr_mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4lanes_ddr_byte_lane_B_ddr_byte_lane_B_oserdes_clk = PERIOD &quot;U_M_Ddr...&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">U_M_DdrCtrl_0_mem_refclk</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_U_M_DdrCtrl_0_mem_refclk</arg>&apos;, was traced into <arg fmt="%s" index="4">PHASER_OUT_PHY</arg> instance <arg fmt="%s" index="5">U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/phaser_out</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PHASER_OUT_PHY</arg> output(s): 
+<arg fmt="%s" index="7">OCLKDIV</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_intfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ddr_mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4lanes_ddr_byte_lane_B_ddr_byte_lane_B_oserdes_clkdiv = PERIOD &quot;U_M_...&gt;</arg>
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N936</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N937</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N938</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N939</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N940</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N941</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N942</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N943</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N944</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N945</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N946</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N947</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N948</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N949</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N950</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N951</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N952</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N953</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N954</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N955</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">U_M_Test_0/U_M_DoubleDivider_0/blk00000003/sig000000a7</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+</messages>
+

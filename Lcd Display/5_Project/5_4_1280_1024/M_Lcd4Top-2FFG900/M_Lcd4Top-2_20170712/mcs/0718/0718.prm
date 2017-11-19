@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o "D:\Project\Ha Gong Da\M_Lcd4Top_K7\M_Lcd4Top-2FFG900\M_Lcd4Top_0718\mcs//0718" -s 131072 -u 00000000 "D:/Project/Ha Gong Da/M_Lcd4Top_K7/M_Lcd4Top-2FFG900/M_Lcd4Top_0718/m_lcd4top.bit" -bpi_dc parallel -data_width 16 
+
+PROM D:\Project\Ha Gong Da\M_Lcd4Top_K7\M_Lcd4Top-2FFG900\M_Lcd4Top_0718\mcs\0718.prm map: Wed Jul 20 00:48:05 2016
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          131072K
+PROM start    0000:0000
+PROM end      07ff:ffff
+PROM checksum 4ba3a1ef
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    00ae:9d9b     Jul 20 00:43:02 2016 D:/Project/Ha Gong Da/M_Lcd4Top_K7/M_Lcd4Top-2FFG900/M_Lcd4Top_0718/m_lcd4top.bit

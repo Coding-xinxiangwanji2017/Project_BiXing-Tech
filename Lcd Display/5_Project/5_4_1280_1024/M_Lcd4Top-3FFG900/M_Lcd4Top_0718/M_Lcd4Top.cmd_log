@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "D:/Project/Ha Gong Da Project/M_Lcd Code/FPGA-3/M_Lcd4Top_0707/M_Lcd4Top.xst" -ofn "D:/Project/Ha Gong Da Project/M_Lcd Code/FPGA-3/M_Lcd4Top_0707/M_Lcd4Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc "src/M_Lcd4Top.ucf" -p xc7k325t-ffg900-3 "M_Lcd4Top.ngc" M_Lcd4Top.ngd  
+map -intstyle ise -p xc7k325t-ffg900-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o M_Lcd4Top_map.ncd M_Lcd4Top.ngd M_Lcd4Top.pcf 
+par -w -intstyle ise -ol high -mt off M_Lcd4Top_map.ncd M_Lcd4Top.ncd M_Lcd4Top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml M_Lcd4Top.twx M_Lcd4Top.ncd -o M_Lcd4Top.twr M_Lcd4Top.pcf 
+bitgen -intstyle ise -f M_Lcd4Top.ut M_Lcd4Top.ncd 
+xst -intstyle ise -ifn "D:/Project/Ha Gong Da Project/M_Lcd Code/FPGA-3/M_Lcd4Top_0707/M_Lcd4Top.xst" -ofn "D:/Project/Ha Gong Da Project/M_Lcd Code/FPGA-3/M_Lcd4Top_0707/M_Lcd4Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc "src/M_Lcd4Top.ucf" -p xc7k325t-ffg900-3 "M_Lcd4Top.ngc" M_Lcd4Top.ngd  
+map -intstyle ise -p xc7k325t-ffg900-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o M_Lcd4Top_map.ncd M_Lcd4Top.ngd M_Lcd4Top.pcf 
+par -w -intstyle ise -ol high -mt off M_Lcd4Top_map.ncd M_Lcd4Top.ncd M_Lcd4Top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml M_Lcd4Top.twx M_Lcd4Top.ncd -o M_Lcd4Top.twr M_Lcd4Top.pcf 
+bitgen -intstyle ise -f M_Lcd4Top.ut M_Lcd4Top.ncd 

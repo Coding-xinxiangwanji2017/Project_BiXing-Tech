@@ -1,0 +1,671 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Mapping Report File for Design 'M_LcdDis'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc6slx100-fgg484-2 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off
+-pr off -lc off -power off -o M_LcdDis_map.ncd M_LcdDis.ngd M_LcdDis.pcf 
+Target Device  : xc6slx100
+Target Package : fgg484
+Target Speed   : -2
+Mapper Version : spartan6 -- $Revision: 1.55 $
+Mapped Date    : Tue May 16 17:47:52 2017
+
+Interim Summary
+---------------
+Slice Logic Utilization:
+  Number of Slice Registers:                   849 out of 126,576    1%
+    Number used as Flip Flops:                 849
+    Number used as Latches:                      0
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:                0
+  Number of Slice LUTs:                      1,028 out of  63,288    1%
+    Number used as logic:                    1,023 out of  63,288    1%
+      Number using O6 output only:             661
+      Number using O5 output only:              37
+      Number using O5 and O6:                  325
+      Number used as ROM:                        0
+    Number used as Memory:                       0 out of  15,616    0%
+    Number used exclusively as route-thrus:      5
+      Number with same-slice register load:      0
+      Number with same-slice carry load:         5
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of MUXCYs used:                       280 out of  31,644    1%
+  Number of LUT Flip Flop pairs used:        1,283
+    Number with an unused Flip Flop:           481 out of   1,283   37%
+    Number with an unused LUT:                 255 out of   1,283   19%
+    Number of fully used LUT-FF pairs:         547 out of   1,283   42%
+    Number of unique control sets:              69
+    Number of slice register sites lost
+      to control set restrictions:             271 out of 126,576    1%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                       198 out of     326   60%
+    Number of LOCed IOBs:                      149 out of     198   75%
+    IOB Master Pads:                            59
+    IOB Slave Pads:                             59
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                         4 out of     268    1%
+  Number of RAMB8BWERs:                          0 out of     536    0%
+  Number of BUFIO2/BUFIO2_2CLKs:                 2 out of      32    6%
+    Number used as BUFIO2s:                      2
+    Number used as BUFIO2_2CLKs:                 0
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
+  Number of BUFG/BUFGMUXs:                       4 out of      16   25%
+    Number used as BUFGs:                        3
+    Number used as BUFGMUX:                      1
+  Number of DCM/DCM_CLKGENs:                     0 out of      12    0%
+  Number of ILOGIC2/ISERDES2s:                   0 out of     506    0%
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:        24 out of     506    4%
+    Number used as IODELAY2s:                    0
+    Number used as IODRP2s:                      2
+    Number used as IODRP2_MCBs:                 22
+  Number of OLOGIC2/OSERDES2s:                 158 out of     506   31%
+    Number used as OLOGIC2s:                     0
+    Number used as OSERDES2s:                  158
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHs:                               0 out of     384    0%
+  Number of BUFPLLs:                             4 out of       8   50%
+  Number of BUFPLL_MCBs:                         1 out of       4   25%
+  Number of DSP48A1s:                            0 out of     180    0%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                1 out of       4   25%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            2 out of       6   33%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+
+Design Summary
+--------------
+Number of errors   :   5
+Number of warnings :   1
+
+Section 1 - Errors
+------------------
+ERROR:Place:864 - Incompatible IOB's are locked to the same bank 3
+   Conflicting IO Standards are:
+   IO Standard 1: Name = LVCMOS15, VREF = NR, VCCO = 1.50, TERM = NONE, DIR =
+   OUTPUT, DRIVE_STR = 12
+   List of locked IOB's:
+   	CpSv_Gpio_o<0>
+   	CpSv_Gpio_o<1>
+   	CpSv_Gpio_o<2>
+   	CpSv_Gpio_o<3>
+   	CpSv_Gpio_o<4>
+   	CpSv_Gpio_o<5>
+   	CpSv_Gpio_o<6>
+   	CpSv_Gpio_o<7>
+   	CpSv_Led_o<0>
+   	CpSv_Led_o<1>
+   	CpSv_Led_o<2>
+   	CpSv_Led_o<3>
+
+   IO Standard 2: Name = LVCMOS25, VREF = NR, VCCO = 2.50, TERM = NONE, DIR =
+   BIDIR, DRIVE_STR = 12
+   List of locked IOB's:
+   	mcb3_dram_dq<0>
+   	mcb3_dram_dq<1>
+   	mcb3_dram_dq<2>
+   	mcb3_dram_dq<3>
+   	mcb3_dram_dq<4>
+   	mcb3_dram_dq<5>
+   	mcb3_dram_dq<6>
+   	mcb3_dram_dq<7>
+   	mcb3_dram_dq<8>
+   	mcb3_dram_dq<9>
+   	mcb3_dram_dq<10>
+   	mcb3_dram_dq<11>
+   	mcb3_dram_dq<12>
+   	mcb3_dram_dq<13>
+   	mcb3_dram_dq<14>
+   	mcb3_dram_dq<15>
+
+   These IO Standards are incompatible due to VCCO mismatch.
+
+ERROR:Place:864 - Incompatible IOB's are locked to the same bank 3
+   Conflicting IO Standards are:
+   IO Standard 1: Name = LVCMOS15, VREF = NR, VCCO = 1.50, TERM = NONE, DIR =
+   OUTPUT, DRIVE_STR = 12
+   List of locked IOB's:
+   	CpSv_Gpio_o<0>
+   	CpSv_Gpio_o<1>
+   	CpSv_Gpio_o<2>
+   	CpSv_Gpio_o<3>
+   	CpSv_Gpio_o<4>
+   	CpSv_Gpio_o<5>
+   	CpSv_Gpio_o<6>
+   	CpSv_Gpio_o<7>
+   	CpSv_Led_o<0>
+   	CpSv_Led_o<1>
+   	CpSv_Led_o<2>
+   	CpSv_Led_o<3>
+
+   IO Standard 2: Name = LVDS_25, VREF = NR, VCCO = 2.50, TERM = NONE, DIR =
+   BIDIR, DRIVE_STR = NR
+   List of locked IOB's:
+   	mcb3_dram_udqs
+   	mcb3_dram_dqs_n
+   	mcb3_dram_dqs
+   	mcb3_dram_udqs_n
+
+   These IO Standards are incompatible due to VCCO mismatch.
+
+ERROR:Place:864 - Incompatible IOB's are locked to the same bank 3
+   Conflicting IO Standards are:
+   IO Standard 1: Name = LVCMOS15, VREF = NR, VCCO = 1.50, TERM = NONE, DIR =
+   OUTPUT, DRIVE_STR = 12
+   List of locked IOB's:
+   	CpSv_Gpio_o<0>
+   	CpSv_Gpio_o<1>
+   	CpSv_Gpio_o<2>
+   	CpSv_Gpio_o<3>
+   	CpSv_Gpio_o<4>
+   	CpSv_Gpio_o<5>
+   	CpSv_Gpio_o<6>
+   	CpSv_Gpio_o<7>
+   	CpSv_Led_o<0>
+   	CpSv_Led_o<1>
+   	CpSv_Led_o<2>
+   	CpSv_Led_o<3>
+
+   IO Standard 2: Name = LVCMOS25, VREF = NR, VCCO = 2.50, TERM = NONE, DIR =
+   OUTPUT, DRIVE_STR = 12
+   List of locked IOB's:
+   	mcb3_dram_a<0>
+   	mcb3_dram_a<1>
+   	mcb3_dram_a<2>
+   	mcb3_dram_a<3>
+   	mcb3_dram_a<4>
+   	mcb3_dram_a<5>
+   	mcb3_dram_a<6>
+   	mcb3_dram_a<7>
+   	mcb3_dram_a<8>
+   	mcb3_dram_a<9>
+   	mcb3_dram_we_n
+   	mcb3_dram_dm
+   	mcb3_dram_a<10>
+   	mcb3_dram_a<11>
+   	mcb3_dram_a<12>
+   	mcb3_dram_a<13>
+   	mcb3_dram_ba<0>
+   	mcb3_dram_ba<1>
+   	mcb3_dram_ba<2>
+   	mcb3_dram_cas_n
+   	mcb3_dram_ras_n
+   	mcb3_dram_cke
+   	mcb3_dram_odt
+   	mcb3_dram_udm
+   	mcb3_dram_reset_n
+
+   These IO Standards are incompatible due to VCCO mismatch.
+
+ERROR:Place:1333 - Following IOB's that have input/output programming are locked
+   to the bank 3 that does not support such values
+   IO Standard: Name = LVDS_25, VREF = NR, VCCO = 2.50, TERM = NONE, DIR =
+   BIDIR, DRIVE_STR = NR
+   List of locked IOB's:
+   	mcb3_dram_udqs
+   	mcb3_dram_dqs_n
+   	mcb3_dram_dqs
+   	mcb3_dram_udqs_n
+
+
+ERROR:Pack:1654 - The timing-driven placement phase encountered an error.
+
+Section 2 - Warnings
+--------------------
+WARNING:Pack:1653 - At least one timing constraint is impossible to meet because component delays alone exceed the constraint. A timing
+   constraint summary below shows the failing constraints (preceded with an Asterisk (*)). Please use the Timing Analyzer (GUI) or TRCE
+   (command line) with the Mapped NCD and PCF files to identify which constraints and paths are failing because of the component delays
+   alone. If the failing path(s) is mapped to Xilinx components as expected, consider relaxing the constraint. If it is not mapped to
+   components as expected, re-evaluate your HDL and how synthesis is optimizing the path. To allow the tools to bypass this error, set the
+   environment variable XIL_TIMING_ALLOW_IMPOSSIBLE to 1.
+
+
+   For more information about the Timing Analyzer, consult the Xilinx Timing Analyzer Reference manual; for more information on TRCE,
+   consult the Xilinx Command Line Tools User Guide "TRACE" chapter.
+
+Section 3 - Informational
+-------------------------
+INFO:LIT:243 - Logical network
+   U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r<24> has no load.
+INFO:LIT:395 - The above info message is repeated 16 more times for the
+   following (max. 5 shown):
+   N337,
+   N339,
+   CpSv_Gpio_i<7>_IBUF,
+   CpSv_Gpio_i<6>_IBUF,
+   CpSv_Gpio_i<5>_IBUF
+   To see the details of these info messages, please use the -detail switch.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:MapLib:841 - Changing COMPENSATION attribute from SYSTEM_SYNCHRONOUS to
+   INTERNAL for PLL_ADV U_M_ClkPll_0/pll_base_inst/PLL_ADV.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+INFO:Pack:1716 - Initializing temperature to 85.000 Celsius. (default - Range:
+   0.000 to 85.000 Celsius)
+INFO:Pack:1720 - Initializing voltage to 1.140 Volts. (default - Range: 1.140 to
+   1.260 Volts)
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+INFO:Place:834 - Only a subset of IOs are locked. Out of 198 IOs, 194 are locked
+   and 4 are not locked. If you would like to print the names of these IOs,
+   please set the environment variable XIL_PAR_DESIGN_CHECK_VERBOSE to 1. 
+
+Section 4 - Removed Logic Summary
+---------------------------------
+  51 block(s) removed
+   8 block(s) optimized away
+  51 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+The signal "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r<24>" is loadless
+and has been removed.
+ Loadless block "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r_24" (FF)
+removed.
+  The signal "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r<23>" is loadless
+and has been removed.
+   Loadless block "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r_23" (FF)
+removed.
+    The signal "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r<22>" is loadless
+and has been removed.
+     Loadless block "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r_22" (FF)
+removed.
+      The signal "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r<21>" is loadless
+and has been removed.
+       Loadless block "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r_21" (FF)
+removed.
+        The signal "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r<20>" is loadless
+and has been removed.
+         Loadless block "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r_20" (FF)
+removed.
+          The signal "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r<19>" is loadless
+and has been removed.
+           Loadless block "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r_19" (FF)
+removed.
+            The signal "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r<18>" is loadless
+and has been removed.
+             Loadless block "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r_18" (FF)
+removed.
+              The signal "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r<17>" is loadless
+and has been removed.
+               Loadless block "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r_17" (FF)
+removed.
+                The signal "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r<16>" is loadless
+and has been removed.
+                 Loadless block "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r_16" (FF)
+removed.
+                  The signal "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r<15>" is loadless
+and has been removed.
+                   Loadless block "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r_15" (FF)
+removed.
+                    The signal "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r<14>" is loadless
+and has been removed.
+                     Loadless block "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r_14" (FF)
+removed.
+                      The signal "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r<13>" is loadless
+and has been removed.
+                       Loadless block "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r_13" (FF)
+removed.
+                        The signal "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r<12>" is loadless
+and has been removed.
+                         Loadless block "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r_12" (FF)
+removed.
+                          The signal "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r<11>" is loadless
+and has been removed.
+                           Loadless block "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r_11" (FF)
+removed.
+                            The signal "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r<10>" is loadless
+and has been removed.
+                             Loadless block "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r_10" (FF)
+removed.
+                              The signal "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r<9>" is loadless
+and has been removed.
+                               Loadless block "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r_9" (FF)
+removed.
+                                The signal "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r<8>" is loadless
+and has been removed.
+                                 Loadless block "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r_8" (FF)
+removed.
+                                  The signal "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r<7>" is loadless
+and has been removed.
+                                   Loadless block "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r_7" (FF)
+removed.
+                                    The signal "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r<6>" is loadless
+and has been removed.
+                                     Loadless block "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r_6" (FF)
+removed.
+                                      The signal "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r<5>" is loadless
+and has been removed.
+                                       Loadless block "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r_5" (FF)
+removed.
+                                        The signal "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r<4>" is loadless
+and has been removed.
+                                         Loadless block "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r_4" (FF)
+removed.
+                                          The signal "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r<3>" is loadless
+and has been removed.
+                                           Loadless block "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r_3" (FF)
+removed.
+                                            The signal "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r<2>" is loadless
+and has been removed.
+                                             Loadless block "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r_2" (FF)
+removed.
+                                              The signal "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r<1>" is loadless
+and has been removed.
+                                               Loadless block "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r_1" (FF)
+removed.
+                                                The signal "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r<0>" is loadless
+and has been removed.
+                                                 Loadless block "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst0_sync_r_0" (FF)
+removed.
+*The signal "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst_tmp" is loadless and has
+been removed.
+* Loadless block "U_M_DdrCtrl_0/memc3_infrastructure_inst/rst_tmp1" (ROM) removed.
+*  The signal "U_M_DdrCtrl_0/memc3_infrastructure_inst/syn_clk0_powerup_pll_locked"
+is loadless and has been removed.
+*   Loadless block
+"U_M_DdrCtrl_0/memc3_infrastructure_inst/syn_clk0_powerup_pll_locked" (FF)
+removed.
+The signal
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gl0.wr/gwas.wsts/ram_full_i" is sourceless and has been removed.
+The signal
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i" is sourceless and has been removed.
+The signal
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gl0.rd/gr1.rfwft/going_empty_fwft_leaving_empty_fwft_OR_8_o" is
+sourceless and has been removed.
+ Sourceless block
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i" (FF) removed.
+ Sourceless block
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb" (FF) removed.
+  The signal
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb" is sourceless and has been removed.
+   Sourceless block
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gl0.rd/gr1.rfwft/going_empty_fwft_leaving_empty_fwft_OR_8_o1" (ROM)
+removed.
+The signal
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/WR_PNTR[2]_WR_PNTR[3]_XOR_9_o" is sourceless and has been
+removed.
+ Sourceless block
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/wr_pntr_gc_2" (FF) removed.
+  The signal
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/gsync_stage[1].rd_stg_inst/D<2>" is sourceless and has been
+removed.
+   Sourceless block
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/gsync_stage[1].rd_stg_inst/Q_reg_2" (FF) removed.
+    The signal
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/gsync_stage[2].rd_stg_inst/D<2>" is sourceless and has been
+removed.
+     Sourceless block
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/gsync_stage[2].rd_stg_inst/Q_reg_2" (FF) removed.
+      The signal
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/gsync_stage[2].rd_stg_inst/Q_reg<2>" is sourceless and has
+been removed.
+The signal
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/WR_PNTR[1]_WR_PNTR[2]_XOR_10_o" is sourceless and has been
+removed.
+ Sourceless block
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/wr_pntr_gc_1" (FF) removed.
+  The signal
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/gsync_stage[1].rd_stg_inst/D<1>" is sourceless and has been
+removed.
+   Sourceless block
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/gsync_stage[1].rd_stg_inst/Q_reg_1" (FF) removed.
+    The signal
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/gsync_stage[2].rd_stg_inst/D<1>" is sourceless and has been
+removed.
+     Sourceless block
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/gsync_stage[2].rd_stg_inst/Q_reg_1" (FF) removed.
+      The signal
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/gsync_stage[2].rd_stg_inst/Q_reg<1>" is sourceless and has
+been removed.
+The signal
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/WR_PNTR[0]_WR_PNTR[1]_XOR_11_o" is sourceless and has been
+removed.
+ Sourceless block
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/wr_pntr_gc_0" (FF) removed.
+  The signal
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/gsync_stage[1].rd_stg_inst/D<0>" is sourceless and has been
+removed.
+   Sourceless block
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/gsync_stage[1].rd_stg_inst/Q_reg_0" (FF) removed.
+    The signal
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/gsync_stage[2].rd_stg_inst/D<0>" is sourceless and has been
+removed.
+     Sourceless block
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/gsync_stage[2].rd_stg_inst/Q_reg_0" (FF) removed.
+      The signal
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/gsync_stage[2].rd_stg_inst/Q_reg<0>" is sourceless and has
+been removed.
+The signal
+"U_M_LcdIf_0/U_M_LcdTxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gl0.wr/gwas.wsts/ram_full_i" is sourceless and has been removed.
+The signal
+"U_M_LcdIf_0/U_M_LcdTxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i" is sourceless and has been removed.
+The signal
+"U_M_LcdIf_0/U_M_LcdTxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gl0.rd/gr1.rfwft/going_empty_fwft_leaving_empty_fwft_OR_8_o" is
+sourceless and has been removed.
+ Sourceless block
+"U_M_LcdIf_0/U_M_LcdTxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i" (FF) removed.
+ Sourceless block
+"U_M_LcdIf_0/U_M_LcdTxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb" (FF) removed.
+  The signal
+"U_M_LcdIf_0/U_M_LcdTxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb" is sourceless and has been removed.
+   Sourceless block
+"U_M_LcdIf_0/U_M_LcdTxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gl0.rd/gr1.rfwft/going_empty_fwft_leaving_empty_fwft_OR_8_o1" (ROM)
+removed.
+The signal
+"U_M_LcdIf_0/U_M_LcdTxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/RD_PNTR[0]_RD_PNTR[1]_XOR_53_o" is sourceless and has been
+removed.
+ Sourceless block
+"U_M_LcdIf_0/U_M_LcdTxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/rd_pntr_gc_0" (FF) removed.
+  The signal
+"U_M_LcdIf_0/U_M_LcdTxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/gsync_stage[1].wr_stg_inst/D<0>" is sourceless and has been
+removed.
+   Sourceless block
+"U_M_LcdIf_0/U_M_LcdTxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/gsync_stage[1].wr_stg_inst/Q_reg_0" (FF) removed.
+    The signal
+"U_M_LcdIf_0/U_M_LcdTxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/gsync_stage[2].wr_stg_inst/D<0>" is sourceless and has been
+removed.
+     Sourceless block
+"U_M_LcdIf_0/U_M_LcdTxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/gsync_stage[2].wr_stg_inst/Q_reg_0" (FF) removed.
+      The signal
+"U_M_LcdIf_0/U_M_LcdTxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/gsync_stage[2].wr_stg_inst/Q_reg<0>" is sourceless and has
+been removed.
+Unused block
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/Mxor_WR_PNTR[0]_WR_PNTR[1]_XOR_11_o_xo<0>1" (ROM) removed.
+Unused block
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/Mxor_WR_PNTR[1]_WR_PNTR[2]_XOR_10_o_xo<0>1" (ROM) removed.
+Unused block
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/Mxor_WR_PNTR[2]_WR_PNTR[3]_XOR_9_o_xo<0>1" (ROM) removed.
+Unused block
+"U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gl0.wr/gwas.wsts/ram_full_i" (FF) removed.
+Unused block
+"U_M_LcdIf_0/U_M_LcdTxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gcx.clkx/Mxor_RD_PNTR[0]_RD_PNTR[1]_XOR_53_o_xo<0>1" (ROM) removed.
+Unused block
+"U_M_LcdIf_0/U_M_LcdTxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+ync_fifo.gl0.wr/gwas.wsts/ram_full_i" (FF) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND
+		U_M_DviIf_0/U_M_DviRxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_
+sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/
+XST_GND
+GND 		U_M_DviIf_0/U_M_DviRxFifo_0/XST_GND
+VCC 		U_M_DviIf_0/U_M_DviRxFifo_0/XST_VCC
+GND
+		U_M_LcdIf_0/U_M_LcdTxFifo_0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_
+sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/
+XST_GND
+GND 		U_M_LcdIf_0/U_M_LcdTxFifo_0/XST_GND
+VCC 		U_M_LcdIf_0/U_M_LcdTxFifo_0/XST_VCC
+GND 		XST_GND
+VCC 		XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 11 - Timing Report
+--------------------------
+INFO:Timing:3284 - This timing report was generated using estimated delay 
+   information.  For accurate numbers, please refer to the post Place and Route 
+   timing report.
+Number of Timing Constraints that were not applied: 4
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+* TS_U_M_ClkPll_0_clkout1 = PERIOD TIMEGRP  | SETUP       |     0.753ns|     9.767ns|       0|           0
+  "U_M_ClkPll_0_clkout1" TS_CpSl_Clk_i * 0. | HOLD        |    -0.869ns|            |     208|      123800
+  7 HIGH 50%                                |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+* TS_U_M_DdrCtrl_0_memc3_infrastructure_ins | SETUP       |    -0.689ns|    15.217ns|       1|         689
+  t_mcb_drp_clk_bufg_in = PERIOD TIMEGRP "U | HOLD        |     0.060ns|            |       0|           0
+  _M_DdrCtrl_0_memc3_infrastructure_inst_mc |             |            |            |        |            
+  b_drp_clk_bufg_in" TS_CpSl_Clk_i * 1.2 HI |             |            |            |        |            
+  GH 50%                                    |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_memc3_infrastructure_ins | MINPERIOD   |     0.067ns|     1.599ns|       0|           0
+  t_clk_2x_180 = PERIOD TIMEGRP "U_M_DdrCtr |             |            |            |        |            
+  l_0_memc3_infrastructure_inst_clk_2x_180" |             |            |            |        |            
+   TS_CpSl_Clk_i * 6 PHASE 0.833333333 ns H |             |            |            |        |            
+  IGH 50%                                   |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_memc3_infrastructure_ins | MINPERIOD   |     0.067ns|     1.599ns|       0|           0
+  t_clk_2x_0 = PERIOD TIMEGRP "U_M_DdrCtrl_ |             |            |            |        |            
+  0_memc3_infrastructure_inst_clk_2x_0" TS_ |             |            |            |        |            
+  CpSl_Clk_i * 6 HIGH 50%                   |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_CpSl_Clk_i = PERIOD TIMEGRP "TNM_CpSl_ | MINLOWPULSE |     6.666ns|     3.334ns|       0|           0
+  Clk_i" 100 MHz HIGH 50%                   |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_CpSl_Dvi0Clk_i = PERIOD TIMEGRP "TNM_C | SETUP       |     4.390ns|     1.670ns|       0|           0
+  pSl_Dvi0Clk_i" 165 MHz HIGH 50%           | HOLD        |     0.132ns|            |       0|           0
+                                            | MINPERIOD   |     2.490ns|     3.570ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_memc3_infrastructure_ins | SETUP       |     7.025ns|     3.421ns|       0|           0
+  t_clk0_bufg_in = PERIOD TIMEGRP "U_M_DdrC | HOLD        |     0.071ns|            |       0|           0
+  trl_0_memc3_infrastructure_inst_clk0_bufg | MINPERIOD   |    13.096ns|     3.570ns|       0|           0
+  _in" TS_CpSl_Clk_i * 0.6 HIGH 50%         |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_PrSl_ClkFmc_s = PERIOD TIMEGRP "PrSl_C | N/A         |         N/A|         N/A|     N/A|         N/A
+  lkFmc_s" TS_CpSl_Clk_i * 4.9 HIGH 50%     |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Review Timing Report for more details on the following derived constraints.
+To create a Timing Report, run "trce -v 12 -fastpaths -o design_timing_report design.ncd design.pcf"
+or "Run Timing Analysis" from Timing Analyzer (timingan).
+Derived Constraints for TS_CpSl_Clk_i
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_CpSl_Clk_i                  |     10.000ns|      3.334ns|     18.260ns|            0|          209|            0|        27811|
+| TS_U_M_DdrCtrl_0_memc3_infrast|      8.333ns|     15.217ns|          N/A|            1|            0|        21233|            0|
+| ructure_inst_mcb_drp_clk_bufg_|             |             |             |             |             |             |             |
+| in                            |             |             |             |             |             |             |             |
+| TS_U_M_DdrCtrl_0_memc3_infrast|      1.667ns|      1.599ns|          N/A|            0|            0|            0|            0|
+| ructure_inst_clk_2x_180       |             |             |             |             |             |             |             |
+| TS_U_M_DdrCtrl_0_memc3_infrast|      1.667ns|      1.599ns|          N/A|            0|            0|            0|            0|
+| ructure_inst_clk_2x_0         |             |             |             |             |             |             |             |
+| TS_U_M_DdrCtrl_0_memc3_infrast|     16.667ns|      3.570ns|          N/A|            0|            0|         1269|            0|
+| ructure_inst_clk0_bufg_in     |             |             |             |             |             |             |             |
+| TS_U_M_ClkPll_0_clkout1       |     14.286ns|      9.767ns|          N/A|          208|            0|         5309|            0|
+| TS_PrSl_ClkFmc_s              |      2.041ns|          N/A|          N/A|            0|            0|            0|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+2 constraints not met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+
+Section 12 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 13 - Control Set Information
+------------------------------------
+Use the "-detail" map option to print out Control Set Information.

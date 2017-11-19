@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Project\Ha Gong Da Project\M_Lcd Code\FPGA-3\M_Lcd4Top_0707\M_Lcd4Top.ncd
+OUTFILE=D:\Project\Ha Gong Da Project\M_Lcd Code\FPGA-3\M_Lcd4Top_0707\M_Lcd4Top.bit
+FAMILY=Kintex7
+PART=xc7k325t-3ffg900
+WORKINGDIR=D:\Project\Ha Gong Da Project\M_Lcd Code\FPGA-3\M_Lcd4Top_0707
+LICENSE=ISE
+USER_INFO=__0_0_0

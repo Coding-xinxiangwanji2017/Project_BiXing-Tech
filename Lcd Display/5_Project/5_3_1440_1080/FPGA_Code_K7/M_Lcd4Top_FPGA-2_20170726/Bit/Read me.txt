@@ -1,0 +1,68 @@
+1、M_Lcd4top_20170311.bit
+    >> Dvi 输入的刷新频率：1440*1080@50/60/75/85/100Hz;
+    >> Lcd 输出的刷新频率：1440*1080@100/120/150/85/100Hz;
+    
+================================================================================
+2、M_Lcd4Top_20170723.bit
+    >> Dvi_in : 1440*1080@50/60/75/85/100Hz;
+    >> Lcd_out: 1440*1080@100/120/150/170/100Hz;
+    >> Dvi_in : 使用的是双通道接收数据;
+    >> 添加了M_Test.vhd模块，生成一个CpSl_Vsync_o信号，用于控制Lcd屏幕的输出图像;
+        >> 使用内同步促发 ：直接使用计数器，生成一个需要的频率就可以;
+        
+================================================================================
+3、M_Lcd4Top_20170724.bit
+    >> Dvi_in : 1440*1080@50/60/75/85/100Hz;
+    >> Lcd_out: 1440*1080@100/120/150/170/100Hz;
+    >> Dvi_in : 使用的是双通道接收数据;
+    >> 添加了M_Test.vhd模块，生成一个CpSl_Vsync_o信号，用于控制Lcd屏幕的输出图像;
+        >> 使用内同步促发 ：直接使用计数器，生成一个需要的频率就可以;
+    >> 修改了HCnt_End的值，减少图像的保持时间。
+    
+================================================================================
+4、M_Lcd4Top_20170725.bit
+    >> Dvi_in : 1440*1080@50/60/75/85/100Hz;
+    >> Lcd_out: 1440*1080@100/120/150/170/100Hz;
+    >> Dvi_in : 使用的是双通道接收数据;
+    >> 添加了M_Test.vhd模块，生成一个CpSl_Vsync_o信号，用于控制Lcd屏幕的输出图像;
+        >> 使用内同步促发 ：直接使用计数器，生成一个需要的频率就可以;
+        >> 使用外同步促发 ：需要使用Divide_IP Core,这样生产的LcdVsync信号控制Lcd比较合适。
+    >> 修改了HCnt_End的值，减少图像的保持时间;
+    >> 取消了M_DviIf.Vhd模块，取消的原因：采样的时间不对。
+
+================================================================================
+5、M_Lcd4Top_20170726_ChipScope.bit
+    >> 修改了M_DdrIf.vhd模块;
+       >> Lcd_Hsync & HCnt
+        -- HCnt
+        process (CpSl_DdrRdy_i, CpSl_LcdClk_i) begin
+            if (CpSl_DdrRdy_i = '0') then
+                PrSv_HCnt_s <= (others => '0');
+            elsif rising_edge(CpSl_LcdClk_i) then
+                if (PrSl_LcdIntVsync_s = '1') then 
+                    PrSv_HCnt_s <= (others => '0');
+                elsif (PrSv_HCnt_s = PrSv_HCnt_End_s) then 
+                    PrSv_HCnt_s <= (others => '0');
+                else
+                    PrSv_HCnt_s <= PrSv_HCnt_s + '1';
+                end if;
+            end if;
+        end process;
+        
+        -- Lcd_Hsync
+        process (CpSl_DdrRdy_i, CpSl_LcdClk_i) begin
+            if (CpSl_DdrRdy_i = '0') then
+                PrSl_Hsync_s <= '0';
+            elsif rising_edge(CpSl_LcdClk_i) then
+                if (PrSv_HCnt_s = 0) then
+                    PrSl_Hsync_s <= '1';
+                else
+                    PrSl_Hsync_s <= '0';
+                end if;
+            end if;
+        end process;
+    ========================================
+    5_1_M_Lcd4Top_20170726_NoChipScope.bit
+        >> 没有ChipScope的Code，减少逻辑资源的占用。
+
+================================================================================

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\liuhai\lcd\second_version\hagongda\ise\M_LcdDis.ncd
+OUTFILE=D:\liuhai\lcd\second_version\hagongda\ise\M_LcdDis.bit
+FAMILY=Spartan6
+PART=xc6slx100-2fgg484
+WORKINGDIR=D:\liuhai\lcd\second_version\hagongda\ise
+LICENSE=ISE
+USER_INFO=__0_0_0

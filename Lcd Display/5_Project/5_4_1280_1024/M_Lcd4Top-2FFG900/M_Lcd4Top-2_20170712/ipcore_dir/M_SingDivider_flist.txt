@@ -1,0 +1,12 @@
+# Output products list for <M_SingDivider>
+M_SingDivider.asy
+M_SingDivider.gise
+M_SingDivider.ngc
+M_SingDivider.vhd
+M_SingDivider.vho
+M_SingDivider.xco
+M_SingDivider.xise
+M_SingDivider_flist.txt
+M_SingDivider_readme.txt
+M_SingDivider_xmdf.tcl
+_xmsgs\pn_parser.xmsgs

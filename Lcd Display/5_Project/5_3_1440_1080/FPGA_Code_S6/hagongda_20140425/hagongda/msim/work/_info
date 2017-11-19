@@ -1,0 +1,868 @@
+m255
+K3
+13
+cModel Technology
+dC:\modeltech_10.1a\examples
+vddr3_model_c3
+Vk>g6W4VkONlVfkCiM82A11
+r1
+31
+I7F:iSnA9WBJY10L;m`aD?2
+Z0 dD:\liuhai\lcd\second_version\hagongda\msim
+w1396510013
+8../ip/M_DdrCtrl/user_design/sim/ddr3_model_c3.v
+F../ip/M_DdrCtrl/user_design/sim/ddr3_model_c3.v
+F../ip/M_DdrCtrl/user_design/sim/ddr3_model_parameters_c3.vh
+L0 84
+Z1 OE;L;10.1a;51
+o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s85 0
+!s100 ckZH?E@HQej90CeJP0<H@1
+!s108 1398066743.656000
+!s107 ../ip/M_DdrCtrl/user_design/sim/ddr3_model_parameters_c3.vh|../ip/M_DdrCtrl/user_design/sim/ddr3_model_c3.v|
+!s90 -reportprogress|300|+incdir+.|+define+x2Gb|+define+sg125|+define+x16|../ip/M_DdrCtrl/user_design/sim/ddr3_model_c3.v|
+!s92 +incdir+. +define+x2Gb +define+sg125 +define+x16 -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Eiodrp_controller
+Z2 w1355807103
+Z3 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z4 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 dD:\liuhai\lcd\second_version\hagongda\msim
+Z8 8D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/iodrp_controller.vhd
+Z9 FD:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/iodrp_controller.vhd
+l0
+L78
+VU@9SVh4E9lmYkHdA`n^R:2
+Z10 OE;C;10.1a;51
+32
+Z11 !s108 1397999033.671000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/iodrp_controller.vhd|
+Z13 !s107 D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/iodrp_controller.vhd|
+Z14 o-work work -2002 -explicit
+Z15 tExplicit 1
+!s100 [W9U5g_mV[UN]PXY8`1A>3
+!i10b 1
+Atrans
+R3
+R4
+R5
+R6
+DEx4 work 16 iodrp_controller 0 22 U@9SVh4E9lmYkHdA`n^R:2
+32
+l172
+L115
+VYeO;T?H58giF>AIVUfcDz3
+R10
+R11
+R12
+R13
+R14
+R15
+!s100 HWfSJS3]naA:37ffTdo[l0
+!i10b 1
+Eiodrp_mcb_controller
+R2
+R3
+R4
+R5
+R6
+R7
+Z16 8D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/iodrp_mcb_controller.vhd
+Z17 FD:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/iodrp_mcb_controller.vhd
+l0
+L76
+VPXI<CgbRCLIUQGh_]<KaR2
+R10
+32
+Z18 !s108 1397999033.968000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/iodrp_mcb_controller.vhd|
+Z20 !s107 D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/iodrp_mcb_controller.vhd|
+R14
+R15
+!s100 P[WcZdZdUbB;3c<4WcY=f3
+!i10b 1
+Atrans
+R3
+R4
+R5
+R6
+DEx4 work 20 iodrp_mcb_controller 0 22 PXI<CgbRCLIUQGh_]<KaR2
+32
+l252
+L111
+VQ;EHdz8HPf0nl2]mP_7S;3
+R10
+R18
+R19
+R20
+R14
+R15
+!s100 R=I<80Z`?fMF9H]`Th8@z3
+!i10b 1
+Em_clkpll
+Z21 w1398405373
+Z22 DPx6 unisim 11 vcomponents 0 22 62916OzHX@2hk`I`Z:naL2
+Z23 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R3
+R4
+R5
+R6
+R7
+Z24 8D:/liuhai/lcd/second_version/hagongda/ip/M_ClkPll.vhd
+Z25 FD:/liuhai/lcd/second_version/hagongda/ip/M_ClkPll.vhd
+l0
+L75
+VokZQhohT5[?>0ODDTHb0H3
+R10
+32
+Z26 !s108 1398406448.265000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|D:/liuhai/lcd/second_version/hagongda/ip/M_ClkPll.vhd|
+Z28 !s107 D:/liuhai/lcd/second_version/hagongda/ip/M_ClkPll.vhd|
+R14
+R15
+!s100 K8P092OEfP=b5N?a=MkLH0
+!i10b 1
+Axilinx
+R22
+R23
+R3
+R4
+R5
+R6
+DEx4 work 8 m_clkpll 0 22 okZQhohT5[?>0ODDTHb0H3
+l104
+L88
+Vfo5oT;oc_O1J=Eh45c;oF2
+R10
+32
+R26
+R27
+R28
+R14
+R15
+!s100 >[9XTPGE>MfoD6zkF4@=Z1
+!i10b 1
+Em_ctrlind
+Z29 w1398412192
+R4
+R3
+R5
+R6
+R7
+Z30 8D:/liuhai/lcd/second_version/hagongda/rtl/M_CtrlInd.vhd
+Z31 FD:/liuhai/lcd/second_version/hagongda/rtl/M_CtrlInd.vhd
+l0
+L29
+V;gRklj>KmzDog<0kaIDdP2
+!s100 h>CC=@AMXmlTbQ>agQRQQ1
+R10
+32
+!i10b 1
+Z32 !s108 1398415596.984000
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|D:/liuhai/lcd/second_version/hagongda/rtl/M_CtrlInd.vhd|
+Z34 !s107 D:/liuhai/lcd/second_version/hagongda/rtl/M_CtrlInd.vhd|
+R14
+R15
+Aarch_m_ctrlind
+R4
+R3
+R5
+R6
+Z35 DEx4 work 9 m_ctrlind 0 22 ;gRklj>KmzDog<0kaIDdP2
+l81
+L54
+VbC4N1zXF1zG1F1J?@815c2
+!s100 c>mn[GnoZa>V:YYBkY4:<0
+R10
+32
+!i10b 1
+R32
+R33
+R34
+R14
+R15
+Em_ddrctrl
+Z36 w1396963982
+R5
+R6
+R7
+Z37 8D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/M_DdrCtrl.vhd
+Z38 FD:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/M_DdrCtrl.vhd
+l0
+L68
+Vio1WoheFad=EiQ]idfQFo3
+R10
+32
+Z39 !s108 1397999034.281000
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/M_DdrCtrl.vhd|
+Z41 !s107 D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/M_DdrCtrl.vhd|
+R14
+R15
+!s100 MZ7c``TozZonTnTlhY7SN0
+!i10b 1
+Aarc
+R5
+R6
+DEx4 work 9 m_ddrctrl 0 22 io1WoheFad=EiQ]idfQFo3
+32
+l474
+L180
+V]FJfzJ;YkW0A7eFXzIoC<3
+R10
+R39
+R40
+R41
+R14
+R15
+!s100 dmBZXU46LMHnD1CT4Rh5f2
+!i10b 1
+Em_disdata
+Z42 w1398231360
+R4
+R3
+R5
+R6
+R7
+Z43 8D:/liuhai/lcd/second_version/hagongda/rtl/M_DisData.vhd
+Z44 FD:/liuhai/lcd/second_version/hagongda/rtl/M_DisData.vhd
+l0
+L29
+VZ?OMGk0P39QY:Q6@KDnHK2
+R10
+32
+Z45 !s108 1398231409.250000
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|D:/liuhai/lcd/second_version/hagongda/rtl/M_DisData.vhd|
+Z47 !s107 D:/liuhai/lcd/second_version/hagongda/rtl/M_DisData.vhd|
+R14
+R15
+!s100 7HH_@>M;b4?3QQ]8P5i`l0
+!i10b 1
+Aarch_m_disdata
+R4
+R3
+R5
+R6
+DEx4 work 9 m_disdata 0 22 Z?OMGk0P39QY:Q6@KDnHK2
+32
+l68
+L49
+VSf?29aa`cjF1X7JUBGZDl3
+R10
+R45
+R46
+R47
+R14
+R15
+!i10b 1
+!s100 Wmj;g;;3Mi@oeL<fCkl;A1
+Em_dviif
+Z48 w1398151508
+R4
+R3
+R5
+R6
+R7
+Z49 8D:/liuhai/lcd/second_version/hagongda/rtl/M_DviIf.vhd
+Z50 FD:/liuhai/lcd/second_version/hagongda/rtl/M_DviIf.vhd
+l0
+L29
+VZ:nBWnD@OIk8hf1cf;_Ea1
+R10
+32
+Z51 !s108 1398151538.234000
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|D:/liuhai/lcd/second_version/hagongda/rtl/M_DviIf.vhd|
+Z53 !s107 D:/liuhai/lcd/second_version/hagongda/rtl/M_DviIf.vhd|
+R14
+R15
+!s100 88nz:AzFSa6IYSefY4OQN3
+!i10b 1
+Aarch_m_dviif
+R4
+R3
+R5
+R6
+DEx4 work 7 m_dviif 0 22 Z:nBWnD@OIk8hf1cf;_Ea1
+32
+l126
+L56
+VccLGLh]?X1EM<GSznlo<V0
+R10
+R51
+R52
+R53
+R14
+R15
+!i10b 1
+!s100 <M?INTi_ZWl7QdnK26Ra43
+Em_dvirxfifo
+Z54 w1396941276
+R5
+R6
+R7
+Z55 8D:/liuhai/lcd/second_version/hagongda/ip/M_DviRxFifo.vhd
+Z56 FD:/liuhai/lcd/second_version/hagongda/ip/M_DviRxFifo.vhd
+l0
+L43
+VOEBYfV^5Vh`UL;:UWhMfQ2
+R10
+32
+Z57 !s108 1397999040.703000
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|D:/liuhai/lcd/second_version/hagongda/ip/M_DviRxFifo.vhd|
+Z59 !s107 D:/liuhai/lcd/second_version/hagongda/ip/M_DviRxFifo.vhd|
+R14
+R15
+!s100 ]>FicfS]VIIVknkS3MjN41
+!i10b 1
+Am_dvirxfifo_a
+R4
+R3
+Z60 DEx13 xilinxcorelib 19 fifo_generator_v9_3 0 22 WU][^7k>lS6PTKIVP8]Pd0
+R5
+R6
+DEx4 work 11 m_dvirxfifo 0 22 OEBYfV^5Vh`UL;:UWhMfQ2
+32
+l267
+L57
+VO_j_IoMb`=5JhEIO@][5Q3
+R10
+R57
+R58
+R59
+R14
+R15
+!s100 Ynb`L<e^9km^f9G]2=J522
+!i10b 1
+Em_dvisim
+Z61 w1398068043
+R4
+R3
+R5
+R6
+R7
+Z62 8D:/liuhai/lcd/second_version/hagongda/tb/M_DviSim.vhd
+Z63 FD:/liuhai/lcd/second_version/hagongda/tb/M_DviSim.vhd
+l0
+L29
+VaQSHa24k<V32h5g:Z66<I3
+R10
+33
+Z64 !s108 1398068046.984000
+Z65 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|D:/liuhai/lcd/second_version/hagongda/tb/M_DviSim.vhd|
+Z66 !s107 D:/liuhai/lcd/second_version/hagongda/tb/M_DviSim.vhd|
+Z67 o-work work -2008 -explicit
+R15
+!s100 Ca8B<;T0zI:Wdk60V=i_80
+!i10b 1
+Aarch_m_dvisim
+R4
+R3
+R5
+R6
+DEx4 work 8 m_dvisim 0 22 aQSHa24k<V32h5g:Z66<I3
+33
+l66
+L48
+V3En2VkYOc]<Z`]Y3JM32C1
+R10
+R64
+R65
+R66
+R67
+R15
+!i10b 1
+!s100 oRZlD7g0BeWOJ4WiCG<zo2
+Em_hselectio
+Z68 w1396250765
+R22
+R23
+Z69 DPx8 synopsys 10 attributes 0 22 J^T`lPA_8_J<l8kQiVE]>2
+Z70 DPx4 ieee 14 std_logic_misc 0 22 >dU:RInm^_6_mBJ^<6QGY2
+R3
+R4
+R5
+R6
+R7
+Z71 8D:/liuhai/lcd/second_version/hagongda/ip/M_HSelectIO.vhd
+Z72 FD:/liuhai/lcd/second_version/hagongda/ip/M_HSelectIO.vhd
+l0
+L63
+Vmc3]V7Zi3:S@KG^zS]FMV0
+R10
+32
+Z73 !s108 1397999041.078000
+Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|D:/liuhai/lcd/second_version/hagongda/ip/M_HSelectIO.vhd|
+Z75 !s107 D:/liuhai/lcd/second_version/hagongda/ip/M_HSelectIO.vhd|
+R14
+R15
+!s100 ?mmV^MlKg9MEjeJIz]miH1
+!i10b 1
+Axilinx
+R22
+R23
+R69
+R70
+R3
+R4
+R5
+R6
+DEx4 work 11 m_hselectio 0 22 mc3]V7Zi3:S@KG^zS]FMV0
+32
+l111
+L84
+VCG6[S3A::AJD3Cf77Jhoe1
+R10
+R73
+R74
+R75
+R14
+R15
+!s100 3;=DjWA6C[8^@>o8OdnOj0
+!i10b 1
+Em_lcddis
+Z76 w1398407206
+R22
+R4
+R3
+R5
+R6
+R7
+Z77 8D:/liuhai/lcd/second_version/hagongda/rtl/M_LcdDis.vhd
+Z78 FD:/liuhai/lcd/second_version/hagongda/rtl/M_LcdDis.vhd
+l0
+L32
+VGG68G2Ya<DEEoJ_AmYUlc2
+R10
+33
+Z79 !s108 1398407520.234000
+Z80 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|D:/liuhai/lcd/second_version/hagongda/rtl/M_LcdDis.vhd|
+Z81 !s107 D:/liuhai/lcd/second_version/hagongda/rtl/M_LcdDis.vhd|
+R67
+R15
+!s100 IiYPR9=@U_c_2C:>9L[391
+!i10b 1
+Aarch_m_lcddis
+R22
+R4
+R3
+R5
+R6
+DEx4 work 8 m_lcddis 0 22 GG68G2Ya<DEEoJ_AmYUlc2
+l548
+L198
+Vf>KedJ2=A;IQndzf@1aA60
+R10
+33
+R79
+R80
+R81
+R67
+R15
+!s100 f=]]KXOR8UZU[QhefX]@c0
+!i10b 1
+Em_lcdif
+Z82 w1398337708
+R4
+R3
+R5
+R6
+R7
+Z83 8D:/liuhai/lcd/second_version/hagongda/rtl/M_LcdIf.vhd
+Z84 FD:/liuhai/lcd/second_version/hagongda/rtl/M_LcdIf.vhd
+l0
+L29
+V7_D0RS@9P]`BzLR>V5NN]3
+R10
+32
+Z85 !s108 1398339983.593000
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|D:/liuhai/lcd/second_version/hagongda/rtl/M_LcdIf.vhd|
+Z87 !s107 D:/liuhai/lcd/second_version/hagongda/rtl/M_LcdIf.vhd|
+R14
+R15
+!s100 5zEdYL3P9HY0gjik`E2gi0
+!i10b 1
+Aarch_m_lcdif
+R4
+R3
+R5
+R6
+DEx4 work 7 m_lcdif 0 22 7_D0RS@9P]`BzLR>V5NN]3
+32
+l113
+L62
+VdHH@Z^7lUl:kS_gnV0DoO2
+R10
+R85
+R86
+R87
+R14
+R15
+!i10b 1
+!s100 kf540Za63Nn30Z_Deo@4W1
+Em_lcdtxfifo
+Z88 w1397291593
+R5
+R6
+R7
+Z89 8D:/liuhai/lcd/second_version/hagongda/ip/M_LcdTxFifo.vhd
+Z90 FD:/liuhai/lcd/second_version/hagongda/ip/M_LcdTxFifo.vhd
+l0
+L43
+V:NCVVXhPS>Z<@9cZKmF4Q2
+R10
+32
+Z91 !s108 1397999041.640000
+Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|D:/liuhai/lcd/second_version/hagongda/ip/M_LcdTxFifo.vhd|
+Z93 !s107 D:/liuhai/lcd/second_version/hagongda/ip/M_LcdTxFifo.vhd|
+R14
+R15
+!s100 NUVc^6:UY[Kz?Vfmn1fnD1
+!i10b 1
+Am_lcdtxfifo_a
+R4
+R3
+R60
+R5
+R6
+DEx4 work 11 m_lcdtxfifo 0 22 :NCVVXhPS>Z<@9cZKmF4Q2
+32
+l267
+L57
+VbXPTE2aN>:f9L>FDGWDb=3
+R10
+R91
+R92
+R93
+R14
+R15
+!s100 ^?8PD[o[be7021B6N:QY90
+!i10b 1
+Em_lselectio
+Z94 w1396250840
+R22
+R23
+R69
+R70
+R3
+R4
+R5
+R6
+R7
+Z95 8D:/liuhai/lcd/second_version/hagongda/ip/M_LSelectIO.vhd
+Z96 FD:/liuhai/lcd/second_version/hagongda/ip/M_LSelectIO.vhd
+l0
+L63
+VQ]c898ThQG[R684EVZMj<1
+R10
+32
+Z97 !s108 1397999039.250000
+Z98 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|D:/liuhai/lcd/second_version/hagongda/ip/M_LSelectIO.vhd|
+Z99 !s107 D:/liuhai/lcd/second_version/hagongda/ip/M_LSelectIO.vhd|
+R14
+R15
+!s100 8Oh_S3F]h=3YV4cPb:nQD2
+!i10b 1
+Axilinx
+R22
+R23
+R69
+R70
+R3
+R4
+R5
+R6
+DEx4 work 11 m_lselectio 0 22 Q]c898ThQG[R684EVZMj<1
+32
+l111
+L84
+VPm0D`V:CV`iB^UhTcIKbD3
+R10
+R97
+R98
+R99
+R14
+R15
+!s100 I6b8KT2UTORWR4e<bSPc:2
+!i10b 1
+Em_tblcddis
+Z100 w1398048019
+R22
+R4
+R3
+R5
+R6
+R7
+Z101 8D:/liuhai/lcd/second_version/hagongda/tb/M_TbLcdDis.vhd
+Z102 FD:/liuhai/lcd/second_version/hagongda/tb/M_TbLcdDis.vhd
+l0
+L32
+V[hhcZ[?mlF6mfgM;^>?`j2
+R10
+32
+Z103 !s108 1398048024.875000
+Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|D:/liuhai/lcd/second_version/hagongda/tb/M_TbLcdDis.vhd|
+Z105 !s107 D:/liuhai/lcd/second_version/hagongda/tb/M_TbLcdDis.vhd|
+R14
+R15
+!s100 K<i6TJ_I91MzP;BX7>clJ1
+!i10b 1
+Aarch_m_tblcddis
+R22
+R4
+R3
+R5
+R6
+DEx4 work 10 m_tblcddis 0 22 [hhcZ[?mlF6mfgM;^>?`j2
+32
+l288
+L34
+V6m:^P6k8?RTEY^[3ajfo32
+R10
+R103
+R104
+R105
+R14
+R15
+!s100 0H0V4]dPib^LD4[^J>[2l1
+!i10b 1
+Emcb_raw_wrapper
+R2
+R22
+R3
+R4
+R5
+R6
+R7
+Z106 8D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/mcb_raw_wrapper.vhd
+Z107 FD:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/mcb_raw_wrapper.vhd
+l0
+L135
+VP]NVFOGSMj?=L;]]YM_Ge2
+R10
+32
+Z108 !s108 1397999034.562000
+Z109 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/mcb_raw_wrapper.vhd|
+Z110 !s107 D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/mcb_raw_wrapper.vhd|
+R14
+R15
+!s100 WGIhB;?ebFJNIJiZEG7=H0
+!i10b 1
+Aaarch
+R22
+R3
+R4
+R5
+R6
+DEx4 work 15 mcb_raw_wrapper 0 22 P]NVFOGSMj?=L;]]YM_Ge2
+32
+l1056
+L461
+VMUzzU_nXD31zT_OjEYg_o0
+R10
+R108
+R109
+R110
+R14
+R15
+!s100 oRPReKVSc;nVY^<BD0<n40
+!i10b 1
+Emcb_soft_calibration
+R2
+R23
+R3
+R4
+R5
+R6
+R7
+Z111 8D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/mcb_soft_calibration.vhd
+Z112 FD:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/mcb_soft_calibration.vhd
+l0
+L115
+VfD2bF`D8jJJe==:_8NN920
+R10
+32
+Z113 !s108 1397999035.312000
+Z114 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/mcb_soft_calibration.vhd|
+Z115 !s107 D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/mcb_soft_calibration.vhd|
+R14
+R15
+!s100 :ji[70jNo0BWglLZo1j=D3
+!i10b 1
+Atrans
+R23
+R3
+R4
+R5
+R6
+DEx4 work 20 mcb_soft_calibration 0 22 fD2bF`D8jJJe==:_8NN920
+32
+l531
+L184
+VeY@J4ZZYNJ?EiBIebBV_Y2
+R10
+R113
+R114
+R115
+R14
+R15
+!s100 Bf^PPBeV703c7F[L1jD@d3
+!i10b 1
+Emcb_soft_calibration_top
+R2
+R22
+R3
+R4
+R5
+R6
+R7
+Z116 8D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/mcb_soft_calibration_top.vhd
+Z117 FD:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/mcb_soft_calibration_top.vhd
+l0
+L84
+VPC:71KGK[MMBL6Kk4U@W:2
+R10
+32
+Z118 !s108 1397999035.625000
+Z119 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/mcb_soft_calibration_top.vhd|
+Z120 !s107 D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/mcb_soft_calibration_top.vhd|
+R14
+R15
+!s100 KezlGC?zW[T8LW8ek6?G?2
+!i10b 1
+Atrans
+R22
+R3
+R4
+R5
+R6
+DEx4 work 24 mcb_soft_calibration_top 0 22 PC:71KGK[MMBL6Kk4U@W:2
+32
+l263
+L147
+Vf0[D^FAm0;4TL<>XBWhcG1
+R10
+R118
+R119
+R120
+R14
+R15
+!s100 WNaBQO;PS=WR]L?A0nY:E0
+!i10b 1
+Ememc3_infrastructure
+Z121 w1397286328
+R22
+R5
+R6
+R7
+Z122 8D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/memc3_infrastructure.vhd
+Z123 FD:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/memc3_infrastructure.vhd
+l0
+L70
+V>IBX:cMNBEa2E;>dgZz^f3
+R10
+32
+Z124 !s108 1397999036.171000
+Z125 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/memc3_infrastructure.vhd|
+Z126 !s107 D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/memc3_infrastructure.vhd|
+R14
+R15
+!s100 8ec]5bjn2ImlkAR_DOl5N0
+!i10b 1
+Asyn
+R22
+R5
+R6
+DEx4 work 20 memc3_infrastructure 0 22 >IBX:cMNBEa2E;>dgZz^f3
+32
+l141
+L102
+V6eD?:aQV]R@6H`9iSlG^81
+R10
+R124
+R125
+R126
+R14
+R15
+!s100 KNXThcGbV0hLbL9HONQR;1
+!i10b 1
+Ememc3_wrapper
+Z127 w1396250712
+R23
+R3
+R4
+R5
+R6
+R7
+Z128 8D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/memc3_wrapper.vhd
+Z129 FD:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/memc3_wrapper.vhd
+l0
+L70
+VH8^o3@SgBEm`SQGZEJ3lD0
+R10
+32
+Z130 !s108 1397999036.750000
+Z131 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/memc3_wrapper.vhd|
+Z132 !s107 D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/memc3_wrapper.vhd|
+R14
+R15
+!s100 JLQX`A=9XMgSa7KHzd4zF2
+!i10b 1
+Aacch
+R23
+R3
+R4
+R5
+R6
+DEx4 work 13 memc3_wrapper 0 22 H8^o3@SgBEm`SQGZEJ3lD0
+32
+l632
+L270
+Vm5FAZ[L@^MHfd32Qg:IhO0
+R10
+R130
+R131
+R132
+R14
+R15
+!s100 hBYOX99SJSJZF^kHkEzZP1
+!i10b 1
+Eremapper
+Z133 w1390884366
+R4
+R3
+R5
+R6
+R7
+Z134 8D:/liuhai/lcd/second_version/hagongda/rtl/remapper.vhd
+Z135 FD:/liuhai/lcd/second_version/hagongda/rtl/remapper.vhd
+l0
+L6
+VW]l]GZLGB7;U6P0eQS]A;3
+R10
+32
+Z136 !s108 1397999038.640000
+Z137 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|D:/liuhai/lcd/second_version/hagongda/rtl/remapper.vhd|
+Z138 !s107 D:/liuhai/lcd/second_version/hagongda/rtl/remapper.vhd|
+R14
+R15
+!s100 9`7zZfKOWl4<NG`[K3<Ll3
+!i10b 1
+Aa
+R4
+R3
+R5
+R6
+DEx4 work 8 remapper 0 22 W]l]GZLGB7;U6P0eQS]A;3
+32
+l71
+L50
+VBbBo6k4@J@bQ<2fGgBCS72
+R10
+R136
+R137
+R138
+R14
+R15
+!s100 C^a3Rhh6Z];9YXQliT7W]2
+!i10b 1

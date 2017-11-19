@@ -1,0 +1,18 @@
+# Output products list for <M_Ila_DDR>
+M_Ila_DDR.asy
+M_Ila_DDR.cdc
+M_Ila_DDR.constraints\M_Ila_DDR.ucf
+M_Ila_DDR.constraints\M_Ila_DDR.xdc
+M_Ila_DDR.gise
+M_Ila_DDR.ncf
+M_Ila_DDR.ngc
+M_Ila_DDR.ucf
+M_Ila_DDR.vhd
+M_Ila_DDR.vho
+M_Ila_DDR.xco
+M_Ila_DDR.xdc
+M_Ila_DDR.xise
+M_Ila_DDR_flist.txt
+M_Ila_DDR_readme.txt
+M_Ila_DDR_xmdf.tcl
+_xmsgs\pn_parser.xmsgs

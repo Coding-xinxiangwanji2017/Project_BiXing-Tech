@@ -1,0 +1,234 @@
+2、M_Lcd4Top_0617-2 文件夹下 ：包含刷新率是100Hz、60Hz和50Hz。
+    FPGA ： XC7K325T - 2FFG900    ISE14.7
+
+========================================
+5、M_Lcd4Top_0618-2 文件夹下 ：包含刷新率是100Hz、60Hz和50Hz。
+    FPGA ： XC7K325T - 2FFG900    ISE14.7
+    采用外同步信号   输出帧频信号
+
+========================================
+M_Lcd4Top_0618_1.zip
+1) 增加了67Hz的刷新频率，
+2) 只支持100Hz和67Hz的刷新频率
+
+========================================
+M_Lcd4Top_0618_2.zip
+1) 使用内部FIFO，不使用外部FIFO
+2) DDR3 SDRAM IP Core 设置为 400MHz，但是设计没有使用，在后续修改的时候注意这个修改
+
+========================================
+M_Lcd4Top_0618_3.zip
+1) 使用DDR3 SDRAM IP Core
+2) DDR3 SDRAM IP Core 设置为 400MHz
+
+========================================
+M_Lcd4Top_0619_2.zip
+1）使用外部DDR3 SDRAM，但是只存储2幅图像，乒乓读写
+2）SMA0 是DVI VSync，SMA1 是LCD VSync
+3）增加了ila2，监测DDR3 SDRAM 时钟域的信号
+
+========================================
+M_Lcd4Top_0619_3.zip
+1）    -- DDR read address high
+    process (CpSl_DdrRdy_i, CpSl_DdrClk_i) begin
+        if (CpSl_DdrRdy_i = '0') then
+            PrSv_RdAddrHig_s <= (others => '0');
+        elsif rising_edge(CpSl_DdrClk_i) then
+        case PrSv_WrAddrHig_s is
+            when "000"  => if (PrSl_LcdVsyncDly2_s = '1' and PrSl_LcdVsyncDly3_s = '0') then PrSv_RdAddrHig_s <= "010"; else end if;
+            when "010"  => if (PrSl_LcdVsyncDly2_s = '1' and PrSl_LcdVsyncDly3_s = '0') then PrSv_RdAddrHig_s <= "000"; else end if;
+            when others => PrSv_RdAddrHig_s <= (others => '0');
+        end case;
+        end if;
+    end process;
+    这一部分的时钟域修改为CpSl_DdrClk_i时钟域，之前使用的是Lcd的时钟域。
+
+========================================
+M_Lcd4Top_0619_4.zip
+1）修改了ucf文件中，DDR3 SDRAM的时序位2500ps
+2）修改了ila2，增加了ddr3 write data 和 ddr3 read data监测，但是缩短了ila长度。
+
+========================================
+M_Lcd4Top_0619_5文件夹
+1) 修改了DDR3 SDRAM的读写时钟为800MHz
+2）修改了LCDSync的启始Cnt
+
+========================================
+M_Lcd4Top_0620_1.zip
+1) 使用了内部的   PrSv_CntDataIn_s(7 downto 0)
+    -- Delay R
+    process (CpSl_DdrRdy_i, PrSl_DviClk_s) begin
+        if (CpSl_DdrRdy_i = '0') then
+            PrSl_Dvi0RDly1_s <= (others => '0');
+            PrSl_Dvi0RDly2_s <= (others => '0');
+
+            PrSl_Dvi1RDly1_s <= (others => '0');
+        elsif rising_edge(PrSl_DviClk_s) then
+            --PrSl_Dvi0RDly1_s <= CpSv_Dvi0R_i    ;
+            PrSl_Dvi0RDly1_s <= PrSv_CntDataIn_s(7 downto 0)    ;
+            PrSl_Dvi0RDly2_s <= PrSl_Dvi0RDly1_s;
+
+            PrSl_Dvi1RDly1_s <= CpSv_Dvi1R_i;
+        end if;
+    end process;
+
+========================================
+M_Lcd4Top_0620_2.zip
+1) 使用了M_Pattern 模块
+
+========================================
+M_Lcd4Top_0622_1.zip
+1) 使用外部数据源
+2）增加了差分对 “N” eg：FMC0_LA31_N等
+3）屏蔽了代码的接口 “FMC1_LA_N（27 downtown 0） 和FMC1_LA_P（27 downtown 0）”   “FMC0_LA_N（27 downtown 0） 和FMC0_LA_P（27 downtown 0）”
+3) 使用内部数据源
+
+========================================
+M_Lcd4Top_0622_2.zip
+1）释放了代码的接口 “FMC1_LA_N（27 downtown 0） 和FMC1_LA_P（27 downtown 0）”   “FMC0_LA_N（27 downtown 0） 和FMC0_LA_P（27 downtown 0）”
+2）屏蔽了接口  P&N
+3）使用内部数据源
+
+========================================
+M_Lcd4Top_0623_1.zip
+1)使用了外部的图像源
+process (CpSl_DdrRdy_i, PrSl_DviClk_s) begin
+        if (CpSl_DdrRdy_i = '0') then
+            PrSl_Dvi0RDly1_s <= (others => '0');
+            PrSl_Dvi0RDly2_s <= (others => '0');
+
+            PrSl_Dvi1RDly1_s <= (others => '0');
+        elsif rising_edge(PrSl_DviClk_s) then
+            PrSl_Dvi0RDly1_s <= CpSv_Dvi0R_i    ;
+            --PrSl_Dvi0RDly1_s <= PrSv_CntDataIn_s(7 downto 0);
+            PrSl_Dvi0RDly2_s <= PrSl_Dvi0RDly1_s;
+
+            PrSl_Dvi1RDly1_s <= CpSv_Dvi1R_i;
+        end if;
+    end process;
+    
+========================================
+M_Lcd4Top_0624_1.rar
+1) 修改了remapper.vhd 文件
+   由 not (p2(41 downto 35)) 修改为 ('1' & not (p2(41 downto 36)))
+2)使用内部的Pattern
+
+========================================
+M_Lcd4Top_0624_2.rar
+1）使用DVI的数据
+
+========================================
+M_Lcd4Top_0627_1.rar
+1)使用了新的接口代码（德国人新的接口代码）
+2)始终选用的是差分始终200MHz
+
+========================================
+M_Lcd4Top_0627_2.rar
+1)使用内部的Pattern
+
+========================================
+M_Lcd4Top_0627_3.rar
+1)使用外部的DVI信号
+
+========================================
+M_Lcd4Top_0628.rar
+1)郑博士修改完的代码，
+2）遗留问题：残影，最后一行有残影
+
+========================================
+M_Lcd4Top_0629.rar
+1)修改了图像的残影以及最后一行偶尔出现的白点
+
+========================================
+M_Lcd4Top_0630.rar
+1）增加了外同步和内同步切换的模块
+2）修改了DdrIf模块
+3)翻转了图像
+4)效果比较好
+
+========================================
+M_Lcd4Top_0630_1.rar
+1)增加一个输出脉冲的模块，用来测试
+
+========================================
+M_Lcd4Top_0701.rar
+1)增加了一个内外同步选择接口
+
+========================================
+M_Lcd4Top_0702.rar
+1）固化的程序
+2）67Hz会出现图像明显的竖条纹
+
+========================================
+M_Lcd4Top_0704文件夹
+1）增加了一个Rom的IP core，但是没有加在主程序里面
+
+========================================
+M_Lcd4Top_0706.rar
+1）在M_Lcd4Top_0702.rar基础上修改程序
+2)修该了“Double_signal”归'0'的情况
+
+========================================
+M_Lcd4Top_0707.rar
+1)增加了GPIO接口
+
+========================================
+M_Lcd4Top_0714.rar
+1)修改了GPIO命名的错误
+2)修改了M_LcdVsync模块的Ila
+3)修改了外同步在M_DdrIf里面的触发
+4)修改了M_FreCtrl模块，采输入同步信号的上升沿
+    -- Vsync Falling Trig
+    --PrSl_VsyncTrig_s <= (not PrSl_VsyncDly2_s) and PrSl_VsyncDly3_s;
+    -- Vsync Row Trig
+    PrSl_RowTrig_s <= PrSl_VsyncDly2_s and (not PrSl_VsyncDly3_s);  
+    
+    if (PrSl_RisFlage_s = '1') then
+                --if (PrSl_VsyncTrig_s = '1') then
+                if (PrSl_RowTrig_s = '1') then 
+                    PrSv_VsyncTrigCnt_s <= PrSv_VsyncTrigCnt_s + '1';
+                else --hold
+                end if;
+            else
+                PrSv_VsyncTrigCnt_s <= (others => '0');
+            end if;
+5)增加了内外同步的判断端口
+6)Lcd 的输出 Hsync & Vsync 使用状态机进行控制。
+8)67Hz有闪烁
+
+========================================
+M_Lcd4Top_0718.rar
+------固化在FPGA上的程序---
+1)M_Lcd4Top_0707的基础上修改的
+2)M_text的周期修改为10ms和15ms
+3)Generate的使用、代码的合理划分。
+4)修改了ClkPll出来的M_FreCLk为80MHz,修改了M_FreCtrl在1s内采样的点数
+5)在M_FreCtrl中添加了M_ila_3
+6)0714.cpj 添加了M_ila_3的ila在M_LcdVsnc模块中
+7)0718.cpj 添加了M_ila_3的Ila在M_FreCtrl模块中
+
+
+========================================
+M_Lcd4Top-2_20160926.rar
+    >> 增加了pulse2pulse.vhd模块
+    
+========================================
+M_Lcd4Top-2_20170426.rar
+    >> 修改了从DDR读出来数据到RxFifo的触发条件。
+    
+========================================
+M_Lcd4Top-2_20170709.rar
+    >> 修改了M_Test.vhd程序;
+    >> 100Hz和67Hz输出的图像都要倍频，
+        这样输出的图像稳定;
+    >> 内外板卡固化的程序不一样.
+    >> LCd_Mirror set number : 300 --- 1600;
+
+========================================
+M_Lcd4Top-2_20170712.rar
+    >> 修改了M_Test.vhd程序;
+    >> LCd_Mirror set number : 300 --- 1600;
+    >> 添加了M_DoubleDivider.vhd用来控制Lcd的刷新频率，
+        这样可以解决倍频残影的问题。
+
+========================================

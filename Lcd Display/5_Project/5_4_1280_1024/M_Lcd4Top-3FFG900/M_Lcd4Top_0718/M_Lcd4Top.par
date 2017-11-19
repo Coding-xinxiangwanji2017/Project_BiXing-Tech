@@ -1,0 +1,1744 @@
+Release 14.7 par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+BX_E420::  Tue Jul 12 10:12:52 2016
+
+par -w -intstyle ise -ol high -mt off M_Lcd4Top_map.ncd M_Lcd4Top.ncd
+M_Lcd4Top.pcf 
+
+
+Constraints file: M_Lcd4Top.pcf.
+Loading device for application Rf_Device from file '7k325t.nph' in environment D:\My_tool\Xilinx\14.7\ISE_DS\ISE\.
+   "M_Lcd4Top" is an NCD, version 3.2, device xc7k325t, package ffg900, speed -3
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 0.970 Volts. (default - Range: 0.970 to 1.030 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.10 2013-10-13".
+
+
+
+Device Utilization Summary:
+
+Slice Logic Utilization:
+  Number of Slice Registers:                 6,548 out of 407,600    1%
+    Number used as Flip Flops:               6,546
+    Number used as Latches:                      2
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:                0
+  Number of Slice LUTs:                      6,557 out of 203,800    3%
+    Number used as logic:                    5,397 out of 203,800    2%
+      Number using O6 output only:           3,825
+      Number using O5 output only:             313
+      Number using O5 and O6:                1,259
+      Number used as ROM:                        0
+    Number used as Memory:                     876 out of  64,000    1%
+      Number used as Dual Port RAM:            572
+        Number using O6 output only:            20
+        Number using O5 output only:            10
+        Number using O5 and O6:                542
+      Number used as Single Port RAM:            0
+      Number used as Shift Register:           304
+        Number using O6 output only:           302
+        Number using O5 output only:             0
+        Number using O5 and O6:                  2
+    Number used exclusively as route-thrus:    284
+      Number with same-slice register load:    237
+      Number with same-slice carry load:        47
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 2,968 out of  50,950    5%
+  Number of LUT Flip Flop pairs used:        8,609
+    Number with an unused Flip Flop:         2,753 out of   8,609   31%
+    Number with an unused LUT:               2,052 out of   8,609   23%
+    Number of fully used LUT-FF pairs:       3,804 out of   8,609   44%
+    Number of slice register sites lost
+      to control set restrictions:               0 out of 407,600    0%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+  OVERMAPPING of BRAM resources should be ignored if the design is
+  over-mapped for a non-BRAM resource or if placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                       202 out of     500   40%
+    Number of LOCed IOBs:                      146 out of     202   72%
+    IOB Flip Flops:                             28
+    IOB Master Pads:                            59
+    IOB Slave Pads:                             59
+
+Specific Feature Utilization:
+  Number of RAMB36E1/FIFO36E1s:                292 out of     445   65%
+    Number using RAMB36E1 only:                292
+    Number using FIFO36E1 only:                  0
+  Number of RAMB18E1/FIFO18E1s:                  0 out of     890    0%
+  Number of BUFG/BUFGCTRLs:                     12 out of      32   37%
+    Number used as BUFGs:                       10
+    Number used as BUFGCTRLs:                    2
+  Number of IDELAYE2/IDELAYE2_FINEDELAYs:       16 out of     500    3%
+    Number used as IDELAYE2s:                   16
+    Number used as IDELAYE2_FINEDELAYs:          0
+  Number of ILOGICE2/ILOGICE3/ISERDESE2s:       38 out of     500    7%
+    Number used as ILOGICE2s:                   22
+  Number used as  ILOGICE3s:                     0
+    Number used as ISERDESE2s:                  16
+  Number of ODELAYE2/ODELAYE2_FINEDELAYs:        0 out of     150    0%
+  Number of OLOGICE2/OLOGICE3/OSERDESE2s:      104 out of     500   20%
+    Number used as OLOGICE2s:                    4
+    Number used as OLOGICE3s:                    0
+    Number used as OSERDESE2s:                 100
+  Number of PHASER_IN/PHASER_IN_PHYs:            2 out of      40    5%
+    Number used as PHASER_INs:                   0
+    Number used as PHASER_IN_PHYs:               2
+      Number of LOCed PHASER_IN_PHYs:            2 out of       2  100%
+  Number of PHASER_OUT/PHASER_OUT_PHYs:          5 out of      40   12%
+    Number used as PHASER_OUTs:                  0
+    Number used as PHASER_OUT_PHYs:              5
+      Number of LOCed PHASER_OUT_PHYs:           5 out of       5  100%
+  Number of BSCANs:                              1 out of       4   25%
+  Number of BUFHCEs:                             0 out of     168    0%
+  Number of BUFRs:                               0 out of      40    0%
+  Number of CAPTUREs:                            0 out of       1    0%
+  Number of DNA_PORTs:                           0 out of       1    0%
+  Number of DSP48E1s:                            0 out of     840    0%
+  Number of EFUSE_USRs:                          0 out of       1    0%
+  Number of FRAME_ECCs:                          0 out of       1    0%
+  Number of GTXE2_CHANNELs:                      0 out of      16    0%
+  Number of GTXE2_COMMONs:                       0 out of       4    0%
+  Number of IBUFDS_GTE2s:                        0 out of       8    0%
+  Number of ICAPs:                               0 out of       2    0%
+  Number of IDELAYCTRLs:                         1 out of      10   10%
+  Number of IN_FIFOs:                            2 out of      40    5%
+    Number of LOCed IN_FIFOs:                    2 out of       2  100%
+  Number of MMCME2_ADVs:                         2 out of      10   20%
+    Number of LOCed MMCME2_ADVs:                 1 out of       2   50%
+  Number of OUT_FIFOs:                           5 out of      40   12%
+    Number of LOCed OUT_FIFOs:                   5 out of       5  100%
+  Number of PCIE_2_1s:                           0 out of       1    0%
+  Number of PHASER_REFs:                         2 out of      10   20%
+    Number of LOCed PHASER_REFs:                 2 out of       2  100%
+  Number of PHY_CONTROLs:                        2 out of      10   20%
+    Number of LOCed PHY_CONTROLs:                2 out of       2  100%
+  Number of PLLE2_ADVs:                          1 out of      10   10%
+    Number of LOCed PLLE2_ADVs:                  1 out of       1  100%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of XADCs:                               1 out of       1  100%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please consult the Xilinx
+   Command Line Tools User Guide for information on generating a TSI report.
+Starting initial Timing Analysis.  REAL time: 55 secs 
+WARNING:Par:450 - At least one timing constraint is impossible to meet because component switching limit violations have been detected for a
+   constrained component. A timing constraint summary below shows the failing constraints (preceded with an Asterisk (*)). Please use the
+   Timing Analyzer (GUI) or TRCE (command line) with the Mapped NCD and PCF files to evaluate the component switching limit violations in
+   more detail. Evaluate the datasheet for alternative configurations for the component that could allow the frequencies requested in the
+   constraint. Otherwise, the timing constraint covering this component might need to be modified to satisfy the component switching limits
+   specified in the datasheet.
+
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more 
+   information, see the TSI report.  Please consult the Xilinx Command Line 
+   Tools User Guide for information on generating a TSI report.
+INFO:Timing:3284 - This timing report was generated using estimated delay 
+   information.  For accurate numbers, please refer to the post Place and Route 
+   timing report.
+Number of Timing Constraints that were not applied: 14
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+* TS_CpSl_Clk_iP = PERIOD TIMEGRP "TNM_CpSl | SETUP       |     3.420ns|     1.580ns|       0|           0
+  _Clk_iP" 5 ns HIGH 50%                    | HOLD        |    -2.849ns|            |       1|        2849
+                                            | MINLOWPULSE |     2.200ns|     2.800ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+* TS_MULTICYCLEPATH = MAXDELAY FROM TIMEGRP | SETUP       |     5.623ns|     1.877ns|       0|           0
+   "TNM_SOURCE_IDLE" TO TIMEGRP         "TN | HOLD        |    -0.312ns|            |       8|        1574
+  M_DEST_ISERDES" TS_ISERDES_CLOCK * 6      |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+* TS_U_M_ClkPll_0_clkout0 = PERIOD TIMEGRP  | MINPERIOD   |    -0.160ns|     1.350ns|       3|         480
+  "U_M_ClkPll_0_clkout0" TS_CpSl_Clk_i      |             |            |            |        |            
+      * 8.4 HIGH 50%                        |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+* TS_U_M_DdrCtrl_0_u_ddr3_infrastructure_cl | SETUP       |     1.087ns|     3.913ns|       0|           0
+  k_pll_i = PERIOD TIMEGRP         "U_M_Ddr | HOLD        |    -0.134ns|            |      19|         979
+  Ctrl_0_u_ddr3_infrastructure_clk_pll_i"   |             |            |            |        |            
+         TS_U_M_DdrCtrl_0_u_ddr3_infrastruc |             |            |            |        |            
+  ture_pll_clk3 HIGH 50%                    |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+* TS_CpSl_Dvi0Clk_i = PERIOD TIMEGRP "TNM_C | SETUP       |     2.107ns|     3.953ns|       0|           0
+  pSl_Dvi0Clk_i" 165 MHz HIGH 50%           | HOLD        |    -0.106ns|            |       6|         358
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_ClkPll_0_clkout1 = PERIOD TIMEGRP  | SETUP       |     0.106ns|     7.591ns|       0|           0
+  "U_M_ClkPll_0_clkout1" TS_CpSl_Clk_i      | HOLD        |     0.024ns|            |       0|           0
+      * 1.2 HIGH 50%                        |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in | MINPERIOD   |     0.180ns|     1.070ns|       0|           0
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ |             |            |            |        |            
+  ddr_mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4la |             |            |            |        |            
+  nes_ddr_byte_lane_B_ddr_byte_lane_B_oserd |             |            |            |        |            
+  es_clk         = PERIOD TIMEGRP         " |             |            |            |        |            
+  U_M_DdrCtrl_0_u_memc_ui_top_std_mem_intfc |             |            |            |        |            
+  0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ddr |             |            |            |        |            
+  _mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4lanes |             |            |            |        |            
+  _ddr_byte_lane_B_ddr_byte_lane_B_oserdes_ |             |            |            |        |            
+  clk"         TS_U_M_DdrCtrl_0_mem_refclk  |             |            |            |        |            
+  HIGH 50%                                  |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_ISERDES_CLOCK = PERIOD TIMEGRP "TNM_IS | MINPERIOD   |     0.180ns|     1.070ns|       0|           0
+  ERDES_CLK" 1.25 ns HIGH 50%               |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in | MINPERIOD   |     0.180ns|     1.070ns|       0|           0
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ |             |            |            |        |            
+  ddr_mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4la |             |            |            |        |            
+  nes_ddr_byte_lane_C_ddr_byte_lane_C_oserd |             |            |            |        |            
+  es_clk         = PERIOD TIMEGRP         " |             |            |            |        |            
+  U_M_DdrCtrl_0_u_memc_ui_top_std_mem_intfc |             |            |            |        |            
+  0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ddr |             |            |            |        |            
+  _mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4lanes |             |            |            |        |            
+  _ddr_byte_lane_C_ddr_byte_lane_C_oserdes_ |             |            |            |        |            
+  clk"         TS_U_M_DdrCtrl_0_mem_refclk  |             |            |            |        |            
+  HIGH 50%                                  |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in | MINPERIOD   |     0.180ns|     1.070ns|       0|           0
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ |             |            |            |        |            
+  ddr_mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4la |             |            |            |        |            
+  nes_ddr_byte_lane_D_ddr_byte_lane_D_oserd |             |            |            |        |            
+  es_clk         = PERIOD TIMEGRP         " |             |            |            |        |            
+  U_M_DdrCtrl_0_u_memc_ui_top_std_mem_intfc |             |            |            |        |            
+  0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ddr |             |            |            |        |            
+  _mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4lanes |             |            |            |        |            
+  _ddr_byte_lane_D_ddr_byte_lane_D_oserdes_ |             |            |            |        |            
+  clk"         TS_U_M_DdrCtrl_0_mem_refclk  |             |            |            |        |            
+  HIGH 50%                                  |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in | MINPERIOD   |     0.180ns|     1.070ns|       0|           0
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ |             |            |            |        |            
+  ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4la |             |            |            |        |            
+  nes_ddr_byte_lane_D_ddr_byte_lane_D_oserd |             |            |            |        |            
+  es_clk         = PERIOD TIMEGRP         " |             |            |            |        |            
+  U_M_DdrCtrl_0_u_memc_ui_top_std_mem_intfc |             |            |            |        |            
+  0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ddr |             |            |            |        |            
+  _mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4lanes |             |            |            |        |            
+  _ddr_byte_lane_D_ddr_byte_lane_D_oserdes_ |             |            |            |        |            
+  clk"         TS_U_M_DdrCtrl_0_mem_refclk  |             |            |            |        |            
+  HIGH 50%                                  |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in | MINPERIOD   |     0.180ns|     1.070ns|       0|           0
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ |             |            |            |        |            
+  ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4la |             |            |            |        |            
+  nes_ddr_byte_lane_C_ddr_byte_lane_C_oserd |             |            |            |        |            
+  es_clk         = PERIOD TIMEGRP         " |             |            |            |        |            
+  U_M_DdrCtrl_0_u_memc_ui_top_std_mem_intfc |             |            |            |        |            
+  0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ddr |             |            |            |        |            
+  _mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4lanes |             |            |            |        |            
+  _ddr_byte_lane_C_ddr_byte_lane_C_oserdes_ |             |            |            |        |            
+  clk"         TS_U_M_DdrCtrl_0_mem_refclk  |             |            |            |        |            
+  HIGH 50%                                  |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in | MINPERIOD   |     0.180ns|     1.070ns|       0|           0
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ |             |            |            |        |            
+  ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4la |             |            |            |        |            
+  nes_ddr_byte_lane_D_ddr_byte_lane_D_iserd |             |            |            |        |            
+  es_clk         = PERIOD TIMEGRP         " |             |            |            |        |            
+  U_M_DdrCtrl_0_u_memc_ui_top_std_mem_intfc |             |            |            |        |            
+  0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ddr |             |            |            |        |            
+  _mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4lanes |             |            |            |        |            
+  _ddr_byte_lane_D_ddr_byte_lane_D_iserdes_ |             |            |            |        |            
+  clk"         TS_U_M_DdrCtrl_0_freq_refclk |             |            |            |        |            
+   HIGH 50%                                 |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in | MINPERIOD   |     0.180ns|     1.070ns|       0|           0
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ |             |            |            |        |            
+  ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4la |             |            |            |        |            
+  nes_ddr_byte_lane_C_ddr_byte_lane_C_iserd |             |            |            |        |            
+  es_clk         = PERIOD TIMEGRP         " |             |            |            |        |            
+  U_M_DdrCtrl_0_u_memc_ui_top_std_mem_intfc |             |            |            |        |            
+  0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ddr |             |            |            |        |            
+  _mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4lanes |             |            |            |        |            
+  _ddr_byte_lane_C_ddr_byte_lane_C_iserdes_ |             |            |            |        |            
+  clk"         TS_U_M_DdrCtrl_0_freq_refclk |             |            |            |        |            
+   HIGH 50%                                 |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_CpSl_Clk_i = PERIOD TIMEGRP "TNM_CpSl_ | MINLOWPULSE |     6.000ns|     4.000ns|       0|           0
+  Clk_i" 100 MHz HIGH 50%                   |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_mem_refclk = PERIOD TIME | MINPERIOD   |     0.312ns|     0.938ns|       0|           0
+  GRP "U_M_DdrCtrl_0_mem_refclk"         TS |             |            |            |        |            
+  _CpSl_Clk_iP / 4 HIGH 50%                 |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_freq_refclk = PERIOD TIM | MINPERIOD   |     0.312ns|     0.938ns|       0|           0
+  EGRP "U_M_DdrCtrl_0_freq_refclk"          |             |            |            |        |            
+  TS_CpSl_Clk_iP / 4 PHASE 1.171875 ns HIGH |             |            |            |        |            
+   50%                                      |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in | SETUP       |     0.930ns|     1.570ns|       0|           0
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ | HOLD        |     0.830ns|            |       0|           0
+  ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4la | MINPERIOD   |     0.624ns|     1.876ns|       0|           0
+  nes_ddr_byte_lane_C_ddr_byte_lane_C_iserd |             |            |            |        |            
+  es_clkdiv         = PERIOD TIMEGRP        |             |            |            |        |            
+    "U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in |             |            |            |        |            
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ |             |            |            |        |            
+  ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4la |             |            |            |        |            
+  nes_ddr_byte_lane_C_ddr_byte_lane_C_iserd |             |            |            |        |            
+  es_clkdiv"         TS_U_M_DdrCtrl_0_freq_ |             |            |            |        |            
+  refclk * 2 HIGH 50%                       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in | SETUP       |     1.412ns|     1.088ns|       0|           0
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ | HOLD        |     0.454ns|            |       0|           0
+  ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4la | MINPERIOD   |     0.624ns|     1.876ns|       0|           0
+  nes_ddr_byte_lane_D_ddr_byte_lane_D_iserd |             |            |            |        |            
+  es_clkdiv         = PERIOD TIMEGRP        |             |            |            |        |            
+    "U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in |             |            |            |        |            
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ |             |            |            |        |            
+  ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4la |             |            |            |        |            
+  nes_ddr_byte_lane_D_ddr_byte_lane_D_iserd |             |            |            |        |            
+  es_clkdiv"         TS_U_M_DdrCtrl_0_freq_ |             |            |            |        |            
+  refclk * 2 HIGH 50%                       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in | SETUP       |     1.455ns|     1.045ns|       0|           0
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ | HOLD        |     0.168ns|            |       0|           0
+  ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4la | MINPERIOD   |     0.624ns|     1.876ns|       0|           0
+  nes_ddr_byte_lane_C_ddr_byte_lane_C_oserd |             |            |            |        |            
+  es_clkdiv         = PERIOD TIMEGRP        |             |            |            |        |            
+    "U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in |             |            |            |        |            
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ |             |            |            |        |            
+  ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4la |             |            |            |        |            
+  nes_ddr_byte_lane_C_ddr_byte_lane_C_oserd |             |            |            |        |            
+  es_clkdiv"         TS_U_M_DdrCtrl_0_mem_r |             |            |            |        |            
+  efclk * 2 HIGH 50%                        |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in | SETUP       |     1.539ns|     0.961ns|       0|           0
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ | HOLD        |     0.037ns|            |       0|           0
+  ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4la | MINPERIOD   |     0.624ns|     1.876ns|       0|           0
+  nes_ddr_byte_lane_D_ddr_byte_lane_D_oserd |             |            |            |        |            
+  es_clkdiv         = PERIOD TIMEGRP        |             |            |            |        |            
+    "U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in |             |            |            |        |            
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ |             |            |            |        |            
+  ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4la |             |            |            |        |            
+  nes_ddr_byte_lane_D_ddr_byte_lane_D_oserd |             |            |            |        |            
+  es_clkdiv"         TS_U_M_DdrCtrl_0_mem_r |             |            |            |        |            
+  efclk * 2 HIGH 50%                        |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_ClkPll_0_clkout2 = PERIOD TIMEGRP  | SETUP       |     1.248ns|     1.132ns|       0|           0
+  "U_M_ClkPll_0_clkout2" TS_CpSl_Clk_i      | HOLD        |     0.131ns|            |       0|           0
+      * 4.2 HIGH 50%                        | MINPERIOD   |     1.030ns|     1.350ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_ddr3_infrastructure_pl | MINLOWPULSE |     2.200ns|     2.800ns|       0|           0
+  l_clk3 = PERIOD TIMEGRP         "U_M_DdrC |             |            |            |        |            
+  trl_0_u_ddr3_infrastructure_pll_clk3" TS_ |             |            |            |        |            
+  CpSl_Clk_iP HIGH         50%              |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in | SETUP       |     4.039ns|     0.961ns|       0|           0
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ | HOLD        |     0.037ns|            |       0|           0
+  ddr_mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4la | MINPERIOD   |     3.124ns|     1.876ns|       0|           0
+  nes_ddr_byte_lane_D_ddr_byte_lane_D_oserd |             |            |            |        |            
+  es_clkdiv         = PERIOD TIMEGRP        |             |            |            |        |            
+    "U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in |             |            |            |        |            
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ |             |            |            |        |            
+  ddr_mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4la |             |            |            |        |            
+  nes_ddr_byte_lane_D_ddr_byte_lane_D_oserd |             |            |            |        |            
+  es_clkdiv"         TS_U_M_DdrCtrl_0_mem_r |             |            |            |        |            
+  efclk * 4 HIGH 50%                        |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in | SETUP       |     3.955ns|     1.045ns|       0|           0
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ | HOLD        |     0.100ns|            |       0|           0
+  ddr_mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4la | MINPERIOD   |     3.124ns|     1.876ns|       0|           0
+  nes_ddr_byte_lane_C_ddr_byte_lane_C_oserd |             |            |            |        |            
+  es_clkdiv         = PERIOD TIMEGRP        |             |            |            |        |            
+    "U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in |             |            |            |        |            
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ |             |            |            |        |            
+  ddr_mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4la |             |            |            |        |            
+  nes_ddr_byte_lane_C_ddr_byte_lane_C_oserd |             |            |            |        |            
+  es_clkdiv"         TS_U_M_DdrCtrl_0_mem_r |             |            |            |        |            
+  efclk * 4 HIGH 50%                        |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in | SETUP       |     4.039ns|     0.961ns|       0|           0
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ | HOLD        |     0.170ns|            |       0|           0
+  ddr_mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4la | MINPERIOD   |     3.124ns|     1.876ns|       0|           0
+  nes_ddr_byte_lane_B_ddr_byte_lane_B_oserd |             |            |            |        |            
+  es_clkdiv         = PERIOD TIMEGRP        |             |            |            |        |            
+    "U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in |             |            |            |        |            
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ |             |            |            |        |            
+  ddr_mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4la |             |            |            |        |            
+  nes_ddr_byte_lane_B_ddr_byte_lane_B_oserd |             |            |            |        |            
+  es_clkdiv"         TS_U_M_DdrCtrl_0_mem_r |             |            |            |        |            
+  efclk * 4 HIGH 50%                        |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_ClkPll_0_clkout4 = PERIOD TIMEGRP  | SETUP       |     7.167ns|     2.356ns|       0|           0
+  "U_M_ClkPll_0_clkout4" TS_CpSl_Clk_i      | HOLD        |     0.251ns|            |       0|           0
+      * 1.05 HIGH 50%                       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_ClkPll_0_clkout3 = PERIOD TIMEGRP  | MINPERIOD   |    11.432ns|     1.663ns|       0|           0
+  "U_M_ClkPll_0_clkout3" TS_CpSl_Clk_i      |             |            |            |        |            
+      * 0.763636364 HIGH 50%                |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_sync_pulse = PERIOD TIME | SETUP       |    19.337ns|     0.663ns|       0|           0
+  GRP "U_M_DdrCtrl_0_sync_pulse"         TS | HOLD        |     0.207ns|            |       0|           0
+  _CpSl_Clk_iP / 0.25 PHASE 0.546875 ns HIG | MINHIGHPULSE|    12.496ns|     7.504ns|       0|           0
+  H 6.25%                                   |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_MULTICYCLEPATH_DEVICE_TEMP_SYNC = MAXD | MAXDELAY    |    18.680ns|     1.320ns|       0|           0
+  ELAY TO TIMEGRP         "TNM_MULTICYCLEPA | HOLD        |     0.638ns|            |       0|           0
+  TH_DEVICE_TEMP_SYNC" 20 ns DATAPATHONLY   |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Review Timing Report for more details on the following derived constraints.
+To create a Timing Report, run "trce -v 12 -fastpaths -o design_timing_report design.ncd design.pcf"
+or "Run Timing Analysis" from Timing Analyzer (timingan).
+Derived Constraints for TS_CpSl_Clk_i
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_CpSl_Clk_i                  |     10.000ns|      4.000ns|     11.340ns|            0|            3|            0|        16407|
+| TS_U_M_ClkPll_0_clkout3       |     13.095ns|      1.663ns|          N/A|            0|            0|            0|            0|
+| TS_U_M_ClkPll_0_clkout1       |      8.333ns|      7.591ns|          N/A|            0|            0|        11414|            0|
+| TS_U_M_ClkPll_0_clkout0       |      1.190ns|      1.350ns|          N/A|            3|            0|            0|            0|
+| TS_U_M_ClkPll_0_clkout4       |      9.524ns|      2.356ns|          N/A|            0|            0|         4991|            0|
+| TS_U_M_ClkPll_0_clkout2       |      2.381ns|      1.350ns|          N/A|            0|            0|            2|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+Derived Constraints for TS_CpSl_Clk_iP
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_CpSl_Clk_iP                 |      5.000ns|      2.800ns|      4.280ns|            1|           19|          224|        92700|
+| TS_U_M_DdrCtrl_0_u_ddr3_infras|      5.000ns|      2.800ns|      3.913ns|            0|           19|            0|        92466|
+| tructure_pll_clk3             |             |             |             |             |             |             |             |
+|  TS_U_M_DdrCtrl_0_u_ddr3_infra|      5.000ns|      3.913ns|          N/A|           19|            0|        92466|            0|
+|  structure_clk_pll_i          |             |             |             |             |             |             |             |
+| TS_U_M_DdrCtrl_0_freq_refclk  |      1.250ns|      0.938ns|      1.070ns|            0|            0|            0|           64|
+|  TS_U_M_DdrCtrl_0_u_memc_ui_to|      1.250ns|      1.070ns|          N/A|            0|            0|            0|            0|
+|  p_std_mem_intfc0_ddr_phy_top0|             |             |             |             |             |             |             |
+|  _u_ddr_mc_phy_wrapper_u_ddr_m|             |             |             |             |             |             |             |
+|  c_phy_ddr_phy_4lanes_0_u_ddr_|             |             |             |             |             |             |             |
+|  phy_4lanes_ddr_byte_lane_C_dd|             |             |             |             |             |             |             |
+|  r_byte_lane_C_iserdes_clk    |             |             |             |             |             |             |             |
+|  TS_U_M_DdrCtrl_0_u_memc_ui_to|      2.500ns|      1.876ns|          N/A|            0|            0|           32|            0|
+|  p_std_mem_intfc0_ddr_phy_top0|             |             |             |             |             |             |             |
+|  _u_ddr_mc_phy_wrapper_u_ddr_m|             |             |             |             |             |             |             |
+|  c_phy_ddr_phy_4lanes_0_u_ddr_|             |             |             |             |             |             |             |
+|  phy_4lanes_ddr_byte_lane_C_dd|             |             |             |             |             |             |             |
+|  r_byte_lane_C_iserdes_clkdiv |             |             |             |             |             |             |             |
+|  TS_U_M_DdrCtrl_0_u_memc_ui_to|      1.250ns|      1.070ns|          N/A|            0|            0|            0|            0|
+|  p_std_mem_intfc0_ddr_phy_top0|             |             |             |             |             |             |             |
+|  _u_ddr_mc_phy_wrapper_u_ddr_m|             |             |             |             |             |             |             |
+|  c_phy_ddr_phy_4lanes_0_u_ddr_|             |             |             |             |             |             |             |
+|  phy_4lanes_ddr_byte_lane_D_dd|             |             |             |             |             |             |             |
+|  r_byte_lane_D_iserdes_clk    |             |             |             |             |             |             |             |
+|  TS_U_M_DdrCtrl_0_u_memc_ui_to|      2.500ns|      1.876ns|          N/A|            0|            0|           32|            0|
+|  p_std_mem_intfc0_ddr_phy_top0|             |             |             |             |             |             |             |
+|  _u_ddr_mc_phy_wrapper_u_ddr_m|             |             |             |             |             |             |             |
+|  c_phy_ddr_phy_4lanes_0_u_ddr_|             |             |             |             |             |             |             |
+|  phy_4lanes_ddr_byte_lane_D_dd|             |             |             |             |             |             |             |
+|  r_byte_lane_D_iserdes_clkdiv |             |             |             |             |             |             |             |
+| TS_U_M_DdrCtrl_0_mem_refclk   |      1.250ns|      0.938ns|      1.070ns|            0|            0|            0|          168|
+|  TS_U_M_DdrCtrl_0_u_memc_ui_to|      1.250ns|      1.070ns|          N/A|            0|            0|            0|            0|
+|  p_std_mem_intfc0_ddr_phy_top0|             |             |             |             |             |             |             |
+|  _u_ddr_mc_phy_wrapper_u_ddr_m|             |             |             |             |             |             |             |
+|  c_phy_ddr_phy_4lanes_0_u_ddr_|             |             |             |             |             |             |             |
+|  phy_4lanes_ddr_byte_lane_C_dd|             |             |             |             |             |             |             |
+|  r_byte_lane_C_oserdes_clk    |             |             |             |             |             |             |             |
+|  TS_U_M_DdrCtrl_0_u_memc_ui_to|      2.500ns|      1.876ns|          N/A|            0|            0|           36|            0|
+|  p_std_mem_intfc0_ddr_phy_top0|             |             |             |             |             |             |             |
+|  _u_ddr_mc_phy_wrapper_u_ddr_m|             |             |             |             |             |             |             |
+|  c_phy_ddr_phy_4lanes_0_u_ddr_|             |             |             |             |             |             |             |
+|  phy_4lanes_ddr_byte_lane_C_dd|             |             |             |             |             |             |             |
+|  r_byte_lane_C_oserdes_clkdiv |             |             |             |             |             |             |             |
+|  TS_U_M_DdrCtrl_0_u_memc_ui_to|      1.250ns|      1.070ns|          N/A|            0|            0|            0|            0|
+|  p_std_mem_intfc0_ddr_phy_top0|             |             |             |             |             |             |             |
+|  _u_ddr_mc_phy_wrapper_u_ddr_m|             |             |             |             |             |             |             |
+|  c_phy_ddr_phy_4lanes_0_u_ddr_|             |             |             |             |             |             |             |
+|  phy_4lanes_ddr_byte_lane_D_dd|             |             |             |             |             |             |             |
+|  r_byte_lane_D_oserdes_clk    |             |             |             |             |             |             |             |
+|  TS_U_M_DdrCtrl_0_u_memc_ui_to|      2.500ns|      1.876ns|          N/A|            0|            0|           36|            0|
+|  p_std_mem_intfc0_ddr_phy_top0|             |             |             |             |             |             |             |
+|  _u_ddr_mc_phy_wrapper_u_ddr_m|             |             |             |             |             |             |             |
+|  c_phy_ddr_phy_4lanes_0_u_ddr_|             |             |             |             |             |             |             |
+|  phy_4lanes_ddr_byte_lane_D_dd|             |             |             |             |             |             |             |
+|  r_byte_lane_D_oserdes_clkdiv |             |             |             |             |             |             |             |
+|  TS_U_M_DdrCtrl_0_u_memc_ui_to|      1.250ns|      1.070ns|          N/A|            0|            0|            0|            0|
+|  p_std_mem_intfc0_ddr_phy_top0|             |             |             |             |             |             |             |
+|  _u_ddr_mc_phy_wrapper_u_ddr_m|             |             |             |             |             |             |             |
+|  c_phy_ddr_phy_4lanes_1_u_ddr_|             |             |             |             |             |             |             |
+|  phy_4lanes_ddr_byte_lane_D_dd|             |             |             |             |             |             |             |
+|  r_byte_lane_D_oserdes_clk    |             |             |             |             |             |             |             |
+|  TS_U_M_DdrCtrl_0_u_memc_ui_to|      5.000ns|      1.876ns|          N/A|            0|            0|           40|            0|
+|  p_std_mem_intfc0_ddr_phy_top0|             |             |             |             |             |             |             |
+|  _u_ddr_mc_phy_wrapper_u_ddr_m|             |             |             |             |             |             |             |
+|  c_phy_ddr_phy_4lanes_1_u_ddr_|             |             |             |             |             |             |             |
+|  phy_4lanes_ddr_byte_lane_D_dd|             |             |             |             |             |             |             |
+|  r_byte_lane_D_oserdes_clkdiv |             |             |             |             |             |             |             |
+|  TS_U_M_DdrCtrl_0_u_memc_ui_to|      1.250ns|      1.070ns|          N/A|            0|            0|            0|            0|
+|  p_std_mem_intfc0_ddr_phy_top0|             |             |             |             |             |             |             |
+|  _u_ddr_mc_phy_wrapper_u_ddr_m|             |             |             |             |             |             |             |
+|  c_phy_ddr_phy_4lanes_1_u_ddr_|             |             |             |             |             |             |             |
+|  phy_4lanes_ddr_byte_lane_C_dd|             |             |             |             |             |             |             |
+|  r_byte_lane_C_oserdes_clk    |             |             |             |             |             |             |             |
+|  TS_U_M_DdrCtrl_0_u_memc_ui_to|      5.000ns|      1.876ns|          N/A|            0|            0|           48|            0|
+|  p_std_mem_intfc0_ddr_phy_top0|             |             |             |             |             |             |             |
+|  _u_ddr_mc_phy_wrapper_u_ddr_m|             |             |             |             |             |             |             |
+|  c_phy_ddr_phy_4lanes_1_u_ddr_|             |             |             |             |             |             |             |
+|  phy_4lanes_ddr_byte_lane_C_dd|             |             |             |             |             |             |             |
+|  r_byte_lane_C_oserdes_clkdiv |             |             |             |             |             |             |             |
+|  TS_U_M_DdrCtrl_0_u_memc_ui_to|      1.250ns|      1.070ns|          N/A|            0|            0|            0|            0|
+|  p_std_mem_intfc0_ddr_phy_top0|             |             |             |             |             |             |             |
+|  _u_ddr_mc_phy_wrapper_u_ddr_m|             |             |             |             |             |             |             |
+|  c_phy_ddr_phy_4lanes_1_u_ddr_|             |             |             |             |             |             |             |
+|  phy_4lanes_ddr_byte_lane_B_dd|             |             |             |             |             |             |             |
+|  r_byte_lane_B_oserdes_clk    |             |             |             |             |             |             |             |
+|  TS_U_M_DdrCtrl_0_u_memc_ui_to|      5.000ns|      1.876ns|          N/A|            0|            0|            8|            0|
+|  p_std_mem_intfc0_ddr_phy_top0|             |             |             |             |             |             |             |
+|  _u_ddr_mc_phy_wrapper_u_ddr_m|             |             |             |             |             |             |             |
+|  c_phy_ddr_phy_4lanes_1_u_ddr_|             |             |             |             |             |             |             |
+|  phy_4lanes_ddr_byte_lane_B_dd|             |             |             |             |             |             |             |
+|  r_byte_lane_B_oserdes_clkdiv |             |             |             |             |             |             |             |
+| TS_U_M_DdrCtrl_0_sync_pulse   |     20.000ns|      7.504ns|          N/A|            0|            0|            2|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+Derived Constraints for TS_ISERDES_CLOCK
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_ISERDES_CLOCK               |      1.250ns|      1.070ns|      0.313ns|            0|            8|            0|           32|
+| TS_MULTICYCLEPATH             |      7.500ns|      1.877ns|          N/A|            8|            0|           32|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+5 constraints not met.
+
+
+Finished initial Timing Analysis.  REAL time: 58 secs 
+
+WARNING:Par:288 - The signal V7_INS_DUMMY_IBUFDSIBUFDIS_ML_IBUFDS_IBUFDISABLE_287_ML_NEW_IBUFDISABLE has no load.  PAR
+   will not attempt to route this signal.
+WARNING:Par:288 - The signal V7_INS_DUMMY_IBUFDSIBUFDIS_ML_IBUFDS_IBUFDISABLE_285_ML_NEW_IBUFDISABLE has no load.  PAR
+   will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_rd_data0/not_strict_mode.rd_buf.rd_buffer_ram[11].RAM32M0_RAMD_D1_O has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_rd_data0/not_strict_mode.status_ram.RAM32M0_RAMB_D1_DPO has no load.  PAR
+   will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_rd_data0/not_strict_mode.status_ram.RAM32M0_RAMD_D1_O has no load.  PAR
+   will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_rd_data0/not_strict_mode.rd_buf.rd_buffer_ram[12].RAM32M0_RAMD_D1_O has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_rd_data0/not_strict_mode.rd_buf.rd_buffer_ram[21].RAM32M0_RAMA_D1_DPO has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_rd_data0/not_strict_mode.rd_buf.rd_buffer_ram[21].RAM32M0_RAMB_D1_DPO has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_rd_data0/not_strict_mode.rd_buf.rd_buffer_ram[21].RAM32M0_RAMD_D1_O has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_rd_data0/not_strict_mode.rd_buf.rd_buffer_ram[13].RAM32M0_RAMD_D1_O has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_rd_data0/not_strict_mode.rd_buf.rd_buffer_ram[0].RAM32M0_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/Mram_mem8_RAMD_D1_O has no load.
+    PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/Mram_mem9_RAMD_D1_O has no load.
+    PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_rd_data0/not_strict_mode.rd_buf.rd_buffer_ram[10].RAM32M0_RAMD_D1_O has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_rd_data0/not_strict_mode.rd_buf.rd_buffer_ram[15].RAM32M0_RAMD_D1_O has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_rd_data0/not_strict_mode.rd_buf.rd_buffer_ram[16].RAM32M0_RAMD_D1_O has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_rd_data0/not_strict_mode.rd_buf.rd_buffer_ram[18].RAM32M0_RAMD_D1_O has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/Mram_mem7_RAMD_D1_O has no load.
+    PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_rd_data0/not_strict_mode.rd_buf.rd_buffer_ram[19].RAM32M0_RAMD_D1_O has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_rd_data0/not_strict_mode.rd_buf.rd_buffer_ram[14].RAM32M0_RAMD_D1_O has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_rd_data0/not_strict_mode.rd_buf.rd_buffer_ram[2].RAM32M0_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_rd_data0/not_strict_mode.rd_buf.rd_buffer_ram[5].RAM32M0_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_rd_data0/not_strict_mode.rd_buf.rd_buffer_ram[8].RAM32M0_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_rd_data0/not_strict_mode.rd_buf.rd_buffer_ram[6].RAM32M0_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_rd_data0/not_strict_mode.rd_buf.rd_buffer_ram[17].RAM32M0_RAMD_D1_O has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_rd_data0/not_strict_mode.rd_buf.rd_buffer_ram[3].RAM32M0_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_rd_data0/not_strict_mode.rd_buf.rd_buffer_ram[20].RAM32M0_RAMD_D1_O has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/mc0/col_mach0/read_fifo.fifo_ram[1].RAM32M0_RAMA_D1_DPO has no load.  PAR
+   will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/mc0/col_mach0/read_fifo.fifo_ram[1].RAM32M0_RAMB_D1_DPO has no load.  PAR
+   will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/mc0/col_mach0/read_fifo.fifo_ram[1].RAM32M0_RAMD_D1_O has no load.  PAR
+   will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_rd_data0/not_strict_mode.rd_buf.rd_buffer_ram[1].RAM32M0_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/mc0/col_mach0/read_fifo.fifo_ram[0].RAM32M0_RAMD_D1_O has no load.  PAR
+   will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/Mram_mem5_RAMD_D1_O has no load.
+    PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_rd_data0/not_strict_mode.rd_buf.rd_buffer_ram[9].RAM32M0_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[2].RAM32M0_RAMD_D1_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[18].RAM32M0_RAMD_D1_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[3].RAM32M0_RAMD_D1_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[17].RAM32M0_RAMD_D1_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[10].RAM32M0_RAMD_D1_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[19].RAM32M0_RAMD_D1_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[16].RAM32M0_RAMD_D1_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_rd_data0/not_strict_mode.rd_buf.rd_buffer_ram[7].RAM32M0_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/Mram_mem11_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/Mram_mem12_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_rd_data0/not_strict_mode.rd_buf.rd_buffer_ram[4].RAM32M0_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/Mram_mem4_RAMD_D1_O has no load.
+    PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/Mram_mem6_RAMD_D1_O has no load.
+    PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_wr_data0/pointer_ram.rams[0].RAM32M0_RAMA_D1_DPO has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_wr_data0/pointer_ram.rams[0].RAM32M0_RAMD_D1_O
+   has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_wr_data0/pointer_ram.rams[1].RAM32M0_RAMA_D1_DPO has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_wr_data0/pointer_ram.rams[1].RAM32M0_RAMD_D1_O
+   has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[7].RAM32M0_RAMD_D1_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/Mram_mem12_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/Mram_mem10_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/Mram_mem3_RAMD_D1_O has no load.
+    PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[15].RAM32M0_RAMD_D1_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/Mram_mem11_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/Mram_mem5_RAMD_D1_O has no load.
+    PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/Mram_mem7_RAMD_D1_O has no load.
+    PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/Mram_mem2_RAMA_D1_DPO has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/Mram_mem2_RAMD_D1_O has no load.
+    PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[11].RAM32M0_RAMD_D1_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/Mram_mem10_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/Mram_mem8_RAMD_D1_O has no load.
+    PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[6].RAM32M0_RAMD_D1_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/Mram_mem6_RAMD_D1_O has no load.
+    PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/Mram_mem9_RAMD_D1_O has no load.
+    PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[14].RAM32M0_RAMD_D1_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[13].RAM32M0_RAMD_D1_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem10_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/Mram_mem3_RAMD_D1_O has no load.
+    PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/Mram_mem4_RAMD_D1_O has no load.
+    PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem3_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[1].RAM32M0_RAMD_D1_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem8_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[9].RAM32M0_RAMD_D1_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem1_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/Mram_mem2_RAMA_D1_DPO has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/Mram_mem2_RAMD_D1_O has no load.
+    PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem2_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[21].RAM32M0_RAMD_D1_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem9_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem7_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem4_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem6_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[4].RAM32M0_RAMD_D1_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[8].RAM32M0_RAMD_D1_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[20].RAM32M0_RAMD_D1_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem12_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem11_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem1_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem10_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem12_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem11_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem1_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem10_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem9_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem8_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem7_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem6_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem11_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem12_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem2_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem13_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem3_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem13_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem13_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem10_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem11_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem3_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem12_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem2_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem1_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem11_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem12_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem10_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem5_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem9_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem8_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem7_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[0].RAM32M0_RAMD_D1_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem6_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem5_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem4_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[12].RAM32M0_RAMD_D1_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[5].RAM32M0_RAMD_D1_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem3_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem13_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem4_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem7_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem9_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem8_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem13_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem2_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem7_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem6_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem5_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem8_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem9_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem5_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[23].RAM32M0_RAMD_D1_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[22].RAM32M0_RAMD_D1_O has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem2_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem6_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem5_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem4_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem3_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem4_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/rd_data_r<7> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_D.ddr_byte_lane_D/rd_data_r<7> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   U_M_DdrCtrl_0/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_
+   4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/Mram_mem1_RAMD_D1_O has no load.  PAR will
+   not attempt to route this signal.
+Starting Router
+
+
+Phase  1  : 95177 unrouted;      REAL time: 1 mins 9 secs 
+
+Phase  2  : 54532 unrouted;      REAL time: 1 mins 14 secs 
+
+Phase  3  : 11262 unrouted;      REAL time: 1 mins 55 secs 
+
+Phase  4  : 12222 unrouted; (Setup:1995, Hold:236878, Component Switching Limit:480)     REAL time: 6 mins 25 secs 
+
+Updating file: M_Lcd4Top.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Setup:1995, Hold:197589, Component Switching Limit:480)     REAL time: 6 mins 50 secs 
+
+Phase  6  : 0 unrouted; (Setup:1995, Hold:197589, Component Switching Limit:480)     REAL time: 6 mins 52 secs 
+
+Phase  7  : 0 unrouted; (Setup:1995, Hold:197589, Component Switching Limit:480)     REAL time: 6 mins 52 secs 
+
+Phase  8  : 0 unrouted; (Setup:1995, Hold:197589, Component Switching Limit:480)     REAL time: 6 mins 52 secs 
+
+Phase  9  : 0 unrouted; (Setup:1995, Hold:0, Component Switching Limit:480)     REAL time: 7 mins 1 secs 
+Total REAL time to Router completion: 7 mins 1 secs 
+Total CPU time to Router completion: 7 mins 4 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|       PrSl_DdrClk_s |BUFGCTRL_X0Y13| No   | 1903 |  0.449     |  1.553      |
++---------------------+--------------+------+------+------------+-------------+
+|PrSl_If_Dvi0Clk_s_BU |              |      |      |            |             |
+|                  FG |BUFGCTRL_X0Y20| No   |  519 |  0.529     |  1.620      |
++---------------------+--------------+------+------+------------+-------------+
+|       PrSl_ClkLcd_s |BUFGCTRL_X0Y22| No   |  525 |  0.675     |  1.764      |
++---------------------+--------------+------+------+------------+-------------+
+|       PrSl_ClkFre_s |BUFGCTRL_X0Y16| No   |   35 |  0.513     |  1.620      |
++---------------------+--------------+------+------+------------+-------------+
+| PrSv_ChipCtrl0_s<0> | BUFGCTRL_X0Y1| No   |  667 |  0.577     |  1.665      |
++---------------------+--------------+------+------+------------+-------------+
+|U_M_DdrCtrl_0/clk_re |              |      |      |            |             |
+|                   f | BUFGCTRL_X0Y4| No   |   18 |  0.087     |  1.184      |
++---------------------+--------------+------+------+------------+-------------+
+|       PrSl_ClkFmc_s |BUFGCTRL_X0Y25| No   |   56 |  0.464     |  1.764      |
++---------------------+--------------+------+------+------------+-------------+
+|U_M_ClkPll_0/clkfbou |              |      |      |            |             |
+|               t_buf |BUFGCTRL_X0Y17| No   |    1 |  0.000     |  1.618      |
++---------------------+--------------+------+------+------------+-------------+
+|PrSv_ChipCtrl0_s<13> |              |      |      |            |             |
+|                     |         Local|      |    5 |  0.000     |  0.460      |
++---------------------+--------------+------+------+------------+-------------+
+|PrSv_ChipCtrl1_s<13> |              |      |      |            |             |
+|                     |         Local|      |    5 |  0.000     |  0.443      |
++---------------------+--------------+------+------+------------+-------------+
+|U_M_DdrCtrl_0/u_ddr3 |              |      |      |            |             |
+|_clk_ibuf/sys_clk_ib |              |      |      |            |             |
+|                 ufg |         Local|      |    2 |  0.000     |  0.977      |
++---------------------+--------------+------+------+------------+-------------+
+| U_M_ClkPll_0/clkin1 |         Local|      |    1 |  0.000     |  1.802      |
++---------------------+--------------+------+------+------------+-------------+
+|U_M_DdrCtrl_0/u_memc |              |      |      |            |             |
+|_ui_top_std/mem_intf |              |      |      |            |             |
+|c0/ddr_phy_top0/u_dd |              |      |      |            |             |
+|r_mc_phy_wrapper/u_d |              |      |      |            |             |
+|dr_mc_phy/ddr_phy_4l |              |      |      |            |             |
+|anes_0.u_ddr_phy_4la |              |      |      |            |             |
+|nes/ddr_byte_lane_C. |              |      |      |            |             |
+|ddr_byte_lane_C/oser |              |      |      |            |             |
+|     des_clk_delayed |         Local|      |    1 |  0.000     |  0.312      |
++---------------------+--------------+------+------+------------+-------------+
+|U_M_DdrCtrl_0/u_memc |              |      |      |            |             |
+|_ui_top_std/mem_intf |              |      |      |            |             |
+|c0/ddr_phy_top0/u_dd |              |      |      |            |             |
+|r_mc_phy_wrapper/u_d |              |      |      |            |             |
+|dr_mc_phy/ddr_phy_4l |              |      |      |            |             |
+|anes_0.u_ddr_phy_4la |              |      |      |            |             |
+|nes/ddr_byte_lane_D. |              |      |      |            |             |
+|ddr_byte_lane_D/oser |              |      |      |            |             |
+|     des_clk_delayed |         Local|      |    1 |  0.000     |  0.324      |
++---------------------+--------------+------+------+------------+-------------+
+|U_M_DdrCtrl_0/u_memc |              |      |      |            |             |
+|_ui_top_std/mem_intf |              |      |      |            |             |
+|c0/ddr_phy_top0/u_dd |              |      |      |            |             |
+|r_mc_phy_wrapper/u_d |              |      |      |            |             |
+|dr_mc_phy/ddr_phy_4l |              |      |      |            |             |
+|anes_1.u_ddr_phy_4la |              |      |      |            |             |
+|nes/ddr_byte_lane_D. |              |      |      |            |             |
+|ddr_byte_lane_D/oser |              |      |      |            |             |
+|             des_clk |         Local|      |   11 |  0.005     |  0.316      |
++---------------------+--------------+------+------+------------+-------------+
+|U_M_DdrCtrl_0/u_memc |              |      |      |            |             |
+|_ui_top_std/mem_intf |              |      |      |            |             |
+|c0/ddr_phy_top0/u_dd |              |      |      |            |             |
+|r_mc_phy_wrapper/u_d |              |      |      |            |             |
+|dr_mc_phy/ddr_phy_4l |              |      |      |            |             |
+|anes_0.u_ddr_phy_4la |              |      |      |            |             |
+|nes/ddr_byte_lane_C. |              |      |      |            |             |
+|ddr_byte_lane_C/oser |              |      |      |            |             |
+|             des_clk |         Local|      |   18 |  0.006     |  0.303      |
++---------------------+--------------+------+------+------------+-------------+
+|U_M_DdrCtrl_0/u_memc |              |      |      |            |             |
+|_ui_top_std/mem_intf |              |      |      |            |             |
+|c0/ddr_phy_top0/u_dd |              |      |      |            |             |
+|r_mc_phy_wrapper/u_d |              |      |      |            |             |
+|dr_mc_phy/ddr_phy_4l |              |      |      |            |             |
+|anes_0.u_ddr_phy_4la |              |      |      |            |             |
+|nes/ddr_byte_lane_C. |              |      |      |            |             |
+|ddr_byte_lane_C/oser |              |      |      |            |             |
+|          des_clkdiv |         Local|      |   11 |  0.309     |  0.309      |
++---------------------+--------------+------+------+------------+-------------+
+|U_M_DdrCtrl_0/u_memc |              |      |      |            |             |
+|_ui_top_std/mem_intf |              |      |      |            |             |
+|c0/ddr_phy_top0/u_dd |              |      |      |            |             |
+|r_mc_phy_wrapper/u_d |              |      |      |            |             |
+|dr_mc_phy/ddr_phy_4l |              |      |      |            |             |
+|anes_1.u_ddr_phy_4la |              |      |      |            |             |
+|nes/ddr_byte_lane_D. |              |      |      |            |             |
+|ddr_byte_lane_D/oser |              |      |      |            |             |
+|          des_clkdiv |         Local|      |   11 |  0.322     |  0.322      |
++---------------------+--------------+------+------+------------+-------------+
+|U_M_DdrCtrl_0/freq_r |              |      |      |            |             |
+|               efclk |         Local|      |    9 |  0.258     |  1.132      |
++---------------------+--------------+------+------+------------+-------------+
+|U_M_DdrCtrl_0/mem_re |              |      |      |            |             |
+|                fclk |         Local|      |    9 |  0.222     |  1.111      |
++---------------------+--------------+------+------+------------+-------------+
+|U_M_DdrCtrl_0/u_memc |              |      |      |            |             |
+|_ui_top_std/mem_intf |              |      |      |            |             |
+|c0/ddr_phy_top0/u_dd |              |      |      |            |             |
+|r_mc_phy_wrapper/u_d |              |      |      |            |             |
+|dr_mc_phy/ddr_phy_4l |              |      |      |            |             |
+|anes_0.u_ddr_phy_4la |              |      |      |            |             |
+|nes/ddr_byte_lane_D. |              |      |      |            |             |
+|ddr_byte_lane_D/oser |              |      |      |            |             |
+|             des_clk |         Local|      |   18 |  0.006     |  0.316      |
++---------------------+--------------+------+------+------------+-------------+
+|U_M_DdrCtrl_0/u_memc |              |      |      |            |             |
+|_ui_top_std/mem_intf |              |      |      |            |             |
+|c0/ddr_phy_top0/u_dd |              |      |      |            |             |
+|r_mc_phy_wrapper/u_d |              |      |      |            |             |
+|dr_mc_phy/ddr_phy_4l |              |      |      |            |             |
+|anes_0.u_ddr_phy_4la |              |      |      |            |             |
+|nes/ddr_byte_lane_D. |              |      |      |            |             |
+|ddr_byte_lane_D/oser |              |      |      |            |             |
+|          des_clkdiv |         Local|      |   11 |  0.322     |  0.322      |
++---------------------+--------------+------+------+------------+-------------+
+|U_M_DdrCtrl_0/u_memc |              |      |      |            |             |
+|_ui_top_std/mem_intf |              |      |      |            |             |
+|c0/ddr_phy_top0/u_dd |              |      |      |            |             |
+|r_mc_phy_wrapper/u_d |              |      |      |            |             |
+|dr_mc_phy/ddr_phy_4l |              |      |      |            |             |
+|anes_0.u_ddr_phy_4la |              |      |      |            |             |
+|nes/ddr_byte_lane_C. |              |      |      |            |             |
+|ddr_byte_lane_C/iser |              |      |      |            |             |
+|             des_clk |         Local|      |   16 |  0.004     |  0.317      |
++---------------------+--------------+------+------+------------+-------------+
+|U_M_DdrCtrl_0/u_memc |              |      |      |            |             |
+|_ui_top_std/mem_intf |              |      |      |            |             |
+|c0/ddr_phy_top0/u_dd |              |      |      |            |             |
+|r_mc_phy_wrapper/u_d |              |      |      |            |             |
+|dr_mc_phy/ddr_phy_4l |              |      |      |            |             |
+|anes_0.u_ddr_phy_4la |              |      |      |            |             |
+|nes/ddr_byte_lane_C. |              |      |      |            |             |
+|ddr_byte_lane_C/iser |              |      |      |            |             |
+|          des_clkdiv |         Local|      |    9 |  0.314     |  0.314      |
++---------------------+--------------+------+------+------------+-------------+
+|U_M_DdrCtrl_0/u_memc |              |      |      |            |             |
+|_ui_top_std/mem_intf |              |      |      |            |             |
+|c0/ddr_phy_top0/u_dd |              |      |      |            |             |
+|r_mc_phy_wrapper/u_d |              |      |      |            |             |
+|dr_mc_phy/ddr_phy_4l |              |      |      |            |             |
+|anes_0.u_ddr_phy_4la |              |      |      |            |             |
+|nes/ddr_byte_lane_D. |              |      |      |            |             |
+|ddr_byte_lane_D/iser |              |      |      |            |             |
+|             des_clk |         Local|      |   16 |  0.004     |  0.329      |
++---------------------+--------------+------+------+------------+-------------+
+|U_M_DdrCtrl_0/u_memc |              |      |      |            |             |
+|_ui_top_std/mem_intf |              |      |      |            |             |
+|c0/ddr_phy_top0/u_dd |              |      |      |            |             |
+|r_mc_phy_wrapper/u_d |              |      |      |            |             |
+|dr_mc_phy/ddr_phy_4l |              |      |      |            |             |
+|anes_0.u_ddr_phy_4la |              |      |      |            |             |
+|nes/ddr_byte_lane_D. |              |      |      |            |             |
+|ddr_byte_lane_D/iser |              |      |      |            |             |
+|          des_clkdiv |         Local|      |    9 |  0.327     |  0.327      |
++---------------------+--------------+------+------+------------+-------------+
+|U_M_DdrCtrl_0/u_memc |              |      |      |            |             |
+|_ui_top_std/mem_intf |              |      |      |            |             |
+|c0/ddr_phy_top0/u_dd |              |      |      |            |             |
+|r_mc_phy_wrapper/u_d |              |      |      |            |             |
+|dr_mc_phy/ddr_phy_4l |              |      |      |            |             |
+|anes_1.u_ddr_phy_4la |              |      |      |            |             |
+|nes/ddr_byte_lane_B. |              |      |      |            |             |
+|ddr_byte_lane_B/oser |              |      |      |            |             |
+|          des_clkdiv |         Local|      |    3 |  0.302     |  0.302      |
++---------------------+--------------+------+------+------------+-------------+
+|U_M_DdrCtrl_0/u_ddr3 |              |      |      |            |             |
+|_infrastructure/pll_ |              |      |      |            |             |
+|            clkfbout |         Local|      |    1 |  0.000     |  0.011      |
++---------------------+--------------+------+------+------------+-------------+
+|U_M_DdrCtrl_0/u_ddr3 |              |      |      |            |             |
+|_infrastructure/pll_ |              |      |      |            |             |
+|                clk3 |         Local|      |    1 |  0.000     |  0.776      |
++---------------------+--------------+------+------+------------+-------------+
+|U_M_DdrCtrl_0/u_memc |              |      |      |            |             |
+|_ui_top_std/mem_intf |              |      |      |            |             |
+|c0/ddr_phy_top0/u_dd |              |      |      |            |             |
+|r_mc_phy_wrapper/u_d |              |      |      |            |             |
+|dr_mc_phy/ddr_phy_4l |              |      |      |            |             |
+|anes_1.u_ddr_phy_4la |              |      |      |            |             |
+|nes/ddr_byte_lane_C. |              |      |      |            |             |
+|ddr_byte_lane_C/oser |              |      |      |            |             |
+|             des_clk |         Local|      |   12 |  0.006     |  0.303      |
++---------------------+--------------+------+------+------------+-------------+
+|U_M_DdrCtrl_0/u_memc |              |      |      |            |             |
+|_ui_top_std/mem_intf |              |      |      |            |             |
+|c0/ddr_phy_top0/u_dd |              |      |      |            |             |
+|r_mc_phy_wrapper/u_d |              |      |      |            |             |
+|dr_mc_phy/ddr_phy_4l |              |      |      |            |             |
+|anes_1.u_ddr_phy_4la |              |      |      |            |             |
+|nes/ddr_byte_lane_C. |              |      |      |            |             |
+|ddr_byte_lane_C/oser |              |      |      |            |             |
+|          des_clkdiv |         Local|      |   13 |  0.309     |  0.309      |
++---------------------+--------------+------+------+------------+-------------+
+|U_M_Icon_0/U0/iUPDAT |              |      |      |            |             |
+|               E_OUT |         Local|      |    1 |  0.000     |  1.048      |
++---------------------+--------------+------+------+------------+-------------+
+|U_M_DdrCtrl_0/u_memc |              |      |      |            |             |
+|_ui_top_std/mem_intf |              |      |      |            |             |
+|c0/ddr_phy_top0/u_dd |              |      |      |            |             |
+|r_mc_phy_wrapper/u_d |              |      |      |            |             |
+|dr_mc_phy/ddr_phy_4l |              |      |      |            |             |
+|anes_1.u_ddr_phy_4la |              |      |      |            |             |
+|nes/ddr_byte_lane_B. |              |      |      |            |             |
+|ddr_byte_lane_B/oser |              |      |      |            |             |
+|             des_clk |         Local|      |    2 |  0.002     |  0.300      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 2475 (Setup: 1995, Hold: 0, Component Switching Limit: 480)
+
+WARNING:Par:468 - Your design did not meet timing.  The following are some suggestions to assist you to meet timing in
+   your design.
+
+   Review the timing report using Timing Analyzer (In ISE select "Post-Place &
+   Route Static Timing Report"). Go to the failing constraint(s) and evaluate the failing paths for each constraint.
+
+   Try the Design Goal and Strategies for Timing Performance(In ISE select Project -> Design Goals & Strategies) to
+   ensure the best options are set in the tools for timing closure.
+
+   Use the Xilinx "SmartXplorer" script to try special combinations of
+   options known to produce very good results.
+
+   Visit the Xilinx technical support web at http://support.xilinx.com and go to
+   either "Troubleshoot->Tech Tips->Timing & Constraints" or "
+   TechXclusives->Timing Closure" for tips and suggestions for meeting timing
+   in your design.
+
+Number of Timing Constraints that were not applied: 14
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+* TS_U_M_ClkPll_0_clkout1 = PERIOD TIMEGRP  | SETUP       |    -1.010ns|    15.399ns|       2|        1995
+  "U_M_ClkPll_0_clkout1" TS_CpSl_Clk_i      | HOLD        |     0.005ns|            |       0|           0
+      * 1.2 HIGH 50%                        |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+* TS_U_M_ClkPll_0_clkout0 = PERIOD TIMEGRP  | MINPERIOD   |    -0.160ns|     1.350ns|       3|         480
+  "U_M_ClkPll_0_clkout0" TS_CpSl_Clk_i      |             |            |            |        |            
+      * 8.4 HIGH 50%                        |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_ClkPll_0_clkout2 = PERIOD TIMEGRP  | SETUP       |     0.123ns|     2.257ns|       0|           0
+  "U_M_ClkPll_0_clkout2" TS_CpSl_Clk_i      | HOLD        |     0.319ns|            |       0|           0
+      * 4.2 HIGH 50%                        |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_CpSl_Dvi0Clk_i = PERIOD TIMEGRP "TNM_C | SETUP       |     0.131ns|     5.929ns|       0|           0
+  pSl_Dvi0Clk_i" 165 MHz HIGH 50%           | HOLD        |     0.011ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in | MINPERIOD   |     0.180ns|     1.070ns|       0|           0
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ |             |            |            |        |            
+  ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4la |             |            |            |        |            
+  nes_ddr_byte_lane_D_ddr_byte_lane_D_iserd |             |            |            |        |            
+  es_clk         = PERIOD TIMEGRP         " |             |            |            |        |            
+  U_M_DdrCtrl_0_u_memc_ui_top_std_mem_intfc |             |            |            |        |            
+  0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ddr |             |            |            |        |            
+  _mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4lanes |             |            |            |        |            
+  _ddr_byte_lane_D_ddr_byte_lane_D_iserdes_ |             |            |            |        |            
+  clk"         TS_U_M_DdrCtrl_0_freq_refclk |             |            |            |        |            
+   HIGH 50%                                 |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in | MINPERIOD   |     0.180ns|     1.070ns|       0|           0
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ |             |            |            |        |            
+  ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4la |             |            |            |        |            
+  nes_ddr_byte_lane_C_ddr_byte_lane_C_iserd |             |            |            |        |            
+  es_clk         = PERIOD TIMEGRP         " |             |            |            |        |            
+  U_M_DdrCtrl_0_u_memc_ui_top_std_mem_intfc |             |            |            |        |            
+  0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ddr |             |            |            |        |            
+  _mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4lanes |             |            |            |        |            
+  _ddr_byte_lane_C_ddr_byte_lane_C_iserdes_ |             |            |            |        |            
+  clk"         TS_U_M_DdrCtrl_0_freq_refclk |             |            |            |        |            
+   HIGH 50%                                 |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_ISERDES_CLOCK = PERIOD TIMEGRP "TNM_IS | MINPERIOD   |     0.180ns|     1.070ns|       0|           0
+  ERDES_CLK" 1.25 ns HIGH 50%               |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in | MINPERIOD   |     0.180ns|     1.070ns|       0|           0
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ |             |            |            |        |            
+  ddr_mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4la |             |            |            |        |            
+  nes_ddr_byte_lane_B_ddr_byte_lane_B_oserd |             |            |            |        |            
+  es_clk         = PERIOD TIMEGRP         " |             |            |            |        |            
+  U_M_DdrCtrl_0_u_memc_ui_top_std_mem_intfc |             |            |            |        |            
+  0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ddr |             |            |            |        |            
+  _mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4lanes |             |            |            |        |            
+  _ddr_byte_lane_B_ddr_byte_lane_B_oserdes_ |             |            |            |        |            
+  clk"         TS_U_M_DdrCtrl_0_mem_refclk  |             |            |            |        |            
+  HIGH 50%                                  |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in | MINPERIOD   |     0.180ns|     1.070ns|       0|           0
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ |             |            |            |        |            
+  ddr_mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4la |             |            |            |        |            
+  nes_ddr_byte_lane_C_ddr_byte_lane_C_oserd |             |            |            |        |            
+  es_clk         = PERIOD TIMEGRP         " |             |            |            |        |            
+  U_M_DdrCtrl_0_u_memc_ui_top_std_mem_intfc |             |            |            |        |            
+  0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ddr |             |            |            |        |            
+  _mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4lanes |             |            |            |        |            
+  _ddr_byte_lane_C_ddr_byte_lane_C_oserdes_ |             |            |            |        |            
+  clk"         TS_U_M_DdrCtrl_0_mem_refclk  |             |            |            |        |            
+  HIGH 50%                                  |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in | MINPERIOD   |     0.180ns|     1.070ns|       0|           0
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ |             |            |            |        |            
+  ddr_mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4la |             |            |            |        |            
+  nes_ddr_byte_lane_D_ddr_byte_lane_D_oserd |             |            |            |        |            
+  es_clk         = PERIOD TIMEGRP         " |             |            |            |        |            
+  U_M_DdrCtrl_0_u_memc_ui_top_std_mem_intfc |             |            |            |        |            
+  0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ddr |             |            |            |        |            
+  _mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4lanes |             |            |            |        |            
+  _ddr_byte_lane_D_ddr_byte_lane_D_oserdes_ |             |            |            |        |            
+  clk"         TS_U_M_DdrCtrl_0_mem_refclk  |             |            |            |        |            
+  HIGH 50%                                  |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in | MINPERIOD   |     0.180ns|     1.070ns|       0|           0
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ |             |            |            |        |            
+  ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4la |             |            |            |        |            
+  nes_ddr_byte_lane_C_ddr_byte_lane_C_oserd |             |            |            |        |            
+  es_clk         = PERIOD TIMEGRP         " |             |            |            |        |            
+  U_M_DdrCtrl_0_u_memc_ui_top_std_mem_intfc |             |            |            |        |            
+  0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ddr |             |            |            |        |            
+  _mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4lanes |             |            |            |        |            
+  _ddr_byte_lane_C_ddr_byte_lane_C_oserdes_ |             |            |            |        |            
+  clk"         TS_U_M_DdrCtrl_0_mem_refclk  |             |            |            |        |            
+  HIGH 50%                                  |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in | MINPERIOD   |     0.180ns|     1.070ns|       0|           0
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ |             |            |            |        |            
+  ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4la |             |            |            |        |            
+  nes_ddr_byte_lane_D_ddr_byte_lane_D_oserd |             |            |            |        |            
+  es_clk         = PERIOD TIMEGRP         " |             |            |            |        |            
+  U_M_DdrCtrl_0_u_memc_ui_top_std_mem_intfc |             |            |            |        |            
+  0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ddr |             |            |            |        |            
+  _mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4lanes |             |            |            |        |            
+  _ddr_byte_lane_D_ddr_byte_lane_D_oserdes_ |             |            |            |        |            
+  clk"         TS_U_M_DdrCtrl_0_mem_refclk  |             |            |            |        |            
+  HIGH 50%                                  |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_CpSl_Clk_i = PERIOD TIMEGRP "TNM_CpSl_ | MINLOWPULSE |     6.000ns|     4.000ns|       0|           0
+  Clk_i" 100 MHz HIGH 50%                   |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_CpSl_Clk_iP = PERIOD TIMEGRP "TNM_CpSl | SETUP       |     3.208ns|     1.792ns|       0|           0
+  _Clk_iP" 5 ns HIGH 50%                    | HOLD        |     0.080ns|            |       0|           0
+                                            | MINLOWPULSE |     2.200ns|     2.800ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_freq_refclk = PERIOD TIM | MINPERIOD   |     0.312ns|     0.938ns|       0|           0
+  EGRP "U_M_DdrCtrl_0_freq_refclk"          |             |            |            |        |            
+  TS_CpSl_Clk_iP / 4 PHASE 1.171875 ns HIGH |             |            |            |        |            
+   50%                                      |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_mem_refclk = PERIOD TIME | MINPERIOD   |     0.312ns|     0.938ns|       0|           0
+  GRP "U_M_DdrCtrl_0_mem_refclk"         TS |             |            |            |        |            
+  _CpSl_Clk_iP / 4 HIGH 50%                 |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in | SETUP       |     1.594ns|     0.906ns|       0|           0
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ | HOLD        |     0.061ns|            |       0|           0
+  ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4la | MINPERIOD   |     0.624ns|     1.876ns|       0|           0
+  nes_ddr_byte_lane_C_ddr_byte_lane_C_oserd |             |            |            |        |            
+  es_clkdiv         = PERIOD TIMEGRP        |             |            |            |        |            
+    "U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in |             |            |            |        |            
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ |             |            |            |        |            
+  ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4la |             |            |            |        |            
+  nes_ddr_byte_lane_C_ddr_byte_lane_C_oserd |             |            |            |        |            
+  es_clkdiv"         TS_U_M_DdrCtrl_0_mem_r |             |            |            |        |            
+  efclk * 2 HIGH 50%                        |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in | SETUP       |     1.606ns|     0.894ns|       0|           0
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ | HOLD        |     0.053ns|            |       0|           0
+  ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4la | MINPERIOD   |     0.624ns|     1.876ns|       0|           0
+  nes_ddr_byte_lane_D_ddr_byte_lane_D_oserd |             |            |            |        |            
+  es_clkdiv         = PERIOD TIMEGRP        |             |            |            |        |            
+    "U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in |             |            |            |        |            
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ |             |            |            |        |            
+  ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4la |             |            |            |        |            
+  nes_ddr_byte_lane_D_ddr_byte_lane_D_oserd |             |            |            |        |            
+  es_clkdiv"         TS_U_M_DdrCtrl_0_mem_r |             |            |            |        |            
+  efclk * 2 HIGH 50%                        |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in | SETUP       |     1.128ns|     1.372ns|       0|           0
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ | HOLD        |     0.507ns|            |       0|           0
+  ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4la | MINPERIOD   |     0.624ns|     1.876ns|       0|           0
+  nes_ddr_byte_lane_C_ddr_byte_lane_C_iserd |             |            |            |        |            
+  es_clkdiv         = PERIOD TIMEGRP        |             |            |            |        |            
+    "U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in |             |            |            |        |            
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ |             |            |            |        |            
+  ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4la |             |            |            |        |            
+  nes_ddr_byte_lane_C_ddr_byte_lane_C_iserd |             |            |            |        |            
+  es_clkdiv"         TS_U_M_DdrCtrl_0_freq_ |             |            |            |        |            
+  refclk * 2 HIGH 50%                       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in | SETUP       |     1.115ns|     1.385ns|       0|           0
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ | HOLD        |     0.513ns|            |       0|           0
+  ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4la | MINPERIOD   |     0.624ns|     1.876ns|       0|           0
+  nes_ddr_byte_lane_D_ddr_byte_lane_D_iserd |             |            |            |        |            
+  es_clkdiv         = PERIOD TIMEGRP        |             |            |            |        |            
+    "U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in |             |            |            |        |            
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ |             |            |            |        |            
+  ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4la |             |            |            |        |            
+  nes_ddr_byte_lane_D_ddr_byte_lane_D_iserd |             |            |            |        |            
+  es_clkdiv"         TS_U_M_DdrCtrl_0_freq_ |             |            |            |        |            
+  refclk * 2 HIGH 50%                       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_ddr3_infrastructure_cl | SETUP       |     0.703ns|     4.297ns|       0|           0
+  k_pll_i = PERIOD TIMEGRP         "U_M_Ddr | HOLD        |     0.000ns|            |       0|           0
+  Ctrl_0_u_ddr3_infrastructure_clk_pll_i"   |             |            |            |        |            
+         TS_U_M_DdrCtrl_0_u_ddr3_infrastruc |             |            |            |        |            
+  ture_pll_clk3 HIGH 50%                    |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_ddr3_infrastructure_pl | MINLOWPULSE |     2.200ns|     2.800ns|       0|           0
+  l_clk3 = PERIOD TIMEGRP         "U_M_DdrC |             |            |            |        |            
+  trl_0_u_ddr3_infrastructure_pll_clk3" TS_ |             |            |            |        |            
+  CpSl_Clk_iP HIGH         50%              |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in | SETUP       |     4.106ns|     0.894ns|       0|           0
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ | HOLD        |     0.053ns|            |       0|           0
+  ddr_mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4la | MINPERIOD   |     3.124ns|     1.876ns|       0|           0
+  nes_ddr_byte_lane_D_ddr_byte_lane_D_oserd |             |            |            |        |            
+  es_clkdiv         = PERIOD TIMEGRP        |             |            |            |        |            
+    "U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in |             |            |            |        |            
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ |             |            |            |        |            
+  ddr_mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4la |             |            |            |        |            
+  nes_ddr_byte_lane_D_ddr_byte_lane_D_oserd |             |            |            |        |            
+  es_clkdiv"         TS_U_M_DdrCtrl_0_mem_r |             |            |            |        |            
+  efclk * 4 HIGH 50%                        |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in | SETUP       |     4.090ns|     0.910ns|       0|           0
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ | HOLD        |     0.061ns|            |       0|           0
+  ddr_mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4la | MINPERIOD   |     3.124ns|     1.876ns|       0|           0
+  nes_ddr_byte_lane_C_ddr_byte_lane_C_oserd |             |            |            |        |            
+  es_clkdiv         = PERIOD TIMEGRP        |             |            |            |        |            
+    "U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in |             |            |            |        |            
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ |             |            |            |        |            
+  ddr_mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4la |             |            |            |        |            
+  nes_ddr_byte_lane_C_ddr_byte_lane_C_oserd |             |            |            |        |            
+  es_clkdiv"         TS_U_M_DdrCtrl_0_mem_r |             |            |            |        |            
+  efclk * 4 HIGH 50%                        |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in | SETUP       |     4.089ns|     0.911ns|       0|           0
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ | HOLD        |     0.070ns|            |       0|           0
+  ddr_mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4la | MINPERIOD   |     3.124ns|     1.876ns|       0|           0
+  nes_ddr_byte_lane_B_ddr_byte_lane_B_oserd |             |            |            |        |            
+  es_clkdiv         = PERIOD TIMEGRP        |             |            |            |        |            
+    "U_M_DdrCtrl_0_u_memc_ui_top_std_mem_in |             |            |            |        |            
+  tfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper_u_ |             |            |            |        |            
+  ddr_mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4la |             |            |            |        |            
+  nes_ddr_byte_lane_B_ddr_byte_lane_B_oserd |             |            |            |        |            
+  es_clkdiv"         TS_U_M_DdrCtrl_0_mem_r |             |            |            |        |            
+  efclk * 4 HIGH 50%                        |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_MULTICYCLEPATH = MAXDELAY FROM TIMEGRP | SETUP       |     4.084ns|     3.416ns|       0|           0
+   "TNM_SOURCE_IDLE" TO TIMEGRP         "TN | HOLD        |     0.191ns|            |       0|           0
+  M_DEST_ISERDES" TS_ISERDES_CLOCK * 6      |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_ClkPll_0_clkout4 = PERIOD TIMEGRP  | SETUP       |     6.861ns|     2.662ns|       0|           0
+  "U_M_ClkPll_0_clkout4" TS_CpSl_Clk_i      | HOLD        |     0.142ns|            |       0|           0
+      * 1.05 HIGH 50%                       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_ClkPll_0_clkout3 = PERIOD TIMEGRP  | MINPERIOD   |    11.432ns|     1.663ns|       0|           0
+  "U_M_ClkPll_0_clkout3" TS_CpSl_Clk_i      |             |            |            |        |            
+      * 0.763636364 HIGH 50%                |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_M_DdrCtrl_0_sync_pulse = PERIOD TIME | SETUP       |    19.057ns|     0.943ns|       0|           0
+  GRP "U_M_DdrCtrl_0_sync_pulse"         TS | HOLD        |     0.320ns|            |       0|           0
+  _CpSl_Clk_iP / 0.25 PHASE 0.546875 ns HIG | MINHIGHPULSE|    12.496ns|     7.504ns|       0|           0
+  H 6.25%                                   |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_MULTICYCLEPATH_DEVICE_TEMP_SYNC = MAXD | MAXDELAY    |    17.821ns|     2.179ns|       0|           0
+  ELAY TO TIMEGRP         "TNM_MULTICYCLEPA | HOLD        |     0.380ns|            |       0|           0
+  TH_DEVICE_TEMP_SYNC" 20 ns DATAPATHONLY   |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Review Timing Report for more details on the following derived constraints.
+To create a Timing Report, run "trce -v 12 -fastpaths -o design_timing_report design.ncd design.pcf"
+or "Run Timing Analysis" from Timing Analyzer (timingan).
+Derived Constraints for TS_CpSl_Clk_i
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_CpSl_Clk_i                  |     10.000ns|      4.000ns|     18.479ns|            0|            5|            0|        16407|
+| TS_U_M_ClkPll_0_clkout3       |     13.095ns|      1.663ns|          N/A|            0|            0|            0|            0|
+| TS_U_M_ClkPll_0_clkout1       |      8.333ns|     15.399ns|          N/A|            2|            0|        11414|            0|
+| TS_U_M_ClkPll_0_clkout0       |      1.190ns|      1.350ns|          N/A|            3|            0|            0|            0|
+| TS_U_M_ClkPll_0_clkout4       |      9.524ns|      2.662ns|          N/A|            0|            0|         4991|            0|
+| TS_U_M_ClkPll_0_clkout2       |      2.381ns|      2.257ns|          N/A|            0|            0|            2|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+Derived Constraints for TS_CpSl_Clk_iP
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_CpSl_Clk_iP                 |      5.000ns|      2.800ns|      4.297ns|            0|            0|          224|        92700|
+| TS_U_M_DdrCtrl_0_u_ddr3_infras|      5.000ns|      2.800ns|      4.297ns|            0|            0|            0|        92466|
+| tructure_pll_clk3             |             |             |             |             |             |             |             |
+|  TS_U_M_DdrCtrl_0_u_ddr3_infra|      5.000ns|      4.297ns|          N/A|            0|            0|        92466|            0|
+|  structure_clk_pll_i          |             |             |             |             |             |             |             |
+| TS_U_M_DdrCtrl_0_freq_refclk  |      1.250ns|      0.938ns|      1.070ns|            0|            0|            0|           64|
+|  TS_U_M_DdrCtrl_0_u_memc_ui_to|      1.250ns|      1.070ns|          N/A|            0|            0|            0|            0|
+|  p_std_mem_intfc0_ddr_phy_top0|             |             |             |             |             |             |             |
+|  _u_ddr_mc_phy_wrapper_u_ddr_m|             |             |             |             |             |             |             |
+|  c_phy_ddr_phy_4lanes_0_u_ddr_|             |             |             |             |             |             |             |
+|  phy_4lanes_ddr_byte_lane_C_dd|             |             |             |             |             |             |             |
+|  r_byte_lane_C_iserdes_clk    |             |             |             |             |             |             |             |
+|  TS_U_M_DdrCtrl_0_u_memc_ui_to|      2.500ns|      1.876ns|          N/A|            0|            0|           32|            0|
+|  p_std_mem_intfc0_ddr_phy_top0|             |             |             |             |             |             |             |
+|  _u_ddr_mc_phy_wrapper_u_ddr_m|             |             |             |             |             |             |             |
+|  c_phy_ddr_phy_4lanes_0_u_ddr_|             |             |             |             |             |             |             |
+|  phy_4lanes_ddr_byte_lane_C_dd|             |             |             |             |             |             |             |
+|  r_byte_lane_C_iserdes_clkdiv |             |             |             |             |             |             |             |
+|  TS_U_M_DdrCtrl_0_u_memc_ui_to|      1.250ns|      1.070ns|          N/A|            0|            0|            0|            0|
+|  p_std_mem_intfc0_ddr_phy_top0|             |             |             |             |             |             |             |
+|  _u_ddr_mc_phy_wrapper_u_ddr_m|             |             |             |             |             |             |             |
+|  c_phy_ddr_phy_4lanes_0_u_ddr_|             |             |             |             |             |             |             |
+|  phy_4lanes_ddr_byte_lane_D_dd|             |             |             |             |             |             |             |
+|  r_byte_lane_D_iserdes_clk    |             |             |             |             |             |             |             |
+|  TS_U_M_DdrCtrl_0_u_memc_ui_to|      2.500ns|      1.876ns|          N/A|            0|            0|           32|            0|
+|  p_std_mem_intfc0_ddr_phy_top0|             |             |             |             |             |             |             |
+|  _u_ddr_mc_phy_wrapper_u_ddr_m|             |             |             |             |             |             |             |
+|  c_phy_ddr_phy_4lanes_0_u_ddr_|             |             |             |             |             |             |             |
+|  phy_4lanes_ddr_byte_lane_D_dd|             |             |             |             |             |             |             |
+|  r_byte_lane_D_iserdes_clkdiv |             |             |             |             |             |             |             |
+| TS_U_M_DdrCtrl_0_mem_refclk   |      1.250ns|      0.938ns|      1.070ns|            0|            0|            0|          168|
+|  TS_U_M_DdrCtrl_0_u_memc_ui_to|      1.250ns|      1.070ns|          N/A|            0|            0|            0|            0|
+|  p_std_mem_intfc0_ddr_phy_top0|             |             |             |             |             |             |             |
+|  _u_ddr_mc_phy_wrapper_u_ddr_m|             |             |             |             |             |             |             |
+|  c_phy_ddr_phy_4lanes_0_u_ddr_|             |             |             |             |             |             |             |
+|  phy_4lanes_ddr_byte_lane_C_dd|             |             |             |             |             |             |             |
+|  r_byte_lane_C_oserdes_clk    |             |             |             |             |             |             |             |
+|  TS_U_M_DdrCtrl_0_u_memc_ui_to|      2.500ns|      1.876ns|          N/A|            0|            0|           36|            0|
+|  p_std_mem_intfc0_ddr_phy_top0|             |             |             |             |             |             |             |
+|  _u_ddr_mc_phy_wrapper_u_ddr_m|             |             |             |             |             |             |             |
+|  c_phy_ddr_phy_4lanes_0_u_ddr_|             |             |             |             |             |             |             |
+|  phy_4lanes_ddr_byte_lane_C_dd|             |             |             |             |             |             |             |
+|  r_byte_lane_C_oserdes_clkdiv |             |             |             |             |             |             |             |
+|  TS_U_M_DdrCtrl_0_u_memc_ui_to|      1.250ns|      1.070ns|          N/A|            0|            0|            0|            0|
+|  p_std_mem_intfc0_ddr_phy_top0|             |             |             |             |             |             |             |
+|  _u_ddr_mc_phy_wrapper_u_ddr_m|             |             |             |             |             |             |             |
+|  c_phy_ddr_phy_4lanes_0_u_ddr_|             |             |             |             |             |             |             |
+|  phy_4lanes_ddr_byte_lane_D_dd|             |             |             |             |             |             |             |
+|  r_byte_lane_D_oserdes_clk    |             |             |             |             |             |             |             |
+|  TS_U_M_DdrCtrl_0_u_memc_ui_to|      2.500ns|      1.876ns|          N/A|            0|            0|           36|            0|
+|  p_std_mem_intfc0_ddr_phy_top0|             |             |             |             |             |             |             |
+|  _u_ddr_mc_phy_wrapper_u_ddr_m|             |             |             |             |             |             |             |
+|  c_phy_ddr_phy_4lanes_0_u_ddr_|             |             |             |             |             |             |             |
+|  phy_4lanes_ddr_byte_lane_D_dd|             |             |             |             |             |             |             |
+|  r_byte_lane_D_oserdes_clkdiv |             |             |             |             |             |             |             |
+|  TS_U_M_DdrCtrl_0_u_memc_ui_to|      1.250ns|      1.070ns|          N/A|            0|            0|            0|            0|
+|  p_std_mem_intfc0_ddr_phy_top0|             |             |             |             |             |             |             |
+|  _u_ddr_mc_phy_wrapper_u_ddr_m|             |             |             |             |             |             |             |
+|  c_phy_ddr_phy_4lanes_1_u_ddr_|             |             |             |             |             |             |             |
+|  phy_4lanes_ddr_byte_lane_D_dd|             |             |             |             |             |             |             |
+|  r_byte_lane_D_oserdes_clk    |             |             |             |             |             |             |             |
+|  TS_U_M_DdrCtrl_0_u_memc_ui_to|      5.000ns|      1.876ns|          N/A|            0|            0|           40|            0|
+|  p_std_mem_intfc0_ddr_phy_top0|             |             |             |             |             |             |             |
+|  _u_ddr_mc_phy_wrapper_u_ddr_m|             |             |             |             |             |             |             |
+|  c_phy_ddr_phy_4lanes_1_u_ddr_|             |             |             |             |             |             |             |
+|  phy_4lanes_ddr_byte_lane_D_dd|             |             |             |             |             |             |             |
+|  r_byte_lane_D_oserdes_clkdiv |             |             |             |             |             |             |             |
+|  TS_U_M_DdrCtrl_0_u_memc_ui_to|      1.250ns|      1.070ns|          N/A|            0|            0|            0|            0|
+|  p_std_mem_intfc0_ddr_phy_top0|             |             |             |             |             |             |             |
+|  _u_ddr_mc_phy_wrapper_u_ddr_m|             |             |             |             |             |             |             |
+|  c_phy_ddr_phy_4lanes_1_u_ddr_|             |             |             |             |             |             |             |
+|  phy_4lanes_ddr_byte_lane_C_dd|             |             |             |             |             |             |             |
+|  r_byte_lane_C_oserdes_clk    |             |             |             |             |             |             |             |
+|  TS_U_M_DdrCtrl_0_u_memc_ui_to|      5.000ns|      1.876ns|          N/A|            0|            0|           48|            0|
+|  p_std_mem_intfc0_ddr_phy_top0|             |             |             |             |             |             |             |
+|  _u_ddr_mc_phy_wrapper_u_ddr_m|             |             |             |             |             |             |             |
+|  c_phy_ddr_phy_4lanes_1_u_ddr_|             |             |             |             |             |             |             |
+|  phy_4lanes_ddr_byte_lane_C_dd|             |             |             |             |             |             |             |
+|  r_byte_lane_C_oserdes_clkdiv |             |             |             |             |             |             |             |
+|  TS_U_M_DdrCtrl_0_u_memc_ui_to|      1.250ns|      1.070ns|          N/A|            0|            0|            0|            0|
+|  p_std_mem_intfc0_ddr_phy_top0|             |             |             |             |             |             |             |
+|  _u_ddr_mc_phy_wrapper_u_ddr_m|             |             |             |             |             |             |             |
+|  c_phy_ddr_phy_4lanes_1_u_ddr_|             |             |             |             |             |             |             |
+|  phy_4lanes_ddr_byte_lane_B_dd|             |             |             |             |             |             |             |
+|  r_byte_lane_B_oserdes_clk    |             |             |             |             |             |             |             |
+|  TS_U_M_DdrCtrl_0_u_memc_ui_to|      5.000ns|      1.876ns|          N/A|            0|            0|            8|            0|
+|  p_std_mem_intfc0_ddr_phy_top0|             |             |             |             |             |             |             |
+|  _u_ddr_mc_phy_wrapper_u_ddr_m|             |             |             |             |             |             |             |
+|  c_phy_ddr_phy_4lanes_1_u_ddr_|             |             |             |             |             |             |             |
+|  phy_4lanes_ddr_byte_lane_B_dd|             |             |             |             |             |             |             |
+|  r_byte_lane_B_oserdes_clkdiv |             |             |             |             |             |             |             |
+| TS_U_M_DdrCtrl_0_sync_pulse   |     20.000ns|      7.504ns|          N/A|            0|            0|            2|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+Derived Constraints for TS_ISERDES_CLOCK
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_ISERDES_CLOCK               |      1.250ns|      1.070ns|      0.569ns|            0|            0|            0|           32|
+| TS_MULTICYCLEPATH             |      7.500ns|      3.416ns|          N/A|            0|            0|           32|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+2 constraints not met.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+WARNING:Par:283 - There are 151 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+Total REAL time to PAR completion: 7 mins 9 secs 
+Total CPU time to PAR completion: 7 mins 11 secs 
+
+Peak Memory Usage:  1664 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - 8 errors found.
+
+Number of error messages: 0
+Number of warning messages: 155
+Number of info messages: 1
+
+Writing design to file M_Lcd4Top.ncd
+
+
+
+PAR done!

@@ -1,0 +1,35 @@
+1、m_lcd4top_20160926.bit
+    >> 增加了pulse2pulse.vhd模块
+    
+========================================
+2、m_lcd4top_20170426.bit
+    >> 修改了从DDR到TxFifo读取的触发条件。
+    
+========================================
+3、m_lcd4top_20170709-outside.bit
+    >> 100Hz的输出图像有闪烁，为了确保稳定输出的图像变成200Hz;
+    >> 67Hz 的输出图像有闪烁，Lcd的输出帧频为134Hz;
+    >> 对应李长城的外面的那一路板卡。
+    -- Choice ExtVsync or IntVsync
+    -- Generate LcdVsync
+    CpSl_LcdVsync_o <= PrSl_ExtVsync_s when CpSl_ChoiceVsync_i = '1' else CpSl_IntVsync_i;
+    
+========================================
+4、m_lcd4top_20170709-inside.bit
+    >> 100Hz的输出图像有闪烁，为了确保稳定输出的图像变成200Hz;
+    >> 67Hz 的输出图像有闪烁，Lcd的输出帧频为134Hz;
+    >> 对应李长城的里面的那一路板卡。
+    >> 对应的FPGA管脚——Ext Vsync Indication 损坏。
+        >> 把外同步的控制去掉了，修改的模块M_LcdVsync.vhd
+    -- Choice ExtVsync or IntVsync
+    -- Generate LcdVsync
+--    CpSl_LcdVsync_o <= PrSl_ExtVsync_s when CpSl_ChoiceVsync_i = '1' else CpSl_IntVsync_i;
+    CpSl_LcdVsync_o <= CpSl_IntVsync_i;
+    >> Lcd Mirror : 300---1600(old:550---1200); 
+    
+    结论 ：GPIO或者别的接口，需要加保护。 
+========================================
+5、m_lcd4top_20170712.bit --- 没有测试
+    >> 添加了M_DoubleDivider.vhd---IPCore
+        解决倍频的残影问题。
+    

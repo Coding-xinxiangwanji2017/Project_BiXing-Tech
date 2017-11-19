@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.49d
+# Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.49d
+DATE            04/22/2014 - 14:45
+SOURCE          D:\liuhai\lcd\second_version\hagongda\ise\M_LcdDis_20140422.mcs
+DEVICE          4096K
+DATA_WIDTH      1
+FILL_DATA       0xFF
+SIGNATURE       0x0D957BFA
+START_ADDRESS   0x00000000 END_ADDRESS 0x0032A2BF DIRECTION_UP   "D:/liuhai/lcd/second_version/hagongda/ise/m_lcddis.bit" 6slx100fgg484

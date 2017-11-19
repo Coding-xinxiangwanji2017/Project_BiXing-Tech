@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.20131013
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.20131013
+DATE            07/10/2017 - 00:23
+SOURCE          D:\Project_BiXing-Tech\Ha Gong Da\M_Lcd4Top_K7\M_Lcd4Top-2FFG900\M_Lcd4Top-2_20170709-1\mcs\20170709-inside\M_Lcd4Top_20170709-inside.mcs
+DEVICE          131072K
+DATA_WIDTH      16
+FILL_DATA       0xFF
+SIGNATURE       0x9AB35EC2
+START_ADDRESS   0x00000000 END_ADDRESS 0x005FBFC3 DIRECTION_UP   "D:/Project_BiXing-Tech/Ha Gong Da/M_Lcd4Top_K7/M_Lcd4Top-2FFG900/M_Lcd4Top-2_20170709-1/Bit/m_lcd4top_20170709-inside.bit" 7k325tffg900

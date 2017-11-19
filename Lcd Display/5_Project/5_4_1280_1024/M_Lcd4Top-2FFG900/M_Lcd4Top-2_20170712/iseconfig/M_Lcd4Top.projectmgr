@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="M_Lcd4Top" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/M_DdrCtrl - arch_M_DdrCtrl D:|Project_BiXing-Tech|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170706|ipcore|M_DdrCtrl|user_design|rtl|M_DdrCtrl.vhd</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|FPGA|M_Lcd4Top_0628|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|FPGA|M_Lcd4Top_0628|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|My_work|lcd|fourth|ise|M_Lcd4Top|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project Files|Ha Gong Da Project|3_1280_1024|FPGA_Code|M_Lcd4Top-2_20170426|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project Files|Ha Gong Da Project|3_1280_1024|FPGA_Code|M_Lcd4Top-2_20170426|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project Files|Ha Gong Da Project|3_1280_1024|FPGA_Code|M_Lcd4Top-2_20170426|src|M_Lcd4Top.vhd/U_M_FreCtrl_0 - M_FreCtrl - arch_M_FreCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project Files|Ha Gong Da Project|3_1280_1024|FPGA_Code|M_Lcd4Top-2_20170427|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project Files|Ha Gong Da Project|3_1280_1024|FPGA_Code|M_Lcd4Top-2_20170427|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project Files|Ha Gong Da Project|3_1280_1024|FPGA_Code|M_Lcd4Top-2_20170427|src|M_Lcd4Top.vhd/U_M_FreCtrl_0 - M_FreCtrl - arch_M_FreCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170501|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170501|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170501|src|M_Lcd4Top.vhd/U_M_FreCtrl_0 - M_FreCtrl - arch_M_FreCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170706|src|M_Lcd4Top.vhd</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170706|src|M_Lcd4Top.vhd/U_M_ClkCtrl_0 - M_ClkCtrl - arch_M_ClkCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170706|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170706|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl/u_memc_ui_top_std - mig_7series_v1_9_memc_ui_top_std</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170706|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170706|src|M_Lcd4Top.vhd/U_M_FreCtrl_0 - M_FreCtrl - arch_M_FreCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170708|src|M_Lcd4Top.vhd/U_M_ClkCtrl_0 - M_ClkCtrl - arch_M_ClkCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170708|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170708|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170708|src|M_Lcd4Top.vhd/U_M_FreCtrl_0 - M_FreCtrl - arch_M_FreCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170709-1|src|M_Lcd4Top.vhd/U_M_ClkCtrl_0 - M_ClkCtrl - arch_M_ClkCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170709-1|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170709-1|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170709-1|src|M_Lcd4Top.vhd/U_M_LcdVsync_0 - M_LcdVsync - arch_M_LcdVsync</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170712|src|M_Lcd4Top.vhd/U_M_ClkCtrl_0 - M_ClkCtrl - arch_M_ClkCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170712|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170712|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170712|src|M_Lcd4Top.vhd/U_M_LcdVsync_0 - M_LcdVsync - arch_M_LcdVsync</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170712|src|M_Lcd4Top.vhd/U_M_Test_0 - M_Test - arch_M_Test</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Lcd Display|5_Project|5_4_1280_1024|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170712|src|M_Lcd4Top.vhd/U_M_ClkCtrl_0 - M_ClkCtrl - arch_M_ClkCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Lcd Display|5_Project|5_4_1280_1024|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170712|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Lcd Display|5_Project|5_4_1280_1024|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170712|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Lcd Display|5_Project|5_4_1280_1024|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170712|src|M_Lcd4Top.vhd/U_M_LcdVsync_0 - M_LcdVsync - arch_M_LcdVsync</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project_BiXing-Tech|Lcd Display|5_Project|5_4_1280_1024|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170712|src|M_Lcd4Top.vhd/U_M_Test_0 - M_Test - arch_M_Test</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong Da Project|M_Lcd Code|FPGA-2|M_Lcd4Top_0707|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong Da Project|M_Lcd Code|FPGA-2|M_Lcd4Top_0707|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong Da Project|M_Lcd Code|M_Lcd4Top_0304|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong Da Project|M_Lcd Code|M_Lcd4Top_0304|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top_0629_1|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top_0629_1|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top_0630_1|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top_0630_1|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top_0630|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top_0630|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top_0701|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top_0701|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top_0702|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top_0702|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top_0706|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top_0706|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top_0707_1|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top_0707_1|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top_0707|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top_0707|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top_0707|src|M_Lcd4Top.vhd/U_M_LcdVsync_0 - M_LcdVsync - arch_M_LcdVsync</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top_0718|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top_0718|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top_0718|src|M_Lcd4Top.vhd/U_M_FreCtrl_0 - M_FreCtrl - arch_M_FreCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top_0718|src|M_Lcd4Top.vhd/U_M_LcdVsync_0 - M_LcdVsync - arch_M_LcdVsync</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top_0617-2|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top_0617-2|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top_0617|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top_0617|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top_Successful_Code|M_Lcd4Top_20160926|src|M_Lcd4Top.vhd</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong|M_Lcd4Top|M_Lcd4Top_0304|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Ha Gong|M_Lcd4Top|M_Lcd4Top_0304|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Zhang wenjun|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170426|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Zhang wenjun|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170426|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Zhang wenjun|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170426|src|M_Lcd4Top.vhd/U_M_FreCtrl_0 - M_FreCtrl - arch_M_FreCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Zhang wenjun|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170707|src|M_Lcd4Top.vhd/U_M_ClkCtrl_0 - M_ClkCtrl - arch_M_ClkCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Zhang wenjun|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170707|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Zhang wenjun|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170707|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Zhang wenjun|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170707|src|M_Lcd4Top.vhd/U_M_FreCtrl_0 - M_FreCtrl - arch_M_FreCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Project|Zhang wenjun|Ha Gong Da|M_Lcd4Top_K7|M_Lcd4Top-2FFG900|M_Lcd4Top-2_20170708|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Temp|M_Lcd4Top_0617-2|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Temp|M_Lcd4Top_0618|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Temp|M_Lcd4Top_0619|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top D:|Temp|M_Lcd4Top_0619|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top F:|M_Lcd4Top_0304|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top F:|M_Lcd4Top_0304|src|M_Lcd4Top.vhd/U_M_DdrIf_0 - M_DdrIf - arch_M_DdrIf</ClosedNode>
+         <ClosedNode>/M_Lcd4Top - arch_M_Lcd4Top F:|My_wrok_2016|Hagongda|ise|M_Lcd4Top|src|M_Lcd4Top.vhd/U_M_DdrCtrl_0 - M_DdrCtrl - arch_M_DdrCtrl</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>U_M_FreCtrl_0 - M_FreCtrl - arch_M_FreCtrl (D:/Project_BiXing-Tech/Lcd Display/5_Project/5_4_1280_1024/M_Lcd4Top-2FFG900/M_Lcd4Top-2_20170712/src/M_FreCtrl.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001e2000000020000000000000000000000000200000064ffffffff000000810000000300000002000001e20000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>U_M_FreCtrl_0 - M_FreCtrl - arch_M_FreCtrl (D:/Project_BiXing-Tech/Lcd Display/5_Project/5_4_1280_1024/M_Lcd4Top-2FFG900/M_Lcd4Top-2_20170712/src/M_FreCtrl.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Design Utilities</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000017c000000010000000100000000000000000000000064ffffffff0000008100000000000000010000017c0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Design Utilities</CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002d2000000040101000100000000000000000000000064ffffffff0000008100000000000000040000003d0000000100000000000000240000000100000000000000780000000100000000000001f90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>mig_7series_v1_9_arb_mux.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000121000000010001000100000000000000000000000064ffffffff000000810000000000000001000001210000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>CORE Generator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>CORE Generator</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000201000000010000000100000000000000000000000064ffffffff000000810000000000000001000002010000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>CORE Generator</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>CORE Generator</ClosedNode>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Map/Generate Post-Map Static Timing</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a6000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a60000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000001970000008b01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>User Constraints</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000010a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000010a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>User Constraints</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a6000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a60000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+</Project>

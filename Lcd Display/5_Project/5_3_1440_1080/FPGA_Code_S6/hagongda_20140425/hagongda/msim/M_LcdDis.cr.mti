@@ -1,0 +1,232 @@
+D:/liuhai/lcd/second_version/hagongda/ip/M_ClkPll.vhd {1 {vcom -work work -2002 -explicit -vopt D:/liuhai/lcd/second_version/hagongda/ip/M_ClkPll.vhd
+Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 22 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package VCOMPONENTS
+-- Compiling entity M_ClkPll
+-- Compiling architecture xilinx of M_ClkPll
+
+} {} {}} D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/mcb_soft_calibration.vhd {1 {vcom -work work -2002 -explicit -vopt D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/mcb_soft_calibration.vhd
+Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 22 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity mcb_soft_calibration
+-- Compiling architecture trans of mcb_soft_calibration
+
+} {} {}} D:/liuhai/lcd/second_version/hagongda/rtl/M_LcdIf.vhd {1 {vcom -work work -2002 -explicit -vopt D:/liuhai/lcd/second_version/hagongda/rtl/M_LcdIf.vhd
+Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 22 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity M_LcdIf
+-- Compiling architecture arch_M_LcdIf of M_LcdIf
+
+} {} {}} D:/liuhai/lcd/second_version/hagongda/rtl/M_DisData.vhd {1 {vcom -work work -2002 -explicit -vopt D:/liuhai/lcd/second_version/hagongda/rtl/M_DisData.vhd
+Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 22 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity M_DisData
+-- Compiling architecture arch_M_DisData of M_DisData
+
+} {} {}} D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/memc3_infrastructure.vhd {1 {vcom -work work -2002 -explicit -vopt D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/memc3_infrastructure.vhd
+Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 22 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package VCOMPONENTS
+-- Compiling entity memc3_infrastructure
+-- Compiling architecture syn of memc3_infrastructure
+
+} {} {}} D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/memc3_wrapper.vhd {1 {vcom -work work -2002 -explicit -vopt D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/memc3_wrapper.vhd
+Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 22 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity memc3_wrapper
+-- Compiling architecture acch of memc3_wrapper
+
+} {} {}} D:/liuhai/lcd/second_version/hagongda/rtl/M_LcdDis.vhd {1 {vcom -work work -2008 -explicit -vopt D:/liuhai/lcd/second_version/hagongda/rtl/M_LcdDis.vhd
+Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 22 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package VCOMPONENTS
+-- Compiling entity M_LcdDis
+-- Compiling architecture arch_M_LcdDis of M_LcdDis
+
+} {} {}} D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/mcb_soft_calibration_top.vhd {1 {vcom -work work -2002 -explicit -vopt D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/mcb_soft_calibration_top.vhd
+Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 22 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package VCOMPONENTS
+-- Compiling entity mcb_soft_calibration_top
+-- Compiling architecture trans of mcb_soft_calibration_top
+
+} {} {}} D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/iodrp_controller.vhd {1 {vcom -work work -2002 -explicit -vopt D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/iodrp_controller.vhd
+Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 22 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity iodrp_controller
+-- Compiling architecture trans of iodrp_controller
+
+} {} {}} D:/liuhai/lcd/second_version/hagongda/ip/M_HSelectIO.vhd {1 {vcom -work work -2002 -explicit -vopt D:/liuhai/lcd/second_version/hagongda/ip/M_HSelectIO.vhd
+Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 22 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package ATTRIBUTES
+-- Loading package std_logic_misc
+-- Loading package NUMERIC_STD
+-- Loading package VCOMPONENTS
+-- Compiling entity M_HSelectIO
+-- Compiling architecture xilinx of M_HSelectIO
+
+} {} {}} D:/liuhai/lcd/second_version/hagongda/tb/M_DviSim.vhd {1 {vcom -work work -2008 -explicit -vopt D:/liuhai/lcd/second_version/hagongda/tb/M_DviSim.vhd
+Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 22 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity M_DviSim
+-- Compiling architecture arch_M_DviSim of M_DviSim
+
+} {} {}} D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/M_DdrCtrl.vhd {1 {vcom -work work -2002 -explicit -vopt D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/M_DdrCtrl.vhd
+Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 22 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity M_DdrCtrl
+-- Compiling architecture arc of M_DdrCtrl
+
+} {} {}} D:/liuhai/lcd/second_version/hagongda/ip/M_LcdTxFifo.vhd {1 {vcom -work work -2002 -explicit -vopt D:/liuhai/lcd/second_version/hagongda/ip/M_LcdTxFifo.vhd
+Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 22 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity M_LcdTxFifo
+-- Compiling architecture M_LcdTxFifo_a of M_LcdTxFifo
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity fifo_generator_v9_3_bhv_as
+-- Loading entity fifo_generator_v9_3_bhv_ss
+-- Loading entity fifo_generator_v9_3_conv
+-- Loading entity fifo_generator_v9_3
+
+} {} {}} D:/liuhai/lcd/second_version/hagongda/rtl/M_DviIf.vhd {1 {vcom -work work -2002 -explicit -vopt D:/liuhai/lcd/second_version/hagongda/rtl/M_DviIf.vhd
+Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 22 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity M_DviIf
+-- Compiling architecture arch_M_DviIf of M_DviIf
+
+} {} {}} D:/liuhai/lcd/second_version/hagongda/ip/M_LSelectIO.vhd {1 {vcom -work work -2002 -explicit -vopt D:/liuhai/lcd/second_version/hagongda/ip/M_LSelectIO.vhd
+Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 22 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package ATTRIBUTES
+-- Loading package std_logic_misc
+-- Loading package NUMERIC_STD
+-- Loading package VCOMPONENTS
+-- Compiling entity M_LSelectIO
+-- Compiling architecture xilinx of M_LSelectIO
+
+} {} {}} D:/liuhai/lcd/second_version/hagongda/tb/M_TbLcdDis.vhd {1 {vcom -work work -2002 -explicit -vopt D:/liuhai/lcd/second_version/hagongda/tb/M_TbLcdDis.vhd
+Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 22 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package VCOMPONENTS
+-- Compiling entity M_TbLcdDis
+-- Compiling architecture arch_M_TbLcdDis of M_TbLcdDis
+
+} {} {}} D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/iodrp_mcb_controller.vhd {1 {vcom -work work -2002 -explicit -vopt D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/iodrp_mcb_controller.vhd
+Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 22 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity iodrp_mcb_controller
+-- Compiling architecture trans of iodrp_mcb_controller
+
+} {} {}} D:/liuhai/lcd/second_version/hagongda/rtl/M_CtrlInd.vhd {1 {vcom -work work -2002 -explicit -vopt D:/liuhai/lcd/second_version/hagongda/rtl/M_CtrlInd.vhd
+Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 22 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity M_CtrlInd
+-- Compiling architecture arch_M_CtrlInd of M_CtrlInd
+
+} {} {}} D:/liuhai/lcd/second_version/hagongda/ip/M_DviRxFifo.vhd {1 {vcom -work work -2002 -explicit -vopt D:/liuhai/lcd/second_version/hagongda/ip/M_DviRxFifo.vhd
+Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 22 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity M_DviRxFifo
+-- Compiling architecture M_DviRxFifo_a of M_DviRxFifo
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity fifo_generator_v9_3_bhv_as
+-- Loading entity fifo_generator_v9_3_bhv_ss
+-- Loading entity fifo_generator_v9_3_conv
+-- Loading entity fifo_generator_v9_3
+
+} {} {}} D:/liuhai/lcd/second_version/hagongda/rtl/remapper.vhd {1 {vcom -work work -2002 -explicit -vopt D:/liuhai/lcd/second_version/hagongda/rtl/remapper.vhd
+Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 22 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity remapper
+-- Compiling architecture a of remapper
+
+} {} {}} D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/mcb_raw_wrapper.vhd {1 {vcom -work work -2002 -explicit -vopt D:/liuhai/lcd/second_version/hagongda/ip/M_DdrCtrl/user_design/rtl/mcb_raw_wrapper.vhd
+Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 22 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package VCOMPONENTS
+-- Compiling entity mcb_raw_wrapper
+-- Compiling architecture aarch of mcb_raw_wrapper
+
+} {} {}}
